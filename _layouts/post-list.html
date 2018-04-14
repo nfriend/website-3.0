@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+{% include head.html %}
+
+<body>
+    <div class="wrapper">
+        {% include page-header.html %}
+        <section>
+
+            {{ content }} {% for post in site.posts %}
+            <a href="{{ post.url }}">
+                <h2 class="post-list-title">{{ post.title }}</h2>
+            </a>
+            <p class="post-list-date">
+                {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+            <div style="clear: both; float: none;"></div>
+            {{ post.excerpt }} {% endfor %}
+
+        </section>
+        {% include page-footer.html %}
+    </div>
+</body>
+
+</html>

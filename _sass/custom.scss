@@ -1,0 +1,46 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, 'Helvetica Neue', Arial, sans-serif;
+    overflow-y: scroll;
+}
+
+.post-list-title {
+    float: left;
+    margin-bottom: 5px;
+    color: inherit;
+}
+
+a h1 {
+    color: inherit;
+}
+
+@media print, screen and (min-width: 961px) {
+    .recent-post {
+        display: block;
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+
+    .post-list-title {
+        max-width: 360px;
+    }
+
+    .post-list-date {
+        float: right;
+        margin-bottom: 0;
+    }
+}
+
+@media print, screen and (max-width: 960px) {
+    .recent-post + .recent-post:before {
+        content: ' | ';
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .post-list-date {
+        clear: both;
+    }
+}

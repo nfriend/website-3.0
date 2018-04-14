@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+{% include head.html %}
+
+<body>
+    <div class="wrapper">
+        {% include page-header.html %}
+        <section>
+            {% for post in site.posts limit:1 %} 
+                {% include post-content.html %} 
+            {% endfor %}
+        </section>
+        {% include page-footer.html %}
+    </div>
+</body>
+
+</html>

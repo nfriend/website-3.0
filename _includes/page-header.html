@@ -1,0 +1,28 @@
+<header>
+    <a href="/">
+        <h1>{{ site.title }}</h1>
+    </a>
+    <p>{{ site.description }}</p>
+
+    <br class="hidden-xs" />
+    <p style="font-weight: bold; margin-bottom: 5px;">Links</p>
+    <div class="recent-post-container">
+        <a href="/about-me" class="recent-post">About me</a>
+        <a href="/contact" class="recent-post">Contact</a>
+    </div>
+
+    <br />
+    
+    <p style="font-weight: bold; margin-bottom: 5px;">Recent posts</p>
+    <div class="recent-post-container">
+        {% for post in site.posts limit:10 %}
+        <a href="{{ post.url }}" class="recent-post">{{ post.title }}</a>
+        {% endfor %}
+        <span>
+            <p style="margin-top: 10px;">
+                <a href="/all-posts">All posts</a>
+            </p>
+        </span>
+    </div>
+
+</header>
