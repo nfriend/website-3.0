@@ -6,6 +6,8 @@
     <div class="wrapper">
         {% include sidebar.html %}
         <section class="content-section">
+            <h1 style="margin-bottom: 10px;">Blog</h1>
+            <hr />
             {% for post in site.posts %}
             <a href="{{ post.url }}">
                 <h2 class="post-list-title">{{ post.title }}</h2>
