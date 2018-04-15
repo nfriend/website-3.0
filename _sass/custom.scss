@@ -129,4 +129,12 @@ a {
     header {
         padding-right: 0px;
     }
+
+    section {
+        border: none;
+
+        &.content-section {
+            margin-top: 20px;
+        }
+    }
 }
