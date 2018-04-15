@@ -1,11 +1,10 @@
-
 <!-- If we are on the main page, make the title of the shown
      blog post be a link to the real post page  -->
 {% if page.layout == 'default' %}
 <a href="{{ post.url }}">
     <h1 style="margin-bottom: 5px;">{{ post.title }}</h1>
 </a>
-{% endif %} 
+{% endif %}
 
 <!-- If we are *not* on the main page, don't make the title
      into a link  -->

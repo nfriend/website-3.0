@@ -4,13 +4,18 @@
 
 <body>
     <div class="wrapper">
-        {% include page-header.html %}
-        <section>
+        {% include sidebar.html %}
+        <section class="header-section">
+            {% include page-header.html %}
+        </section>
+        <section class="content-section">
             {% for post in site.posts limit:1 %} 
                 {% include post-content.html %} 
             {% endfor %}
         </section>
-        {% include page-footer.html %}
+        <section class="footer-section">
+            {% include page-footer.html %}
+        </section>
     </div>
 </body>
 

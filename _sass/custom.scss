@@ -7,6 +7,10 @@ body {
 .profile-image {
     border-radius: 50%;
     border: 5px solid #aaa;
+
+    &:hover {
+        border-color: #888;
+    }
 }
 
 .site-title h1 {
@@ -37,8 +41,30 @@ body {
     color: inherit;
 }
 
-a h1 {
-    color: inherit;
+a {
+    &:hover {
+        font-weight: normal;
+        color: #015179;
+        text-decoration: underline;
+    }
+
+    h1 {
+        color: inherit;
+    }
+}
+
+.header-section {
+    padding-bottom: 30px;
+    a {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+}
+
+.footer-section {
+    #legal {
+        font-size: 12px;
+    }
 }
 
 @media print, screen and (min-width: 961px) {

@@ -4,10 +4,12 @@
 
 <body>
     <div class="wrapper">
-        {% include page-header.html %}
-        <section>
-
-            {{ content }} {% for post in site.posts %}
+        {% include sidebar.html %}
+        <section class="header-section">
+            {% include page-header.html %}
+        </section>
+        <section class="content-section">
+            {% for post in site.posts %}
             <a href="{{ post.url }}">
                 <h2 class="post-list-title">{{ post.title }}</h2>
             </a>
@@ -16,9 +18,10 @@
             </p>
             <div style="clear: both; float: none;"></div>
             {{ post.excerpt }} {% endfor %}
-
         </section>
-        {% include page-footer.html %}
+        <section class="footer-section">
+            {% include page-footer.html %}
+        </section>
     </div>
 </body>
 
