@@ -25,15 +25,30 @@ body {
         margin-bottom: 5px;
     }
 
-    .profile-links-container {
-        font-size: 24px;
-
+    .sidebar-links-container {
         a {
-            margin-left: -2px;
-            margin-right: -2px;
+            font-size: 16px;
+            margin: 10px;
+        }
+    }
+
+    .profile-links-container {
+        a {
+            padding: 7px;
+
+            svg {
+                width: 24px;
+
+                path {
+                    fill: #267cb9
+                }
+            }
 
             &:hover {
                 text-decoration: none;
+                svg path {
+                    fill: #015179;
+                }
             }
         }
     }
