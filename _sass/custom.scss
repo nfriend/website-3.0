@@ -4,6 +4,33 @@ body {
     overflow-y: scroll;
 }
 
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid #aaa;
+}
+
+.site-title h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.site-description {
+    text-align: center;
+}
+
+.sidebar-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sidebar-icon {
+    height: 16px;
+    width: 16px;
+    color: #6a737d;
+    margin-right: 7px;
+    margin-bottom: -3px;
+}
+
 .post-list-title {
     float: left;
     margin-bottom: 5px;
@@ -15,10 +42,14 @@ a h1 {
 }
 
 @media print, screen and (min-width: 961px) {
-    .recent-post {
+    .sidebar-item {
         display: block;
         padding-left: 1em;
         text-indent: -1em;
+
+        &.extra-padding {
+            padding-bottom: 5px;
+        }
     }
 
     .post-list-title {
@@ -32,7 +63,7 @@ a h1 {
 }
 
 @media print, screen and (max-width: 960px) {
-    .recent-post + .recent-post:before {
+    .sidebar-item + .sidebar-item:before {
         content: ' | ';
     }
 

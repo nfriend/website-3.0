@@ -9,7 +9,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 ## TODO
 
 - Link hover style could be improved (right now it causes surrounding content to jump).
-- Finish "About me" and "Contact" pages
+- Finish "About me", "Contact", and "Attributions" pages
 - Cross-browser testing
 - Google Analytics
 - Add "projects" link

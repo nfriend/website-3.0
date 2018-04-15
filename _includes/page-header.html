@@ -1,22 +1,44 @@
 <header>
-    <a href="/">
+    <a href="/about-me">
+        <img src="/assets/img/profile.jpg" class="profile-image">
+    </a>
+    <a class="site-title" href="/">
         <h1>{{ site.title }}</h1>
     </a>
-    <p>{{ site.description }}</p>
+    <p class="site-description">{{ site.description }}</p>
 
     <br class="hidden-xs" />
-    <p style="font-weight: bold; margin-bottom: 5px;">Links</p>
-    <div class="recent-post-container">
-        <a href="/about-me" class="recent-post">About me</a>
-        <a href="/contact" class="recent-post">Contact</a>
+
+    <div class="sidebar-section-container">
+        <a href="https://goo.gl/maps/adsVkHQPupK2" class="sidebar-item extra-padding">
+            <img src="/assets/img/map-marker-alt.svg" class="sidebar-icon">Charlottetown, PE, Canada
+        </a>
+        <a href="https://github.com/nfriend" class="sidebar-item extra-padding">
+            <img src="/assets/img/github.svg" class="sidebar-icon">nfriend
+        </a>
+        <a href="mailto:contact@nathanfriend.io" class="sidebar-item extra-padding">
+            <img src="/assets/img/envelope.svg" class="sidebar-icon">contact@nathanfriend.io
+        </a>
+        <a href="https://stackoverflow.com/users/1063392/nathan-friend" class="sidebar-item extra-padding">
+            <img src="/assets/img/envelope.svg" class="sidebar-icon">nathan-friend
+        </a>
     </div>
 
     <br />
-    
-    <p style="font-weight: bold; margin-bottom: 5px;">Recent posts</p>
-    <div class="recent-post-container">
-        {% for post in site.posts limit:10 %}
-        <a href="{{ post.url }}" class="recent-post">{{ post.title }}</a>
+
+    <p class="sidebar-header">Resources</p>
+    <div class="sidebar-section-container">
+        <a href="/about-me" class="sidebar-item">About Me</a>
+        <a href="/projects" class="sidebar-item">Projects</a>
+        <a href="/contact" class="sidebar-item">Contact</a>
+    </div>
+
+    <br />
+
+    <p class="sidebar-header">Recent posts</p>
+    <div class="sidebar-section-container">
+        {% for post in site.posts limit:5 %}
+        <a href="{{ post.url }}" class="sidebar-item">{{ post.title }}</a>
         {% endfor %}
         <span>
             <p style="margin-top: 10px;">
@@ -24,5 +46,13 @@
             </p>
         </span>
     </div>
+
+    <br />
+    <p>
+        Copyright Nathan Friend &copy; {{ site.time | date: '%Y' }}
+        <br />
+        <a href="/attributions">Attributions</a>
+    </p>
+
 
 </header>
