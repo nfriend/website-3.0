@@ -1,9 +1,9 @@
 ---
 layout: post
-title: About Me
+title: Attributions
 author:
   name: Nathan Friend
   url: http://nathanfriend.io
 ---
 
-This is the "About me" page!
+This is the "Attributions" page!

@@ -32,6 +32,12 @@ body {
         }
     }
 
+    .site-description {
+        max-width: 420px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
     .profile-links-container {
         a {
             padding: 7px;
@@ -118,5 +124,9 @@ a {
 
     .post-list-date {
         clear: both;
+    }
+
+    header {
+        padding-right: 0px;
     }
 }

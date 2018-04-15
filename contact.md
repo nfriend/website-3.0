@@ -1,5 +1,0 @@
----
-layout: page
----
-
-This is the contact page!
