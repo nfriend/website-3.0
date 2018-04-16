@@ -39,11 +39,14 @@ body {
     }
 
     .profile-links-container {
+        margin-top: 5px;
+        
         a {
             padding: 7px;
 
             svg {
                 width: 24px;
+                height: 24px;
 
                 path {
                     fill: #267cb9;
@@ -67,7 +70,8 @@ body {
 }
 
 a {
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         font-weight: normal;
         color: #015179;
         text-decoration: underline;

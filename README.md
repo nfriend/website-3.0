@@ -14,6 +14,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 - Remove placeholder blog posts
 - Create favicon
 - Test Google Analytics
+- Old fonts are still being referenced - remove.
 - Start blogging
 
 ## License
