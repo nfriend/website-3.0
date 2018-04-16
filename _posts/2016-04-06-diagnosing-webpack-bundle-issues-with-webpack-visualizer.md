@@ -8,5 +8,5 @@ author:
 ---
 
 A description here about how we did a cool thing with this:
-
-<img src="/assets/img/diagnosing-webpack-bundle-issues-with-webpack-visualizer/webpack-visualizer.jpg" />
+ 
+<img src="{{ '/assets/img/diagnosing-webpack-bundle-issues-with-webpack-visualizer/webpack-visualizer.jpg' | relative_url }}" />
