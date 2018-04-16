@@ -26,7 +26,7 @@
     <!-- If there's a date, put a separator between it
          and the reading time indicator -->
     {% if (page and page.date) or (post and post.date) %}
-        |
+        <span>&nbsp;|&nbsp;</span>
     {% endif %}
 
     <!-- Add the number of minutes to read to the title -->

@@ -46,7 +46,7 @@ body {
                 width: 24px;
 
                 path {
-                    fill: #267cb9
+                    fill: #267cb9;
                 }
             }
 
@@ -135,6 +135,40 @@ a {
 
         &.content-section {
             margin-top: 20px;
+        }
+    }
+}
+
+// The following three rules cause the profile image to shrink and eventually
+// disappear in scenarios where the screen is in non-mobile mode (the width
+// is greater than 960px) but is also very short.  This allows the social media
+// icons to always be accessible.
+@media print,
+    screen and (min-width: 961px) and (max-height: 660px) and (min-height: 590px) {
+    .sidebar {
+        .profile-image {
+            width: 200px;
+        }
+    }
+}
+
+@media print,
+    screen and (min-width: 961px) and (max-height: 589px) and (min-height: 540px) {
+    .sidebar {
+        .profile-image {
+            width: 150px;
+        }
+    }
+}
+
+@media print, screen and (min-width: 961px) and (max-height: 539px) {
+    .sidebar {
+        .profile-image {
+            display: none;
+        }
+
+        .site-title h1 {
+            margin-top: 0;
         }
     }
 }
