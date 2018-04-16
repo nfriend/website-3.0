@@ -67,7 +67,7 @@ body {
 }
 
 a {
-    &:hover {
+    &:hover, &:focus {
         font-weight: normal;
         color: #015179;
         text-decoration: underline;
