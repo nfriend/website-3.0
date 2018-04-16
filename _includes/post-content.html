@@ -1,3 +1,9 @@
+<!-- Store the numnber of words minus 250 in "words" -->
+<!-- Taken from here: https://sacha.me/articles/jekyll-word-counts/ -->
+{% capture words %} 
+    {{ page.content | number_of_words | minus: 250 }}
+{% endcapture %}
+
 <!-- If we are on the main page, make the title of the shown
      blog post be a link to the real post page  -->
 {% if page.layout == 'default' %}
@@ -13,8 +19,18 @@
 {% endif %}
 
 <p style="margin-bottom: 10px;">
+
+    <!-- Add the date of the post to the title -->
     {{ page.date | default: post.date | date: "%B %-d, %Y" }}
-    <!-- {{ page.content | default: post.content | number_of_words | divided_by: 180 | append: " minutes to read" }} -->
+
+    <!-- If there's a date, put a separator between it
+         and the reading time indicator -->
+    {% if (page and page.date) or (post and post.date) %}
+        |
+    {% endif %}
+
+    <!-- Add the number of minutes to read to the title -->
+    {{ page.content | reading_time_as_i | append: " to read" }}
 </p>
 
 <hr /> {{ page.content | default: post.content }}

@@ -13,7 +13,9 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 - Google Analytics
 - Figure out how minify and deploy
 - Remove placeholder blog posts
-- Add reading time for blog posts?
+- Add icon for RSS feed?
+- Create favicon
+- Convert copy-and-pasted plugin to using gem here: https://github.com/gjtorikian/jekyll-time-to-read
 - Start blogging
 
 ## License
