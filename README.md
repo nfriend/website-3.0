@@ -9,6 +9,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 ## TODO
 
 - Finish "About me", "Contact", "Projects", and "Attributions" pages
+- Test relative links when hosted at subdomain (i.e. /jekyll/)
 - Cross-browser testing
 - Google Analytics
 - Figure out how minify and deploy
