@@ -30,7 +30,9 @@
     {% endif %}
 
     <!-- Add the number of minutes to read to the title -->
-    {{ page.content | reading_time_as_i | append: " to read" }}
+    {% unless page.hideTimeToRead %}
+        {{ page.content | reading_time_as_i | append: " to read" }}
+    {% endunless %}
 </p>
 
 <hr /> {{ page.content | default: post.content }}
