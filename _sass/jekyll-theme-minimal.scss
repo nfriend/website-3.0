@@ -1,4 +1,9 @@
-@import 'fonts';
+// Commenting out fonts so that the browser doesn't attempt to use them
+// (since we use a different set of fonts than what ships with this theme.
+// This is the only modification to this file.
+//
+// @import 'fonts';
+
 @import 'rouge-github';
 
 body {
