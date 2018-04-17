@@ -53,7 +53,9 @@ body {
                 }
             }
 
-            &:hover {
+            &:hover,
+            &:focus,
+            &:active {
                 text-decoration: none;
                 svg path {
                     fill: #015179;
