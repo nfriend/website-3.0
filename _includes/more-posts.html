@@ -1,0 +1,31 @@
+<hr />
+<p>Other posts you may enjoy:</p>
+{% for post in site.posts limit:5 %}
+
+<a href="{{ post.url | relative_url }}">
+    <h2 style="margin-bottom: 5px;">{{ post.title }}</h2>
+</a>
+<p>
+    <!-- TODO: combine the date + word count into a common component.
+         Currently this is nearly identical to the logic in post-content.html. -->
+
+    <!-- Store the numnber of words minus 250 in "words" -->
+    <!-- Taken from here: https://sacha.me/articles/jekyll-word-counts/ -->     
+    {% capture words %} 
+        {{ post.content | number_of_words | minus: 250 }}
+    {% endcapture %}
+
+    {{ post.date | date: "%B %-d, %Y" }}
+
+    <!-- If there's a date, put a separator between it
+         and the reading time indicator -->
+    {% if post and post.date %}
+        <span>&nbsp;|&nbsp;</span>
+    {% endif %}
+
+    <!-- Add the number of minutes to read to the title -->
+    {% unless post.hideTimeToRead %}
+        {{ post.content | reading_time_as_i | append: " to read" }}
+    {% endunless %}
+</p>
+{% endfor %}

@@ -5,6 +5,7 @@ author:
   name: Nathan Friend
   url: http://nathanfriend.io
 hideTimeToRead: true
+hideRecentPosts: true
 ---
 
 <p>

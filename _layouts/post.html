@@ -7,6 +7,10 @@
         {% include sidebar.html %}
         <section class="content-section">
             {% include post-content.html %}
+            
+            {% unless page.hideTimeToRead %}
+                {% include more-posts.html %}
+            {% endunless %}
         </section>
         <section class="footer-section">
             {% include page-footer.html %}

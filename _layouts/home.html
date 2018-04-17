@@ -9,6 +9,10 @@
             {% for post in site.posts limit:1 %} 
                 {% include post-content.html %} 
             {% endfor %}
+
+            {% unless page.hideTimeToRead %}
+                {% include more-posts.html %}
+            {% endunless %}
         </section>
         <section class="footer-section">
             {% include page-footer.html %}

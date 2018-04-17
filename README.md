@@ -16,6 +16,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 - Test Google Analytics
 - Old fonts are still being referenced - remove.
 - Start blogging
+- Make "Other posts you may enjoy" show related posts instead of just the five most recent
 
 ## License
 
