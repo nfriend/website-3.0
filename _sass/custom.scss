@@ -2,6 +2,12 @@ body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
         Roboto, 'Helvetica Neue', Arial, sans-serif;
     overflow-y: scroll;
+    color: #313131;
+}
+
+code,
+pre {
+    font-family: monospace;
 }
 
 .sidebar {
@@ -40,7 +46,7 @@ body {
 
     .profile-links-container {
         margin-top: 5px;
-        
+
         a {
             padding: 7px;
 
