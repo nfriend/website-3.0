@@ -1,31 +1,56 @@
 <hr />
 <p>Other posts you may enjoy:</p>
-{% for post in site.posts limit:5 %}
 
-<a href="{{ post.url | relative_url }}">
-    <h2 style="margin-bottom: 5px;">{{ post.title }}</h2>
-</a>
-<p>
-    <!-- TODO: combine the date + word count into a common component.
-         Currently this is nearly identical to the logic in post-content.html. -->
+<!-- Show the 5 most recent posts, excluding the current page -->
+<!-- From here: https://stackoverflow.com/a/40443706/1063392 -->
+{% for post in site.posts limit:6 %}
 
-    <!-- Store the numnber of words minus 250 in "words" -->
-    <!-- Taken from here: https://sacha.me/articles/jekyll-word-counts/ -->     
-    {% capture words %} 
-        {{ post.content | number_of_words | minus: 250 }}
-    {% endcapture %}
+    <!-- Friendly reminder: for loop indexes are 1-based -->
 
-    {{ post.date | date: "%B %-d, %Y" }}
+    <!-- Looks a little weird since order of operations can't be
+         controlled in Liquid by parathesis - so instead the two conditions
+         are expressed as two separate branches that do the same thing. -->
+    {% if post.url == page.url %}
+        <!-- If the current post is the page we're already on -->
+        {% assign found = true %} 
+    {% elsif page.layout == 'home' and forloop.index == 1 %}
+        <!-- Or, if we're on the home page and this is the first post
+             (the post.url == page.url trick above doesn't work 
+             on the homepage) -->
+        {% assign found = true %} 
+    {% else %}
+        <!-- Otherwise, this is a post that we can show -->
 
-    <!-- If there's a date, put a separator between it
-         and the reading time indicator -->
-    {% if post and post.date %}
-        <span>&nbsp;|&nbsp;</span>
+        <!-- This condition ensures that only 5 posts are ever shown,
+             even if none of the first two conditions above were true. -->
+        {% if forloop.index < 6 or found %}
+
+            <a href="{{ post.url | relative_url }}">
+                <h2 style="margin-bottom: 5px;">{{ post.title }}</h2>
+            </a>
+            <p>
+                <!-- TODO: combine the date + word count into a common component.
+                    Currently this is nearly identical to the logic in post-content.html. -->
+
+                <!-- Store the numnber of words minus 250 in "words" -->
+                <!-- Taken from here: https://sacha.me/articles/jekyll-word-counts/ -->     
+                {% capture words %} 
+                    {{ post.content | number_of_words | minus: 250 }}
+                {% endcapture %}
+
+                {{ post.date | date: "%B %-d, %Y" }}
+
+                <!-- If there's a date, put a separator between it
+                    and the reading time indicator -->
+                {% if post and post.date %}
+                    <span>&nbsp;|&nbsp;</span>
+                {% endif %}
+
+                <!-- Add the number of minutes to read to the title -->
+                {% unless post.hideTimeToRead %}
+                    {{ post.content | reading_time_as_i | append: " to read" }}
+                {% endunless %}
+            </p>
+        {% endif %}
     {% endif %}
-
-    <!-- Add the number of minutes to read to the title -->
-    {% unless post.hideTimeToRead %}
-        {{ post.content | reading_time_as_i | append: " to read" }}
-    {% endunless %}
-</p>
 {% endfor %}
