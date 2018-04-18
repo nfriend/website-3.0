@@ -12,7 +12,6 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 - Cross-browser testing
 - Figure out how minify and deploy
 - Remove placeholder blog posts
-- Create favicon
 - Test Google Analytics
 - Start blogging
 - Make "Other posts you may enjoy" show related posts instead of just the five most recent

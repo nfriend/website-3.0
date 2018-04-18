@@ -21,7 +21,7 @@ hideRecentPosts: true
 </p>
 
 <p>
-  Social media icons were sourced from
+  Social media icons and favicon were sourced from
   <a href="https://fontawesome.com/">Font Awesome</a>
   (<a href="https://fontawesome.com/license">license</a>).
   No changes were made to the icons.
