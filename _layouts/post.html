@@ -4,6 +4,11 @@
 
 <body>
     <div class="wrapper">
+
+        <!--[if lt IE 10]>
+        {% include old-browser-warning.html %}
+        <![endif]-->
+        
         {% include sidebar.html %}
         <section class="content-section">
             {% include post-content.html %}
