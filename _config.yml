@@ -26,6 +26,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-time-to-read
+  - jekyll-minifier
 sass:
   style: compressed
 

@@ -14,6 +14,7 @@ gem "jekyll", "~> 3.7.3"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.9.3"
   gem "jekyll-time-to-read", "~> 0.1.2"
+  gem "jekyll-minifier", "~> 0.1.5"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

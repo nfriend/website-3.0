@@ -6,4 +6,4 @@ author:
   url: http://nathanfriend.io
 ---
 
-Hello, world!
+Hello, world! 

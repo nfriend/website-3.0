@@ -10,7 +10,6 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 - Finish "About me", "Contact", "Projects", and "Attributions" pages
 - Cross-browser testing
-- Figure out how minify and deploy
 - Remove placeholder blog posts
 - Test Google Analytics
 - Start blogging
