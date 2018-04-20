@@ -17,8 +17,8 @@ title: Nathan Friend
 description: >- # this means to ignore newlines until "baseurl:"
   Computer Systems Analyst and cellist.  TypeScript and .NET developer.  
   Fascinated with usability and and aesthetics.
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/next" # the subpath of your site, e.g. /blog
+url: "http://nathanfriend.io" # the base hostname & protocol for your site, e.g. http://example.com
 host: 0.0.0.0
 
 # Build settings

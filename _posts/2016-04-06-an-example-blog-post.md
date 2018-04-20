@@ -127,3 +127,12 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+### Testing embedding
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The new &quot;copy with syntax highlighting&quot; and &quot;minimap&quot; features are great! <a href="https://twitter.com/hashtag/HappyCoding?src=hash&amp;ref_src=twsrc%5Etfw">#HappyCoding</a></p>&mdash; Nathan Friend (@NathanAFriend) <a href="https://twitter.com/NathanAFriend/status/837278273365282816?ref_src=twsrc%5Etfw">March 2, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br />
+
+<script async src="//jsfiddle.net/NathanFriend/2vLx2zwu/embed/result,js"></script>
