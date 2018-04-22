@@ -14,6 +14,12 @@
     <link rel="shortcut icon" href="{{ '/favicon.ico?v=47Mvyardey' | relative_url }}">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="{{ page.title | default: site.posts[1].title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
