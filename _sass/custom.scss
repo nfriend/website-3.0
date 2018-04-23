@@ -32,8 +32,8 @@ pre {
     }
 
     .sidebar-links-container {
+        font-size: 16px;
         a {
-            font-size: 16px;
             margin: 10px;
         }
     }
@@ -191,6 +191,13 @@ a {
                     width: 48px !important;
                     height: 48px !important;
                 }
+            }
+        }
+
+        .sidebar-links-container {
+            font-size: 20px;
+            a {
+                margin: 5px;
             }
         }
     }
