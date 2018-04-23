@@ -4,6 +4,7 @@ title: An Example Blog Post
 author:
   name: Nathan Friend
   url: http://nathanfriend.io
+image: /assets/img/lego.png
 ---
 
 A quick demonstration of the capabilities of Jekyll/Markdown.

@@ -8,7 +8,6 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 ## TODO
 
-- Add og: tags for social media (VSCode blog as an example)
 - Create real environment for site and deploy
 - Finish "About me", "Contact", "Projects", and "Attributions" pages
 - Remove placeholder blog posts

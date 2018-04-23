@@ -18,7 +18,8 @@
     <meta property="og:title" content="{{ page.title | default: site.posts[1].title }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+    <meta property="og:image" content="{{ page.image | default: '/assets/img/profile.jpg' | absolute_url }}" />
+    <meta property="og:description" content="{{ page.content | default: site.posts[1].content | strip_html | escape }}" />
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
