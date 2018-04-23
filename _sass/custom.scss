@@ -32,6 +32,7 @@ pre {
     }
 
     .sidebar-links-container {
+        color: #868686;
         font-size: 16px;
         a {
             margin: 10px;
@@ -99,6 +100,12 @@ a {
     a {
         font-size: 18px;
         margin-right: 20px;
+    }
+}
+
+.content-container {
+    a.anchorjs-link {
+        text-decoration: none;
     }
 }
 

@@ -35,4 +35,7 @@
     {% endunless %}
 </p>
 
-<hr /> {{ page.content | default: post.content }}
+<hr /> 
+<div class="content-container">
+    {{ page.content | default: post.content }}
+</div>
