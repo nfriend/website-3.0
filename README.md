@@ -8,6 +8,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 ## TODO
 
+- Add AnchorJS integration in content area? (https://www.bryanbraun.com/anchorjs/)
 - Create real environment for site and deploy
 - Finish "About me", "Contact", "Projects", and "Attributions" pages
 - Remove placeholder blog posts
