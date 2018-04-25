@@ -21,7 +21,8 @@
                 {{ post.date | date: "%B %-d, %Y" }}
             </p>
             <div style="clear: both; float: none;"></div>
-            {{ post.excerpt }} {% endfor %}
+            <p>{{ post.excerpt | strip_html }}</p>
+            {% endfor %}
         </section>
         <section class="footer-section">
             {% include page-footer.html %}

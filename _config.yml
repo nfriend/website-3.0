@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Nathan Friend
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer Systems Analyst and cellist.  TypeScript and .NET developer.  
+  Computer Systems Analyst and cellist based out of Des Moines, IA.  
   Fascinated with usability and and aesthetics.
-baseurl: "/next" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://nathanfriend.io" # the base hostname & protocol for your site, e.g. http://example.com
 host: 0.0.0.0
 

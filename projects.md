@@ -8,4 +8,6 @@ hideTimeToRead: true
 hideRecentPosts: true
 ---
 
-This is the "Projects" page!
+This is the "Projects" page!<br /><br />
+
+More to come soon!
