@@ -8,6 +8,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 ## TODO
 
+- Redirect all "www" traffic to root domain
 - Finish "About me" and "Projects" pages
 - Start blogging
 - Make "Other posts you may enjoy" show related posts instead of just the five most recent
