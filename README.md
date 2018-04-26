@@ -8,10 +8,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 ## TODO
 
-- Create real environment for site and deploy
-- Finish "About me", "Contact", "Projects", and "Attributions" pages
-- Remove placeholder blog posts
-- SSL
+- Finish "About me" and "Projects" pages
 - Start blogging
 - Make "Other posts you may enjoy" show related posts instead of just the five most recent
 - Add Discourse comments to blog posts?
