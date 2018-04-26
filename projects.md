@@ -8,7 +8,7 @@ hideTimeToRead: true
 hideRecentPosts: true
 ---
 
-I'll flesh out this page a bit in the near future, but if you're <em>really</em> chopping at the bit to see some of my work, here are some of my most popular projects:<br /><br />
+I'll flesh out this page a bit in the near future, but if you're <em>really</em> chomping at the bit to see some of my work, here are some of my most popular projects:<br /><br />
 
 <ul>
   <li>
