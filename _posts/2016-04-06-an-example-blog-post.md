@@ -3,7 +3,7 @@ layout: post
 title: An Example Blog Post
 author:
   name: Nathan Friend
-  url: http://nathanfriend.io
+  url: https://nathanfriend.io
 image: /assets/img/lego.png
 ---
 
