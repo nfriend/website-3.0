@@ -15,8 +15,12 @@
                 {% include post-content.html %} 
             {% endfor %}
 
-            {% unless page.hideTimeToRead %}
+            {% unless page.hideMorePosts %}
                 {% include more-posts.html %}
+            {% endunless %}
+
+            {% unless page.hideComments %}
+                {% include post-comments.html %}
             {% endunless %}
         </section>
         <section class="footer-section">

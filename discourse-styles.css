@@ -1,0 +1,17 @@
+/*
+ * These are style overrides for Discourse embeds. They
+ * are not included in this Jekyll site, but are here
+ * simply for safe keeping. 
+ */
+
+html {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+header.discourse {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer a.button {
+    background-color: #267cb9;
+}

@@ -5,7 +5,8 @@ author:
   name: Nathan Friend
   url: https://nathanfriend.io
 hideTimeToRead: true
-hideRecentPosts: true
+hideComments: true
+hideMorePosts: true
 ---
 
 I'll flesh out this page a bit in the near future, but if you're <em>really</em> chomping at the bit to see some of my work, here are some of my most popular projects:<br /><br />
