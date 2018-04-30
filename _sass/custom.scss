@@ -127,6 +127,24 @@ a {
         background-color: #f2dede;
         border-color: #ebccd1;
     }
+
+    &.alert-info {
+        color: #31708f;
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+    }
+
+    &.alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+    &.alert-warning {
+        color: #8a6d3b;
+        background-color: #fcf8e3;
+        border-color: #faebcc;
+    }
 }
 
 .image-caption {
@@ -134,6 +152,14 @@ a {
     font-size: 90%;
     text-align: center;
     margin-top: -20px;
+}
+
+code.highlighter-rouge {
+    // stolen from GitHub
+    padding: 0.2em 0.4em;
+    background-color: rgba(27, 31, 35, 0.05);
+    border-radius: 3px;
+    font-size: 85%;
 }
 
 @media print, screen and (min-width: 961px) {

@@ -37,5 +37,34 @@
 
 <hr /> 
 <div class="content-container">
+
+    {% if (page.alert.danger or post.alert.danger) %}
+    <div class="alert alert-danger">
+        <b>{{ page.alert.danger.title | default: post.alert.danger.title }}</b> 
+        {{ page.alert.danger.message | default: post.alert.danger.message }}
+    </div>
+    {% endif %}
+
+    {% if (page.alert.warning or post.alert.warning) %}
+    <div class="alert alert-warning">
+        <b>{{ page.alert.warning.title | default: post.alert.warning.title }}</b> 
+        {{ page.alert.warning.message | default: post.alert.warning.message }}
+    </div>
+    {% endif %}
+    
+    {% if (page.alert.info or post.alert.info) %}
+    <div class="alert alert-info">
+        <b>{{ page.alert.info.title | default: post.alert.info.title }}</b> 
+        {{ page.alert.info.message | default: post.alert.info.message }}
+    </div>
+    {% endif %}
+
+    {% if (page.alert.success or post.alert.success) %}
+    <div class="alert alert-success">
+        <b>{{ page.alert.success.title | default: post.alert.success.title }}</b> 
+        {{ page.alert.success.message | default: post.alert.success.message }}
+    </div>
+    {% endif %}
+
     {{ page.content | default: post.content }}
 </div>
