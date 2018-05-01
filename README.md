@@ -8,6 +8,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 ## TODO
 
+- Convert `image-caption` class to use `<figure>` and `<figcaption>`
 - Finish "About me" and "Projects" pages
 - Start blogging
 - Make "Other posts you may enjoy" show related posts instead of just the five most recent

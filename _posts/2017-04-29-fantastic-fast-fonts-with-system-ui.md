@@ -2,6 +2,7 @@
 layout: post
 title:  "Fantastic Fast Fonts with system-ui"
 date:   2018-04-27 17:15:00 -0300
+image:  assets/img/native-fonts-with-system-ui/comic-sans.png
 ---
 
 While building the [Jekyll template](https://github.com/nfriend/website-3.0) for the latest iteration of my website (the site you're on now), I discovered a new CSS trick:
@@ -16,6 +17,9 @@ This snippet (in particular, the `system-ui` part) instructs the browser to use 
 
 1. There's no external font to download during page load.
 2. They look gorgeous! The site adopts the feel of the OS, making it feel "just right" on the host platform.
+
+<img src="{{ 'assets/img/native-fonts-with-system-ui/comic-sans.png' | relative_url }}" alt="Some CSS code rendered using Comic Sans" />
+<p class="image-caption">Comic Sans is my favorite programming font.</p>
 
 If you have more than one platform available to you (for example a Windows machine, a Mac, or an Android phone), you can see this for yourself by pulling up this site on each and comparing the font styles.
 
