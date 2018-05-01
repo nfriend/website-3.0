@@ -2,6 +2,7 @@
 layout: post
 title:  "Removing SyntaxHighlighter Scrollbars In Chrome"
 date:   2012-12-13 19:46:56 -0300
+image:  assets/img/removing-syntaxhighlighter-scrollbars-in-chrome/sad-scrollbar.jpg
 alert:
     info:
         title: Heads up!
@@ -22,7 +23,13 @@ $.fn.dynamicInput = function(method) {
 };
 ```
 
-It's a fantastic tool. Unfortunately, Chrome surrounds each block of code with vertical scrollbars, regardless of the content's length. Luckily, fixing this issue is a breeze. Simply change line 35 in `shCore.css` from this:
+It's a fantastic tool. Unfortunately, Chrome surrounds each block of code with vertical scrollbars, regardless of the content's length. 
+
+<figure>
+    <img src="{{ 'assets/img/removing-syntaxhighlighter-scrollbars-in-chrome/sad-scrollbar.jpg' | relative_url }}" alt="Some code with a scrollbar and a sad face next to it" />
+</figure>
+
+Luckily, fixing this issue is a breeze. Simply change line 35 in `shCore.css` from this:
 
 ```css
 line-height: 1.1em;

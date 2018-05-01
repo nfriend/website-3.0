@@ -2,6 +2,7 @@
 layout: post
 title:  "The Diamond Operator Is Your Friend"
 date:   2012-12-25 02:49:32 -0300
+image:  assets/img/the-diamond-operator-is-your-friend/diamonds.jpg
 alert:
     info:
         title: Heads up!
@@ -14,6 +15,11 @@ Java 7 introduced a new operator - `<>` - referred to as the "diamond" operator.
 HashMap<TreeSet<TreeMap<String, Integer>>, Double> myTerribleDataStructure =
     new HashMap<TreeSet<TreeMap<String, Integer>>, Double>();
 ```
+
+<figure>
+    <img src="{{ 'assets/img/the-diamond-operator-is-your-friend/diamonds.jpg' | relative_url }}" alt="A bunch of diamonds" />
+    <figcaption>Diamond (operators) are a <span style="text-decoration: line-through">girl's</span> Java developer's best friend.</figcaption>
+</figure>
 
 The diamond operator greatly simplifies this unnecessary complexity. The following is semantically identical to the above example:
 

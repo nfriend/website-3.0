@@ -35,6 +35,6 @@ $("#my-target-element").on("click", function() {
 **Note:** It's recommended that the usage of arguments.callee be avoided by naming all anonymous handlers and referring to them by name (see the [MDN discussion and explanation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). The 5th edition of ECMAScript disallows its usage when running in strict mode.
 
 <figure>
-    <iframe width="500" height="315" src="https://www.youtube.com/embed/WdmA43T0yag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe class="rounded" width="500" height="315" src="https://www.youtube.com/embed/WdmA43T0yag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <figcaption>A more cinematic demonstration of event handlers ejecting themselves.</figcaption>
 </figure>

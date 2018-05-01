@@ -2,10 +2,12 @@
 layout: post
 title:  "Fantastic Fast Fonts with system-ui"
 date:   2018-04-27 17:15:00 -0300
-image:  assets/img/native-fonts-with-system-ui/comic-sans.png
+image:  assets/img/native-fonts-with-system-ui/font-comparison.jpg
 ---
 
-While building the [Jekyll template](https://github.com/nfriend/website-3.0) for the latest iteration of my website (the site you're on now), I discovered a new CSS trick:
+<figure>
+    <img src="{{ 'assets/img/native-fonts-with-system-ui/font-comparison.jpg' | relative_url }}" alt="A capital F and a lowercase F" />
+</figure>While building the [Jekyll template](https://github.com/nfriend/website-3.0) for the latest iteration of my website (the site you're on now), I discovered a new CSS trick:
 
 ```CSS
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 

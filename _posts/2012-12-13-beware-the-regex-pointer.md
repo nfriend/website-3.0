@@ -2,11 +2,17 @@
 layout: post
 title:  "Beware The Regex Pointer"
 date:   2012-12-13 23:18:30 -0300
+image:  assets/img/beware-the-regex-pointer/mad-regex.jpg
 alert:
     info:
         title: Heads up!
         message: This is an old post - it may contain out-of-date information!
 ---
+
+<figure>
+    <img src="{{ 'assets/img/beware-the-regex-pointer/mad-regex.jpg' | relative_url }}" alt="A regular expression with an angry face in it" />
+    <figcaption>Do not feed the wild regex.</figcaption>
+</figure>
 
 Those familiar with JavaScript regular expressions will remember that a variety of modifiers can be appended to the end of an object's declaration to make the expression behave in different ways. For example:
 
@@ -27,6 +33,11 @@ alert(str.test(pattern));
 The first two executions of the `.test()` method return `true`, as expected. The third time around, however, this method returns `false`.
 
 Why the seemingly inconsistent behavior? Each JavaScript regex object contains an internal pointer that indicates at what index in the string the object should begin its search. When the `.test()` method successfully finds a match, it moves that pointer to the index of the character directly after the successful match. The next time `.test()` is called, the string is searched again _starting at this index_. If no match is found, the pointer is returned to the beginning of the string. This is probably not the desired behavior when using `.test()`; in most cases it is best to simply remove the _g_ modifier.
+
+<figure>
+    <img src="{{ 'assets/img/beware-the-regex-pointer/pointer-dog.jpg' | relative_url }}" alt="A dog of the Pointer breed" />
+    <figcaption>A Pointer.  Probably named Regex.</figcaption>
+</figure>
 
 _Really_ strange results start cropping up when the same regex object is used to test multiple strings:
 
