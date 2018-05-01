@@ -18,8 +18,10 @@ This snippet (in particular, the `system-ui` part) instructs the browser to use 
 1. There's no external font to download during page load.
 2. They look gorgeous! The site adopts the feel of the OS, making it feel "just right" on the host platform.
 
-<img src="{{ 'assets/img/native-fonts-with-system-ui/comic-sans.png' | relative_url }}" alt="Some CSS code rendered using Comic Sans" />
-<p class="image-caption">Comic Sans is my favorite programming font.</p>
+<figure>
+    <img src="{{ 'assets/img/native-fonts-with-system-ui/comic-sans.png' | relative_url }}" alt="Some CSS code rendered using Comic Sans" />
+    <figcaption>Comic Sans is my favorite programming font.</figcaption>
+</figure>
 
 If you have more than one platform available to you (for example a Windows machine, a Mac, or an Android phone), you can see this for yourself by pulling up this site on each and comparing the font styles.
 

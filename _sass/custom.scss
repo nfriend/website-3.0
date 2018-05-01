@@ -147,11 +147,16 @@ a {
     }
 }
 
-.image-caption {
-    color: #555;
-    font-size: 90%;
-    text-align: center;
-    margin-top: -20px;
+// styles for inline images with captions
+figure {
+    margin: 0;
+
+    figcaption {
+        color: #555;
+        font-size: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 code.highlighter-rouge {

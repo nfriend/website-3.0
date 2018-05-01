@@ -13,8 +13,10 @@ hideMorePosts: true
 Hi, I'm Nathan Friend.  I live in Charlottetown, Prince Edward Island, Canada, although I'm originally from the States.  In case you're not Canadian or have never read <a href="https://amzn.to/2vQZHka">Anne of Green Gables</a>, here's where PEI is:
 </p>
 
-<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCpnVS9x8mGcpVqLGqnyxKDWf5uByvrWHc&center=46.459775, -63.201704&zoom=8&maptype=satellite" allowfullscreen></iframe>
-<p class="image-caption" style="margin-top: 0;">Yep, it's actually an island.  At least there's a bridge.</p>
+<figure>
+    <iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCpnVS9x8mGcpVqLGqnyxKDWf5uByvrWHc&center=46.459775, -63.201704&zoom=8&maptype=satellite" allowfullscreen></iframe>
+    <figcaption>Yep, it's actually an island.  At least there's a bridge.</figcaption>
+</figure>
 
 <p>
 I currently work at <a href="https://www.maximuscanada.ca/">MAXIMUS DeltaWare</a> where I design and implement front-end interfaces for health care systems used across the nation.  I specialize in <a href="https://angular.io/">Angular</a>, <a href="https://www.typescriptlang.org/">TypeScript</a>, and <a href="https://nodejs.org/en/">Node</a>, although I also enjoy working in <a href="https://www.microsoft.com/net/">.NET</a>, particularly with <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C♯</a>.
