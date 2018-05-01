@@ -18,13 +18,13 @@ It's often necessary to remove an event handler once the target event has fired 
 
 Unfortunately, obtaining a reference to the original handler function can be tricky. For example, many JavaScript developers choose to code simple event handlers inline, using anonymous functions:
 
-```JavaScript
+```js
 $("#my-target-element").on("click", function() { alert("This element was clicked"); });
 ```
 
 How will a developer be able to obtain a reference to this anonymous handler if it needs to be removed in the future? It's actually quite simple. Included in every function execution context is a reference to both the function's calling function and the function itself, via `arguments.caller` and `arguments.callee`, respectively. Using these references, it's easy to have the handler remove itself once it has finished executing:
 
-```JavaScript
+```js
 $("#my-target-element").on("click", function() {
     alert("This element was clicked");
     // remove itself

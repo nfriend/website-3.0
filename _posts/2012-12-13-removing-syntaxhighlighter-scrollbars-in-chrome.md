@@ -11,7 +11,7 @@ alert:
 
 I use the [SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlighter/) JavaScript library by Alex Gorbatchev on ~~this site~~ my previous site to auto-format chunks of code, resulting in nicely colored and tabulated blocks of text like this:
 
-```JavaScript
+```js
 $.fn.dynamicInput = function(method) {
     if (methods[method]) {
         return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));

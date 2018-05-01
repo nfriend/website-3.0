@@ -151,6 +151,27 @@ a {
     border-radius: 4px;
 }
 
+.keyboard-key {
+    color: #000;
+    background: #ddd;
+    border-style: solid;
+    border-color: #bbb #999 #777 #aaa;
+    padding: 0.1em 0.6em;
+    border: 1px solid #bbb;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #e9e9e9;
+    color: #333;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 0.1em;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
 // styles for inline images with captions
 figure {
     margin: 0;
