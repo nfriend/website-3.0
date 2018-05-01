@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Native Fonts with system-ui"
+title:  "Fantastic Fast Fonts with system-ui"
 date:   2018-04-27 17:15:00 -0300
 ---
 
@@ -40,4 +40,5 @@ Some related links:
 - The story of Medium's somewhat comical attempt to use `system-ui`: [https://medium.design/system-shock-6b1dc6d6596f](https://medium.design/system-shock-6b1dc6d6596f)
 - A list of the actual fonts used on each platform when using `system-ui`: [https://css-tricks.com/snippets/css/system-font-stack/](https://css-tricks.com/snippets/css/system-font-stack/)
 - This short writeup on the `system-ui` font at Smashing Magazine: [https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)
+- `system-ui` browser support: [https://caniuse.com/#search=system-ui](https://caniuse.com/#search=system-ui)
 
