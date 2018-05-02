@@ -14,7 +14,7 @@ Hi, I'm Nathan Friend.  I live in Charlottetown, Prince Edward Island, Canada, a
 </p>
 
 <figure>
-    <iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCpnVS9x8mGcpVqLGqnyxKDWf5uByvrWHc&center=46.459775, -63.201704&zoom=8&maptype=satellite" allowfullscreen></iframe>
+    <iframe class="rounded" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCpnVS9x8mGcpVqLGqnyxKDWf5uByvrWHc&center=46.459775, -63.201704&zoom=8&maptype=satellite" allowfullscreen></iframe>
     <figcaption>Yep, it's actually an island.  At least there's a bridge.</figcaption>
 </figure>
 
