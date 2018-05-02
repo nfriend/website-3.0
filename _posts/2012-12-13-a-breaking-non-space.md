@@ -16,9 +16,12 @@ Everyone who has fought with word-wrapping in HTML layouts is familiar with the 
     <figcaption>A broken space.</figcaption>
 </figure>
 
-Recently, I needed the opposite of `&nbsp;` - instead of a non-breaking space, I needed a breaking non-space. Luckily, there's a Unicode character that fits this description: it's named the ZERO-WIDTH-SPACE character. When the browser goes to wrap a line, it offers itself up as a valid line-wrap location. Using this character is as simple as placing `&#8203;` in your HTML where you'd like the potential line-break to happen.
+Recently, I needed the opposite of `&nbsp;` - instead of a non-breaking space, I needed a breaking non-space. Luckily, there's a Unicode character that fits this description: it's named the [ZERO-WIDTH-SPACE character](https://en.wikipedia.org/wiki/Zero-width_space). When the browser goes to wrap a line, it offers itself up as a valid line-wrap location. Using this character is as simple as placing `&#8203;` in your HTML where you'd like the potential line-break to happen.
 
 <figure>
     <iframe class="rounded" width="500" height="315" src="https://www.youtube.com/embed/2IfPwTQ7au8?start=56&end=77" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <figcaption>This probably broke more than just spaces.</figcaption>
 </figure>
+
+## An Update
+I've discovered a better way to accomplish this same behavior: the [`<wbr>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr).  It's probably best to prefer `<wbr>` over `&#8203;`.
