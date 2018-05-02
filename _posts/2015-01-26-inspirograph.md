@@ -61,7 +61,7 @@ Making Inspirograph easy to use turned out to be much more difficult that I orig
 
 <img class="rounded" src="{{ 'assets/img/inspirograph/gear-example.jpg' | relative_url }}" alt="A ring gear with another gear inside it" />
 
-If the user begins dragging on the left edge of the inner gear, the mouse is actually to the right of the center of the screen. This caused the gear to unexpectedly jump depending on where the user initiated the drag. To solve this, I temporarily "move" the center of the screen relative to the start location of the pointer. Then, as the user begins to drag, I slowly ease this virtual "center" back to the true center of the screen. You can witness this yourself by turning on the "cursor tracker" option by pressing <span class="keyboard-key">T</span>.
+If the user begins dragging on the left edge of the inner gear, the mouse is actually to the _right_ of the center of the screen. This caused the gear to unexpectedly jump depending on where the user initiated the drag. To solve this, I temporarily "move" the center of the screen relative to the start location of the pointer. Then, as the user begins to drag, I slowly ease this virtual "center" back to the true center of the screen. You can witness this yourself by turning on the "cursor tracker" option by pressing <span class="keyboard-key">T</span>.
 
 ## Playing around
 
