@@ -9,7 +9,7 @@ Out of the box, Solr comes with some pretty great date-searching capabilities.  
 ```
 [* TO 1976-08-19]
 ```
- 
+
 
 
 ## TODO
