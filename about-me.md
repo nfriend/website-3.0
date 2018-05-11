@@ -27,3 +27,5 @@ I received my bachelor's in Computer Science from <a href="https://www.dordt.edu
 </p>
 
 <p>In my free time, I like to reinforce software engineer stereotypes by playing Ultimate Frisbee and <a href="/projects">working on side projects.</a> I also play the cello and do session work every chance I get.</p>
+
+<p>Oh, and no, <a href="https://en.wikipedia.org/wiki/Nathan_Friend">I'm not an Australian rugby player.</a></p>
