@@ -5,7 +5,7 @@ date:   2017-06-26 11:29:29 -0300
 image:  assets/img/smart-date-searching-with-solr/solar-date.jpg
 ---
 
-<img src="{{ 'assets/img/teal-deer.svg' | relative_url }}" style="height: 30px; margin-bottom: -10px; margin-right: 3px;" />TL;DR : I created a custom Solr filter that allows for natural date searching.  [Here's the source](https://github.com/nfriend/toolbox/tree/master/NfDateFilter).
+<img src="{{ 'assets/img/teal-deer.svg' | relative_url }}" style="height: 30px; margin-bottom: -10px; margin-right: 3px;" />tl;dr: I created a custom Solr filter that allows for natural date searching.  [Here's the source](https://github.com/nfriend/toolbox/tree/master/NfDateFilter).
 
 <hr />
 
