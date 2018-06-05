@@ -47,5 +47,56 @@ NEXT i
 
 ... which unfortunately is entirely dependent on the speed of the host's CPU.  I had to cut most of these loops by a factor of 100 since the brower runs the programs so much slower than the original hardware.
 
-So, without further ado, here are the most interesting products, delivered to your browser through the magic of JavaScript:
+So, without further ado, here are the most interesting programs, delivered to you through time using the magic JavaScript.  Click on any of the screenshots to launch the program:
 
+## SPIRO.BAS
+
+A precursor to my more modern project [Inspirograph](https://nathanfriend.io/inspirograph), this program creates Spirograph designs based on a few simple configurations.
+
+Hint: If you don\'t know what values to use, try something like:
+ - Inner wheel size: 52
+ - Outer wheel size: 100
+ - Hole number: 25
+ - Color: 12
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/spiro.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
+        <figcaption>SPIRO.BAS</figcaption>
+    </figure>
+    <div class="runnable-program-overlay">
+        <img class="play-button" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </div>
+</div>
+
+<style>
+    .runnable-program {
+        position: relative;
+    }
+
+    .runnable-program .runnable-program-overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        cursor: pointer;
+    }
+
+    .runnable-program .runnable-program-overlay:hover {
+        background: rgba(255, 255, 255, .12);
+    }
+
+    .runnable-program .runnable-program-overlay .play-button {
+        position: relative;
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 139px;
+        opacity: .5;
+    }
+
+    .runnable-program .runnable-program-overlay:hover .play-button {
+        opacity: .8;
+    }
+</style>
