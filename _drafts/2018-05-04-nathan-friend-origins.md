@@ -7,7 +7,7 @@ image:  assets/img/nathan-friend-origins/qbasic.png
 
 The other day, I ran across [Windows 95 In Your Browser](https://win95.ajf.me/), which uses [Emscripten](https://github.com/kripken/emscripten) and [DOSBox](https://www.dosbox.com/download.php?main=1) to run a full-fledged operating system in a browser. What a time to be alive.
 
-<figure>
+<figure style="margin-bottom: 20px;">
     <iframe width="500" height="315" src="https://www.youtube.com/embed/qu32fBkiHFE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
