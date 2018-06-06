@@ -216,7 +216,7 @@ There's _lots_ more where the above came from. Here's a little GUI that can laun
     </a>
 </div>
 
-## Source code
+## Source
 
 If you're interested in how this little project works, [check it out on GitHub here](https://github.com/nfriend/origins-host).
 
