@@ -104,20 +104,44 @@ A super short animation of a little man being sucked up by alien invaders.
     </a>
 </div>
 
+## CELOHLP2.BAS
+
+A flash-card game for cello students that quizes their knowledge of bass clef, tenor clef, and treble clef, complete with a high-scores list.
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/celohlp2.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
+        <figcaption>CELOHLP2.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay dark" href="https://nathanfriend.io/origins?file=CELOHLP2.BAS" target="_blank">
+        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
+    </a>
+</div>
+
 <style>
     .runnable-program {
         position: relative;
     }
 
+    .runnable-program figure img {
+        border: 1px solid #ddd;
+    }
+
     .runnable-program .runnable-program-overlay {
-        width: 100%;
-        height: 100%;
         position: absolute;
         top: 0;
+        bottom: 24px;
+        border-radius: 4px;
+        padding-right: 2px;
+        width: 100%;
     }
 
     .runnable-program .runnable-program-overlay:hover {
         background: rgba(255, 255, 255, .12);
+    }
+
+    .runnable-program .runnable-program-overlay.dark:hover {
+        background: rgba(0, 0, 0, .12);
     }
 
     .runnable-program .runnable-program-overlay .play-button {
