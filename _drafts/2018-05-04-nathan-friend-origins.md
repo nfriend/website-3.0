@@ -60,15 +60,14 @@ Hint: If you don\'t know what values to use, try something like:
 -   Hole number: 25
 -   Color: 12
 
-<div class="runnable-program" 
-     data-program-link="https://nathanfriend.io/origins?file=SPIRO.BAS">
+<div class="runnable-program">
     <figure>
         <img src="{{ 'assets/img/nathan-friend-origins/spiro.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>SPIRO.BAS</figcaption>
     </figure>
-    <div class="runnable-program-overlay">
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=SPIRO.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
-    </div>
+    </a>
 </div>
 
 ## ADVNTUR1.BAS
@@ -77,30 +76,28 @@ An adventure game with ASCII graphics. You control a small blue square with the 
 
 I gave it a few tries, and man, it is _hard_.
 
-<div class="runnable-program" 
-     data-program-link="https://nathanfriend.io/origins?file=ADVNTUR1.BAS">
+<div class="runnable-program">
     <figure>
         <img src="{{ 'assets/img/nathan-friend-origins/advntur1.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>ADVNTUR1.BAS</figcaption>
     </figure>
-    <div class="runnable-program-overlay">
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ADVNTUR1.BAS" target="_blank">
         <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
-    </div>
+    </a>
 </div>
 
 ## ALNATTCK.BAS
 
 A super short animation of a little man being sucked up by alien invaders.
 
-<div class="runnable-program" 
-     data-program-link="https://nathanfriend.io/origins?file=ALNATTCK.BAS">
+<div class="runnable-program">
     <figure>
         <img src="{{ 'assets/img/nathan-friend-origins/alnattck.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>ALNATTCK.BAS</figcaption>
     </figure>
-    <div class="runnable-program-overlay">
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ALNATTCK.BAS" target="_blank">
         <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
-    </div>
+    </a>
 </div>
 
 <style>
@@ -113,7 +110,6 @@ A super short animation of a little man being sucked up by alien invaders.
         height: 100%;
         position: absolute;
         top: 0;
-        cursor: pointer;
     }
 
     .runnable-program .runnable-program-overlay:hover {
@@ -142,18 +138,3 @@ A super short animation of a little man being sucked up by alien invaders.
         opacity: .8;
     }
 </style>
-
-<script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous">
-</script>
-
-<script>
-    $(function() {
-        $('.runnable-program').click(function() {
-            var $this = $(this);
-            window.open($this.attr('data-program-link'),'_newtab');
-        });
-    });
-</script>
