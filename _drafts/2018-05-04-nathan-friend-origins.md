@@ -32,7 +32,11 @@ PRINT "Hello, world!"
     <img src="{{ 'assets/img/nathan-friend-origins/hello-world.png' | relative_url }}" alt="The QBasic runtime showing a 'Hello, world!' program being executed." />
 </figure>
 
-It also came with a _great_ help system that included lots of code snippets that I endless copy-and-pasted.
+It also came with a _great_ integrated help system that included lots of code snippets that I endless copy-and-pasted:
+
+<figure style="margin-bottom: 20px;">
+    <img src="{{ 'assets/img/nathan-friend-origins/qbasic-help.png' | relative_url }}" alt="The QBasic help screen." />
+</figure>
 
 ---
 
@@ -53,7 +57,7 @@ So, without further ado, here are the most interesting programs, delivered to yo
 
 A precursor to my more modern project [Inspirograph](https://nathanfriend.io/inspirograph), this program creates Spirograph designs based on a few simple configurations.
 
-Hint: If you don\'t know what values to use, try something like:
+Hint: Here's an example configuration to get you started:
 
 -   Inner wheel size: 52
 -   Outer wheel size: 100
@@ -72,7 +76,7 @@ Hint: If you don\'t know what values to use, try something like:
 
 ## ADVNTUR1.BAS
 
-An adventure game with ASCII graphics. You control a small blue square with the numpad (<span class="keyboard-key">4</span>, <span class="keyboard-key">6</span>, <span class="keyboard-key">8</span>, and <span class="keyboard-key">2</span>), journeying around the landscape filled with small towns (green squares) and rouge enemies (red squares).
+An adventure game with ASCII graphics. You control a small blue square with the numpad (<span class="keyboard-key">4</span>, <span class="keyboard-key">6</span>, <span class="keyboard-key">8</span>, and <span class="keyboard-key">2</span>), journeying around the landscape visiting small towns (green squares) and battling rouge enemies (red squares).
 
 I gave it a few tries, and man, it is _hard_.
 
