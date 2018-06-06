@@ -96,7 +96,7 @@ A super short animation of a little man being sucked up by alien invaders.
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/alnattck.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
+        <img src="{{ 'assets/img/nathan-friend-origins/alnattck.bas-screenshot.png' | relative_url }}" alt="ALNATTCK.BAS" />
         <figcaption>ALNATTCK.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ALNATTCK.BAS" target="_blank">
@@ -110,13 +110,115 @@ A flash-card game for cello students that quizes their knowledge of bass clef, t
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/celohlp2.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
+        <img src="{{ 'assets/img/nathan-friend-origins/celohlp2.bas-screenshot.png' | relative_url }}" alt="CELOHLP2.BAS" />
         <figcaption>CELOHLP2.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay dark" href="https://nathanfriend.io/origins?file=CELOHLP2.BAS" target="_blank">
         <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
     </a>
 </div>
+
+## COOL.BAS
+
+Another drawing program that creates intricate designs with customizable color palettes.  I used to draw these shapes with color pencils and a child, which inspired this QBasic version.
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/cool.bas-screenshot.png' | relative_url }}" alt="COOL.BAS" />
+        <figcaption>COOL.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=COOL.BAS" target="_blank">
+        <img class="play-button" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## GIGA.BAS
+
+QBasic had a fun pitch generation API which I used to recreate my favorite piano and cello pieces.  Here's Bach's _Giga_ from the _Partita in B♭:
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/giga.bas-screenshot.png' | relative_url }}" alt="GIGA.BAS" />
+        <figcaption>GIGA.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=GIGA.BAS" target="_blank">
+        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## GORILLA.BAS
+
+Okay, you got me - this one isn't mine.  It's one of the example programs that shipped with QBasic.  My siblings and I had loads of fun lobbing explosive bananas at each other.
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/gorilla.bas-screenshot.png' | relative_url }}" alt="GORILLA.BAS" />
+        <figcaption>GORILLA.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=GORILLA.BAS" target="_blank">
+        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## NEWTETRS.BAS
+
+A Tetris clone.
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/newtetrs.bas-screenshot.png' | relative_url }}" alt="NEWTETRS.BAS" />
+        <figcaption>NEWTETRS.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=NEWTETRS.BAS" target="_blank">
+        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## PATIENCE.BAS
+
+Test your patience!  How long can you hold down <span class="keyboard-key">Q</span>?
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/patience.bas-screenshot.png' | relative_url }}" alt="PATIENCE.BAS" />
+        <figcaption>PATIENCE.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=PATIENCE.BAS" target="_blank">
+        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## STRESS.BAS
+
+Feeling stressed?  This little game lets you punch a square with your enemy's name on it until they spontaneously combust!
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/stress.bas-screenshot.png' | relative_url }}" alt="STRESS.BAS" />
+        <figcaption>STRESS.BAS</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=STRESS.BAS" target="_blank">
+        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## And so much more...
+
+There's _lots_ more where the above came from. Here's a little GUI that can launch and run any of the programs I wrote as a child:
+
+<div class="runnable-program">
+    <figure>
+        <img src="{{ 'assets/img/nathan-friend-origins/origins-screenshot.png' | relative_url }}" alt="origins" />
+        <figcaption>nathanfriend.io/origins</figcaption>
+    </figure>
+    <a class="runnable-program-overlay" href="https://nathanfriend.io/origins" target="_blank">
+        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+    </a>
+</div>
+
+## Source code
+
+If you're interested in how this little project works, [check it out on GitHub here](https://github.com/nfriend/origins-host).
 
 <style>
     .runnable-program {
