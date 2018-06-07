@@ -118,4 +118,4 @@ location ^~ /my-project-3/ {
 
 All of these apps will attempt to use [/sockjs-node/]() to communicate with their respective `ng serve` live reload server. Unfortunately, our [/sockjs-node/]() NGINX proxy above will only route traffic to _one_ of these apps - meaning you can only use the live reload with one app at a time. In order to start working on a different app, you'll have to manually edit the port in your NGINX config. This is a pain, but it's better than not having live reload at all.
 
-Know a way around this? Let me know in the comments. Or, even better, [answer my question on Stack Overflow.](https://stackoverflow.com/q/50335748/1063392)
+Know a way around this? [Answer my question on Stack Overflow!](https://stackoverflow.com/q/50335748/1063392)

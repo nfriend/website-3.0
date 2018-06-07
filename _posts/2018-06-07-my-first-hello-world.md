@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello, QBasic!"
-date:   2018-06-04 20:22:45 -0300
-image:  assets/img/nathan-friend-origins/qbasic.png
+title:  My First "Hello, World!"
+date:   2018-06-07 09:40:45 -0300
+image:  assets/img/my-first-hello-world/qbasic.png
 ---
 
 The other day, I ran across [Windows 95 In Your Browser](https://win95.ajf.me/), which uses [Emscripten](https://github.com/kripken/emscripten) and [DOSBox](https://www.dosbox.com/download.php?main=1) to run a full-fledged operating system in a browser. What a time to be alive.
@@ -16,7 +16,7 @@ This got me thinking... if Windows 95 could run on this Frankenstein-ed stack, w
 My mind immediately jumped to something that consumed hours and _hours_ of my childhood. It wasn't a game, it wasn't a chat app, it was [QBasic](https://en.wikipedia.org/wiki/QBasic).
 
 <figure>
-    <img src="{{ 'assets/img/nathan-friend-origins/qbasic.png' | relative_url }}" alt="The QBasic start screen" />
+    <img src="{{ 'assets/img/my-first-hello-world/qbasic.png' | relative_url }}" alt="The QBasic start screen" />
     <figcaption>If you grew up on QBasic, this screenshot will induce an immediate wave of nostalgia.</figcaption>
 </figure>
 
@@ -29,13 +29,13 @@ PRINT "Hello, world!"
 ... hit <span class="keyboard-key">Shift</span>+<span class="keyboard-key">F5</span>, and immediately see the greeting written to the screen!
 
 <figure style="margin-bottom: 20px;">
-    <img src="{{ 'assets/img/nathan-friend-origins/hello-world.png' | relative_url }}" alt="The QBasic runtime showing a 'Hello, world!' program being executed." />
+    <img src="{{ 'assets/img/my-first-hello-world/hello-world.png' | relative_url }}" alt="The QBasic runtime showing a 'Hello, world!' program being executed." />
 </figure>
 
 It also came with a _great_ integrated help system that included lots of code snippets that I endless copy-and-pasted:
 
 <figure style="margin-bottom: 20px;">
-    <img src="{{ 'assets/img/nathan-friend-origins/qbasic-help.png' | relative_url }}" alt="The QBasic help screen." />
+    <img src="{{ 'assets/img/my-first-hello-world/qbasic-help.png' | relative_url }}" alt="The QBasic help screen." />
 </figure>
 
 Recreating a QBasic environment in the browser was easier than expected, thanks to a project called [js-dos](http://js-dos.com/). After about an hour of work, I had a working QBasic editor running in all its glowing blue glory!
@@ -63,11 +63,11 @@ Hint: Here's an example configuration to get you started:
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/spiro.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/spiro.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>SPIRO.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=SPIRO.BAS" target="_blank">
-        <img class="play-button" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -79,11 +79,11 @@ I gave it a few tries, and man, it is _hard_.
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/advntur1.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/advntur1.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>ADVNTUR1.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ADVNTUR1.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -93,11 +93,11 @@ A super short animation of a little man being sucked up by alien invaders.
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/alnattck.bas-screenshot.png' | relative_url }}" alt="ALNATTCK.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/alnattck.bas-screenshot.png' | relative_url }}" alt="ALNATTCK.BAS" />
         <figcaption>ALNATTCK.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ALNATTCK.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -107,11 +107,11 @@ A flash-card game for cello students that quizzes  their knowledge of bass clef,
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/celohlp2.bas-screenshot.png' | relative_url }}" alt="CELOHLP2.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/celohlp2.bas-screenshot.png' | relative_url }}" alt="CELOHLP2.BAS" />
         <figcaption>CELOHLP2.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay dark" href="https://nathanfriend.io/origins?file=CELOHLP2.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
+        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -121,11 +121,11 @@ Another drawing program that creates intricate designs with customizable color p
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/cool.bas-screenshot.png' | relative_url }}" alt="COOL.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/cool.bas-screenshot.png' | relative_url }}" alt="COOL.BAS" />
         <figcaption>COOL.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=COOL.BAS" target="_blank">
-        <img class="play-button" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -135,11 +135,11 @@ QBasic had a fun pitch generation API which I used to recreate piano and cello p
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/giga.bas-screenshot.png' | relative_url }}" alt="GIGA.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/giga.bas-screenshot.png' | relative_url }}" alt="GIGA.BAS" />
         <figcaption>GIGA.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=GIGA.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -149,11 +149,11 @@ Okay, you got me - this one isn't mine.  It's one of the example programs that s
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/gorilla.bas-screenshot.png' | relative_url }}" alt="GORILLA.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/gorilla.bas-screenshot.png' | relative_url }}" alt="GORILLA.BAS" />
         <figcaption>GORILLA.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=GORILLA.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -163,11 +163,11 @@ A Tetris clone.
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/newtetrs.bas-screenshot.png' | relative_url }}" alt="NEWTETRS.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/newtetrs.bas-screenshot.png' | relative_url }}" alt="NEWTETRS.BAS" />
         <figcaption>NEWTETRS.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=NEWTETRS.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -177,11 +177,11 @@ Test your patience!  How long can you hold down <span class="keyboard-key">Q</sp
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/patience.bas-screenshot.png' | relative_url }}" alt="PATIENCE.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/patience.bas-screenshot.png' | relative_url }}" alt="PATIENCE.BAS" />
         <figcaption>PATIENCE.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=PATIENCE.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -191,11 +191,11 @@ Feeling stressed?  This little game lets you punch a square with your enemy's na
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/stress.bas-screenshot.png' | relative_url }}" alt="STRESS.BAS" />
+        <img src="{{ 'assets/img/my-first-hello-world/stress.bas-screenshot.png' | relative_url }}" alt="STRESS.BAS" />
         <figcaption>STRESS.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=STRESS.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -205,11 +205,11 @@ There's _lots_ more where the above came from. Here's a little GUI that can laun
 
 <div class="runnable-program">
     <figure>
-        <img src="{{ 'assets/img/nathan-friend-origins/origins-screenshot.png' | relative_url }}" alt="origins" />
+        <img src="{{ 'assets/img/my-first-hello-world/origins-screenshot.png' | relative_url }}" alt="origins" />
         <figcaption>nathanfriend.io/origins</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/nathan-friend-origins/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
