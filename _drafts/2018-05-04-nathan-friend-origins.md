@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nathan Friend: Origins"
+title:  "Hello, QBasic!"
 date:   2018-06-04 20:22:45 -0300
 image:  assets/img/nathan-friend-origins/qbasic.png
 ---
@@ -17,10 +17,10 @@ My mind immediately jumped to something that consumed hours and _hours_ of my ch
 
 <figure>
     <img src="{{ 'assets/img/nathan-friend-origins/qbasic.png' | relative_url }}" alt="The QBasic start screen" />
-    <figcaption>If you've ever used QBasic, this screenshot should hit you with a wave of nostalgia.</figcaption>
+    <figcaption>If you grew up on QBasic, this screenshot will induce an immediate wave of nostalgia.</figcaption>
 </figure>
 
-QBasic was a fantastic first language. Compared to some of the setups required to start learning modern more modern programming languages, a first-time QBasic user could fire up the all-in-one IDE/runtime enviroment, write something like this:
+QBasic was a fantastic first language. Getting started was a breeze - a first-time QBasic user could fire up the all-in-one IDE/runtime enviroment, write something like this:
 
 ```sh
 PRINT "Hello, world!"
@@ -38,11 +38,9 @@ It also came with a _great_ integrated help system that included lots of code sn
     <img src="{{ 'assets/img/nathan-friend-origins/qbasic-help.png' | relative_url }}" alt="The QBasic help screen." />
 </figure>
 
----
+Recreating a QBasic environment in the browser was easier than expected, thanks to a project called [js-dos](http://js-dos.com/). After about an hour of work, I had a working QBasic editor running in all its glowing blue glory!
 
-Recreating a QBasic environment in the browser was easier than expected, thanks to [js-dos](http://js-dos.com/). After about an hour of work, I had a working QBasic editor running in all its glowing blue glory!
-
-After digging around on my backup drives, I found my old QBasic directory and took a trip down memory lane as I ran each of my ancient programs one-by-one. Most of them required a bit of tweaking before they would behave correctly - my 13-year-old self had a bad habit of saving files to directories without checking if they existed first, and _really_ liked controlling program timing with empty loops:
+After digging around on my backup drives, I found my old QBasic .BAS files and took a trip down memory lane as I ran each of my ancient programs one-by-one. Most of them required a bit of tweaking before they would behave correctly - my 13-year-old self had a bad habit of saving files to directories without checking if they existed first, and he _really_ liked controlling program timing with empty loops:
 
 ```sh
 FOR i = 0 TO 100000
@@ -51,14 +49,13 @@ NEXT i
 
 ... which unfortunately is entirely dependent on the speed of the host's CPU. I had to cut most of these loops by a factor of 100 since the brower runs the programs so much slower than the original hardware.
 
-So, without further ado, here are the most interesting programs, delivered to you through time using the magic JavaScript. Click on any of the screenshots to launch the program in a new tab:
+So, without further ado, here are the most interesting programs, delivered to you through time using the magic JavaScript. Click on any of the screenshots below to launch the program in a new tab:
 
 ## SPIRO.BAS
 
 A precursor to my more modern project [Inspirograph](https://nathanfriend.io/inspirograph), this program creates Spirograph designs based on a few simple configurations.
 
 Hint: Here's an example configuration to get you started:
-
 -   Inner wheel size: 52
 -   Outer wheel size: 100
 -   Hole number: 25
@@ -120,7 +117,7 @@ A flash-card game for cello students that quizes their knowledge of bass clef, t
 
 ## COOL.BAS
 
-Another drawing program that creates intricate designs with customizable color palettes.  I used to draw these shapes with color pencils and a child, which inspired this QBasic version.
+Another drawing program that creates intricate designs with customizable color palettes.  I used to draw these shapes with color pencils as a child which inspired this QBasic version.
 
 <div class="runnable-program">
     <figure>
@@ -134,7 +131,7 @@ Another drawing program that creates intricate designs with customizable color p
 
 ## GIGA.BAS
 
-QBasic had a fun pitch generation API which I used to recreate my favorite piano and cello pieces.  Here's Bach's _Giga_ from the _Partita in B♭:
+QBasic had a fun pitch generation API which I used to recreate piano and cello pieces I was learning at the time.  Here's Bach's _Giga_ from the _Partita in B Flat_:
 
 <div class="runnable-program">
     <figure>
@@ -202,7 +199,7 @@ Feeling stressed?  This little game lets you punch a square with your enemy's na
     </a>
 </div>
 
-## And so much more...
+## And many, _many_ more...
 
 There's _lots_ more where the above came from. Here's a little GUI that can launch and run any of the programs I wrote as a child:
 
