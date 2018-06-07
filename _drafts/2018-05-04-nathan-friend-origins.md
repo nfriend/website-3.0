@@ -20,7 +20,7 @@ My mind immediately jumped to something that consumed hours and _hours_ of my ch
     <figcaption>If you grew up on QBasic, this screenshot will induce an immediate wave of nostalgia.</figcaption>
 </figure>
 
-QBasic was a fantastic first language. Getting started was a breeze - a first-time QBasic user could fire up the all-in-one IDE/runtime enviroment, write something like this:
+QBasic was a fantastic first language. Getting started was a breeze - a first-time QBasic user could fire up the all-in-one IDE/runtime environment, write something like this:
 
 ```sh
 PRINT "Hello, world!"
@@ -47,7 +47,7 @@ FOR i = 0 TO 100000
 NEXT i
 ```
 
-... which unfortunately is entirely dependent on the speed of the host's CPU. I had to cut most of these loops by a factor of 100 since the brower runs the programs so much slower than the original hardware.
+... which unfortunately is entirely dependent on the speed of the host's CPU. I had to cut most of these loops by a factor of 100 since the browser runs the programs so much slower than the original hardware.
 
 So, without further ado, here are the most interesting programs, delivered to you through time using the magic JavaScript. Click on any of the screenshots below to launch the program in a new tab:
 
@@ -103,7 +103,7 @@ A super short animation of a little man being sucked up by alien invaders.
 
 ## CELOHLP2.BAS
 
-A flash-card game for cello students that quizes their knowledge of bass clef, tenor clef, and treble clef, complete with a high-scores list.
+A flash-card game for cello students that quizzes  their knowledge of bass clef, tenor clef, and treble clef, complete with a high-scores list.
 
 <div class="runnable-program">
     <figure>
