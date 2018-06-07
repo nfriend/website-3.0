@@ -56,6 +56,7 @@ So, without further ado, here are the most interesting programs, delivered to yo
 A precursor to my more modern project [Inspirograph](https://nathanfriend.io/inspirograph), this program creates Spirograph designs based on a few simple configurations.
 
 Hint: Here's an example configuration to get you started:
+
 -   Inner wheel size: 52
 -   Outer wheel size: 100
 -   Hole number: 25
@@ -83,7 +84,7 @@ I gave it a few tries, and man, it is _hard_.
         <figcaption>ADVNTUR1.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ADVNTUR1.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -97,13 +98,13 @@ A super short animation of a little man being sucked up by alien invaders.
         <figcaption>ALNATTCK.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=ALNATTCK.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
 ## CELOHLP2.BAS
 
-A flash-card game for cello students that quizzes  their knowledge of bass clef, tenor clef, and treble clef, complete with a high-scores list.
+A flash-card game for cello students that quizzes their knowledge of bass clef, tenor clef, and treble clef, complete with a high-scores list.
 
 <div class="runnable-program">
     <figure>
@@ -111,13 +112,13 @@ A flash-card game for cello students that quizzes  their knowledge of bass clef,
         <figcaption>CELOHLP2.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay dark" href="https://nathanfriend.io/origins?file=CELOHLP2.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
     </a>
 </div>
 
 ## COOL.BAS
 
-Another drawing program that creates intricate designs with customizable color palettes.  I used to draw these shapes with color pencils as a child which inspired this QBasic version.
+Another drawing program that creates intricate designs with customizable color palettes. I used to draw these shapes with color pencils as a child which inspired this QBasic version.
 
 <div class="runnable-program">
     <figure>
@@ -131,7 +132,7 @@ Another drawing program that creates intricate designs with customizable color p
 
 ## GIGA.BAS
 
-QBasic had a fun pitch generation API which I used to recreate piano and cello pieces I was learning at the time.  Here's Bach's _Giga_ from the _Partita in B Flat_:
+QBasic had a fun pitch generation API which I used to recreate piano and cello pieces I was learning at the time. Here's Bach's _Giga_ from the _Partita in B Flat_:
 
 <div class="runnable-program">
     <figure>
@@ -139,13 +140,13 @@ QBasic had a fun pitch generation API which I used to recreate piano and cello p
         <figcaption>GIGA.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=GIGA.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
 ## GORILLA.BAS
 
-Okay, you got me - this one isn't mine.  It's one of the example programs that shipped with QBasic.  My siblings and I had loads of fun lobbing explosive bananas at each other.
+Okay, you got me - this one isn't mine. It's one of the example programs that shipped with QBasic. My siblings and I had loads of fun lobbing explosive bananas at each other.
 
 <div class="runnable-program">
     <figure>
@@ -153,7 +154,7 @@ Okay, you got me - this one isn't mine.  It's one of the example programs that s
         <figcaption>GORILLA.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=GORILLA.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -167,13 +168,13 @@ A Tetris clone.
         <figcaption>NEWTETRS.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=NEWTETRS.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
 ## PATIENCE.BAS
 
-Test your patience!  How long can you hold down <span class="keyboard-key">Q</span>?
+Test your patience! How long can you hold down <span class="keyboard-key">Q</span>?
 
 <div class="runnable-program">
     <figure>
@@ -181,13 +182,13 @@ Test your patience!  How long can you hold down <span class="keyboard-key">Q</sp
         <figcaption>PATIENCE.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=PATIENCE.BAS" target="_blank">
-        <img class="play-button highest" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
 ## STRESS.BAS
 
-Feeling stressed?  This little game lets you punch a square with your enemy's name on it until they spontaneously combust!
+Feeling stressed? This little game lets you punch a square with your enemy's name on it until they spontaneously combust!
 
 <div class="runnable-program">
     <figure>
@@ -195,7 +196,7 @@ Feeling stressed?  This little game lets you punch a square with your enemy's na
         <figcaption>STRESS.BAS</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins?file=STRESS.BAS" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -209,7 +210,7 @@ There's _lots_ more where the above came from. Here's a little GUI that can laun
         <figcaption>nathanfriend.io/origins</figcaption>
     </figure>
     <a class="runnable-program-overlay" href="https://nathanfriend.io/origins" target="_blank">
-        <img class="play-button higher" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
+        <img class="play-button" src="{{ 'assets/img/my-first-hello-world/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
 
@@ -251,17 +252,17 @@ If you're interested in how this little project works, [check it out on GitHub h
         margin: 0 auto;
         margin-top: 139px;
         opacity: .5;
-    }
-
-    .runnable-program .runnable-program-overlay .play-button.higher {
-        margin-top: 110px;
-    }
-
-    .runnable-program .runnable-program-overlay .play-button.highest {
-        margin-top: 95px;
+        top: 50%;
+        margin-top: -50px;
     }
 
     .runnable-program .runnable-program-overlay:hover .play-button {
         opacity: .8;
+    }
+
+    @media (min-width: 760px) and (max-width: 960px) {
+        .runnable-program .runnable-program-overlay .play-button {
+            margin-left: 271px;
+        }
     }
 </style>
