@@ -1,0 +1,46 @@
+.figure-link {
+    position: relative;
+
+    figure img {
+        border: 1px solid #ddd;
+    }
+
+    .figure-link-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 24px;
+        border-radius: 4px;
+        padding-right: 2px;
+        width: 100%;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        &.dark:hover {
+            background: rgba(0, 0, 0, 0.12);
+        }
+
+        .play-button {
+            position: relative;
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 139px;
+            opacity: 0.5;
+            top: 50%;
+            margin-top: -50px;
+        }
+
+        &:hover .play-button {
+            opacity: 0.8;
+        }
+    }
+}
+
+@media (min-width: 760px) and (max-width: 960px) {
+    .figure-link .figure-link-overlay .play-button {
+        margin-left: 271px;
+    }
+}
