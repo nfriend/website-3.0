@@ -177,6 +177,7 @@ I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=
   </li>
   <li>
     <b class="info-heading">Technologies:</b>
+    <a href="https://aws.amazon.com/">AWS</a>,
     <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
     <a href="https://nodejs.org/en/">Node.js</a>,
     <a href="https://developer.amazon.com/alexa-skills-kit">Alexa Skills Kit</a>
