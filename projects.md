@@ -15,6 +15,10 @@ image:  assets/img/projects/inspirograph.jpg
     margin-left: 1em;
     text-indent: -1em;
   }
+
+  .figure-link {
+    max-width: 500px;
+  }
 </style>
 
 <p>
