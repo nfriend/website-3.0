@@ -6,6 +6,10 @@ Another iteration of my personal website.  This one is blog-focused and utilizes
 
 To bundle and run this website locally, run `bundle exec jekyll serve` at the root of this project.
 
+## TODO
+
+- Fix indentation in `<li>`'s in projects page.
+
 ## License
 
 The following directories and their contents are Copyright Nathan Friend. You may not reuse anything therein without my permission:
