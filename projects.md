@@ -25,6 +25,10 @@ I love teaching myself new technologies, and I learn best by doing. As a result,
 For a full list of all my side projects, <a href="https://github.com/nfriend?tab=repositories">check out my profile on GitHub</a>.
 </p>
 
+<p>
+Also, a quick note - these are all <em>personal</em> projects.  Unfortunately, I can't include any of my professional projects here since they're all proprietary!  However, <a href="/assets/Nathan%20Friend%20-%20Résumé.pdf">you can take a look at my résumé</a> to get a feel for my professional experience.
+</p>
+
 <h2>Inspirograph</h2>
 
 <p>
@@ -206,7 +210,7 @@ I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=
 <h2>WebGL Chess</h2>
 
 <p>
-The final project for a graduate course I took at <a href="https://www.iastate.edu/">ISU</a> (HCI 557: Computer Graphics and Geometric Modeling) while working towards my Masters.  Here's a couple of bullet points stolen from the project's README on GitHub:
+The final project for a graduate course I took at <a href="https://www.iastate.edu/">ISU</a> (HCI 557: Computer Graphics and Geometric Modeling) while working towards my Masters.  Here are a couple of bullet points stolen from the project's README on GitHub:
 </p>
 
 <ul>
@@ -250,7 +254,7 @@ The final project for a graduate course I took at <a href="https://www.iastate.e
 <h2>nfjs</h2>
 
 <p>
-A naïve attempt at a client-side binding library, based on Knockout and Vue. Built to teach myself how JavaScript binding frameworks are implemented.
+A naïve attempt at a client-side binding library, based on <a href="http://knockoutjs.com/">Knockout</a> and <a href="https://vuejs.org/">Vue</a>. Built to teach myself how JavaScript binding frameworks are implemented.
 </p>
 
 <p>Should you use this library? No, definitely not!</p>
@@ -274,6 +278,36 @@ A naïve attempt at a client-side binding library, based on Knockout and Vue. Bu
         <figcaption>nathanfriend.io/nfjs</figcaption>
     </figure>
     <a class="figure-link-overlay dark" href="https://nathanfriend.io/nfjs/" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
+    </a>
+</div>
+
+<h2>nathanfriend.io</h2>
+
+<p>
+Little needs to be said about this project - you're currently experiencing it first-hand!
+</p>
+
+<ul>
+  <li>
+    <b class="info-heading">Dates:</b> April - June, 2018
+  </li>
+  <li>
+    <b class="info-heading">Technologies:</b>
+    <a href="https://jekyllrb.com/">Jekyll</a>,
+    <a href="https://azure.microsoft.com/">Azure</a>
+  </li>
+  <li>
+    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/website-3.0">github.com/nfriend/website-3.0</a>
+  </li>
+</ul>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/nathanfriendio.jpg" alt="A screenshot of this website" />
+        <figcaption>nathanfriend.io</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" href="https://nathanfriend.io/" target="_blank">
         <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
     </a>
 </div>
