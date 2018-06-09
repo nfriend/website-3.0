@@ -9,6 +9,7 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 ## TODO
 
 - Fix indentation in `<li>`'s in projects page.
+- Add more context to Theremin project on the project page.
 
 ## License
 
