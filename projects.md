@@ -130,7 +130,6 @@ Since these devices haven't really taken off (yet), it's probably safe to assume
     </a>
 </div>
 
-
 <h2>Origins</h2>
 
 <p>
@@ -159,5 +158,122 @@ A small web application that hosts a <a href="https://en.wikipedia.org/wiki/QBas
     </figure>
     <a class="figure-link-overlay" href="https://nathanfriend.io/origins" target="_blank">
         <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px.svg" />
+    </a>
+</div>
+
+<h2>Alexa Skills</h2>
+
+<p>
+I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=13727921011">Alexa skills</a> when Amazon offered <a href="https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-promotion">free Echo Dots for creating skills.</a>  The end results were simple, but fun!
+</p>
+
+<ul>
+  <li>
+    <b class="info-heading">Dates:</b> August - September, 2017
+  </li>
+  <li>
+    <b class="info-heading">Technologies:</b>
+    <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
+    <a href="https://nodejs.org/en/">Node.js</a>,
+    <a href="https://developer.amazon.com/alexa-skills-kit">Alexa Skills Kit</a>
+  </li>
+  <li>
+    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/tone-drone">github.com/nfriend/tone-drone</a>,<br />
+    <a style="margin-left: 104px;" href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>
+  </li>
+</ul>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/days-until.jpg" alt="A screenshot of the Days Until Alexa skill" />
+        <figcaption>Days Until Alexa Skill</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" href="https://www.amazon.com/gp/product/B0759KJ8D2?ie=UTF8&ref-suffix=ss_rw" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
+    </a>
+</div>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/tone-drone.jpg" alt="A screenshot of the Tone Drone Alexa skill" />
+        <figcaption>Tone Drone Alexa Skill</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" href="https://www.amazon.com/gp/product/B074M1XLNC?ie=UTF8&ref-suffix=ss_rw" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
+    </a>
+</div>
+
+<h2>WebGL Chess</h2>
+
+<p>
+The final project for a graduate course I took at <a href="https://www.iastate.edu/">ISU</a> (HCI 557: Computer Graphics and Geometric Modeling) while working towards my Masters.  Here's a couple of bullet points stolen from the project's README on GitHub:
+</p>
+
+<ul>
+  <li>
+  Utilizes <a href="https://stockfishchess.org/">Stockfish</a> Chess AI (in the form of <a href="https://github.com/exoticorn/stockfish-js">stockfish-js</a>) to generate chess moves for both players client-side
+  </li>
+  <li>
+  Full camera navigation using mouse (click + drag and scroll wheel), keyboard (arrow keys and <span class="keyboard-key">-</span> and <span class="keyboard-key">+</span>), and mobile gestures (drag to pan, pinch to zoom, two-finger rotate)
+  </li>
+  <li>Supports standard chess play - castling, substitution, check, etc.</li>
+  <li>Written in vanilla WebGL - no wrapping or abstraction libraries used</li>
+</ul>
+
+<p>Before you ask - unfortunately, no, you can't move the pieces yourself!  The Stockfish engine plays for both players.</p>
+
+<ul>
+  <li>
+    <b class="info-heading">Dates:</b> November - December, 2016
+  </li>
+  <li>
+    <b class="info-heading">Technologies:</b>
+    <a href="https://www.typescriptlang.org/">TypeScript</a>,
+    <a href="https://www.khronos.org/webgl/">WebGL</a>,
+    <a href="https://stockfishchess.org/">Stockfish</a>
+  </li>
+  <li>
+    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/webgl-chess">github.com/nfriend/webgl-chess</a>
+  </li>
+</ul>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/webgl-chess.jpg" alt="A screenshot of webgl-chess" />
+        <figcaption>nathanfriend.io/webgl-chess</figcaption>
+    </figure>
+    <a class="figure-link-overlay" href="https://nathanfriend.io/webgl-chess" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px.svg" />
+    </a>
+</div>
+
+<h2>nfjs</h2>
+
+<p>
+A naïve attempt at a client-side binding library, based on Knockout and Vue. Built to teach myself how JavaScript binding frameworks are implemented.
+</p>
+
+<p>Should you use this library? No, definitely not!</p>
+
+<ul>
+  <li>
+    <b class="info-heading">Dates:</b> February, 2015
+  </li>
+  <li>
+    <b class="info-heading">Technologies:</b>
+    <a href="https://www.typescriptlang.org/">TypeScript</a>
+  </li>
+  <li>
+    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/nfjs">github.com/nfriend/nfjs</a>
+  </li>
+</ul>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/nfjs.jpg" alt="A screenshot of nfjs" />
+        <figcaption>nathanfriend.io/nfjs</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" href="https://nathanfriend.io/nfjs/" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
     </a>
 </div>
