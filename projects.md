@@ -11,9 +11,9 @@ image:  assets/img/projects/inspirograph.jpg
 ---
 
 <style>
-  .info-heading {
-    display: inline-block;
-    width: 100px;
+  .hanging-indent {
+    margin-left: 1em;
+    text-indent: -1em;
   }
 </style>
 
@@ -37,13 +37,24 @@ This project earned me a few minutes of internet fame in 2014 when it trended on
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> July - August, 2014
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> July - August, 2014
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b> <a href="http://d3js.org/">D3.js</a>, <a href="http://www.typescriptlang.org/">TypeScript</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">HTML5 Canvas</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b> 
+      <a href="http://d3js.org/">D3.js</a>, 
+      <a href="http://www.typescriptlang.org/">TypeScript</a>, 
+      <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>, 
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">HTML5 Canvas</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/inspirograph">github.com/nfriend/inspirograph</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b>
+      <a href="https://github.com/nfriend/inspirograph">github.com/nfriend/inspirograph</a>
+    </div>
   </li>
 </ul>
 
@@ -65,13 +76,22 @@ One of my most rewarding projects, but perhaps one of the least flashy.  CoolToJ
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> April - May, 2015
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> April - May, 2015
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b> <a href="http://d3js.org/"><a href="https://en.wikipedia.org/wiki/Cool_(programming_language)">Cool</a></a>, <a href="http://www.typescriptlang.org/">TypeScript</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b> 
+      <a href="https://en.wikipedia.org/wiki/Cool_(programming_language)">Cool</a>,
+      <a href="http://www.typescriptlang.org/">TypeScript</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/cooltojs">github.com/nfriend/cooltojs</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b> 
+      <a href="https://github.com/nfriend/cooltojs">github.com/nfriend/cooltojs</a>
+    </div>
   </li>
 </ul>
 
@@ -111,16 +131,23 @@ Since these devices haven't really taken off (yet), it's probably safe to assume
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> August - September, 2013
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> August - September, 2013
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b>
-    <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
-    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>,
-    <a href="https://www.leapmotion.com/">Leap Motion controller</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>,
+      <a href="https://www.leapmotion.com/">Leap Motion controller</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/Theremin">github.com/nfriend/Theremin</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b> 
+      <a href="https://github.com/nfriend/Theremin">github.com/nfriend/Theremin</a>
+    </div>
   </li>
 </ul>
 
@@ -142,16 +169,23 @@ A small web application that hosts a <a href="https://en.wikipedia.org/wiki/QBas
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> May - June, 2018
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> May - June, 2018
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b>
-    <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
-    <a href="https://www.dosbox.com/download.php?main=1">DOSBox</a>,
-    <a href="https://en.wikipedia.org/wiki/QBasic">QBasic</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
+      <a href="https://www.dosbox.com/download.php?main=1">DOSBox</a>,
+      <a href="https://en.wikipedia.org/wiki/QBasic">QBasic</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/origins-host">github.com/nfriend/origins-host</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b> 
+      <a href="https://github.com/nfriend/origins-host">github.com/nfriend/origins-host</a>
+    </div>
   </li>
 </ul>
 
@@ -173,18 +207,25 @@ I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> August - September, 2017
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> August - September, 2017
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b>
-    <a href="https://aws.amazon.com/">AWS</a>,
-    <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
-    <a href="https://nodejs.org/en/">Node.js</a>,
-    <a href="https://developer.amazon.com/alexa-skills-kit">Alexa Skills Kit</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://aws.amazon.com/">AWS</a>,
+      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
+      <a href="https://nodejs.org/en/">Node.js</a>,
+      <a href="https://developer.amazon.com/alexa-skills-kit">Alexa Skills Kit</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/tone-drone">github.com/nfriend/tone-drone</a>,<br />
-    <a style="margin-left: 104px;" href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b> 
+      <a href="https://github.com/nfriend/tone-drone">github.com/nfriend/tone-drone</a>,
+      <a href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>
+    </div>
   </li>
 </ul>
 
@@ -229,16 +270,23 @@ The final project for a graduate course I took at <a href="https://www.iastate.e
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> November - December, 2016
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> November - December, 2016
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b>
-    <a href="https://www.typescriptlang.org/">TypeScript</a>,
-    <a href="https://www.khronos.org/webgl/">WebGL</a>,
-    <a href="https://stockfishchess.org/">Stockfish</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://www.typescriptlang.org/">TypeScript</a>,
+      <a href="https://www.khronos.org/webgl/">WebGL</a>,
+      <a href="https://stockfishchess.org/">Stockfish</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/webgl-chess">github.com/nfriend/webgl-chess</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b>
+      <a href="https://github.com/nfriend/webgl-chess">github.com/nfriend/webgl-chess</a>
+    </div>
   </li>
 </ul>
 
@@ -262,14 +310,21 @@ A naïve attempt at a client-side binding library, based on <a href="http://knoc
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> February, 2015
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> February, 2015
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b>
-    <a href="https://www.typescriptlang.org/">TypeScript</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://www.typescriptlang.org/">TypeScript</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/nfjs">github.com/nfriend/nfjs</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b>
+      <a href="https://github.com/nfriend/nfjs">github.com/nfriend/nfjs</a>
+    </div>
   </li>
 </ul>
 
@@ -291,15 +346,22 @@ Little needs to be said about this project - you're currently experiencing it fi
 
 <ul>
   <li>
-    <b class="info-heading">Dates:</b> April - June, 2018
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> April - June, 2018
+    </div>
   </li>
   <li>
-    <b class="info-heading">Technologies:</b>
-    <a href="https://jekyllrb.com/">Jekyll</a>,
-    <a href="https://azure.microsoft.com/">Azure</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://jekyllrb.com/">Jekyll</a>,
+      <a href="https://azure.microsoft.com/">Azure</a>
+    </div>
   </li>
   <li>
-    <b class="info-heading">Source:</b> <a href="https://github.com/nfriend/website-3.0">github.com/nfriend/website-3.0</a>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b>
+      <a href="https://github.com/nfriend/website-3.0">github.com/nfriend/website-3.0</a>
+    </div>
   </li>
 </ul>
 
