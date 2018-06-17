@@ -60,7 +60,7 @@ Hello, TypeScript!
 
 ## 5. Prove to yourself that it's working
 
-That seemed a bit easy - shoudn't there be a intermediate build step in there somewhere?  Let's try updating our `.ts` file with something that _shouldn't_ compile:
+That seemed a bit to easy - shoudn't there be an intermediate build step in there somewhere?  Let's try updating our `.ts` file with something that _shouldn't_ compile:
 
 ```ts
 #!/usr/bin/env ts-node
@@ -69,4 +69,6 @@ console.log('Hello, TypeScript!');
 
 var myStr: string = 4;
 ```
+
+Rerunning our script will now result in something like this:
 
