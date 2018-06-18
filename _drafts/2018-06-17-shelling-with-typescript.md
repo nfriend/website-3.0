@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Shell-ing With TypeScript
-date:   2019-06-17 04:59:12 -0300
+title:  "Shell-ing With TypeScript"
+date:   2018-06-17 04:59:12 -0300
 image:  assets/img/shelling-with-typescript/sdfasdf.png
 ---
 
-If you're like me, most of your time writing command-line utilities in a language like [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) or [DOS Batch](https://en.wikipedia.org/wiki/Batch_file) is spent Googling basic things like "how to loop in bash" while grumbling to yourself how easy this would be in a sane language like [TypeScript](https://www.typescriptlang.org/).  
+If you're like me, most of your time writing [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) scripts is spent Googling basic things like "how to loop in bash" while grumbling to yourself how easy this would be in a sane language like [TypeScript](https://www.typescriptlang.org/).  
 
-Fortunately, you can, using a cool project called [ts-node](https://github.com/TypeStrong/ts-node)!  And it's not even that hard.  Here's how:
+As it turns out, you _can_ write shell scripts using TypeScript, and it isn't even that hard!  Here's how:
 
 ## 1. Install dependencies
 
@@ -27,20 +27,20 @@ Create a new `.ts` file with a [shebang](https://en.wikipedia.org/wiki/Shebang_(
 #!/usr/bin/env ts-node
 ```
 
-Then, do some TypeScript-y stuff:
+Then, add some TypeScript-y stuff:
 
 ```ts
 #!/usr/bin/env ts-node
 
-console.log('Hello, TypeScript!');
+console.log('Hello from TypeScript!');
 ```
 
 ## 3. Make your script runnable
 
-After saving your TypeScript file, you'll need to update its permissions to allow the file to be executed:
+After saving your TypeScript file, you'll need to update its permissions to allow it to be executed:
 
 ```bash
-sudo chmod u+x ./my-shell-script.ts
+chmod u+x your-shell-script.ts
 ```
 
 ## 4. Run your TypeScript script
@@ -48,27 +48,53 @@ sudo chmod u+x ./my-shell-script.ts
 You can now run the script as you would any other command-line utility:
 
 ```bash
-> ./my-shell-script
+> ./your-shell-script.ts
 ```
 
-You'll be greeted with a friendly message from TypeScript:
+...which should result in a friendly message in your terminal:
 
 ```bash
 > ./my-shell-script
-Hello, TypeScript!
+Hello from TypeScript!
 ```
 
 ## 5. Prove to yourself that it's working
 
-That seemed a bit to easy - shoudn't there be an intermediate build step in there somewhere?  Let's try updating our `.ts` file with something that _shouldn't_ compile:
+That seemed a bit too easy - shoudn't there be an intermediate build step in there somewhere?  As a sanity check, update your `.ts` file with something that _shouldn't_ compile:
 
 ```ts
 #!/usr/bin/env ts-node
 
-console.log('Hello, TypeScript!');
+console.log('Hello from TypeScript!');
 
+// TypeScript compiler error:
+// Type '4' is not assignable to type 'string'.
 var myStr: string = 4;
 ```
 
-Rerunning our script will now result in something like this:
+Rerunning your script will now result in something like this:
 
+```bash
+/Users/nathanfriend/.nvm/versions/node/v7.10.0/lib/node_modules/ts-node/src/index.ts:250
+    return new TSError(diagnosticText, diagnosticCodes)
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+test.ts(5,5): error TS2322: Type '4' is not assignable to type 'string'.
+
+    at createTSError (/Users/nathanfriend/.nvm/versions/node/v7.10.0/lib/node_modules/ts-node/src/index.ts:250:12)
+    at getOutput (/Users/nathanfriend/.nvm/versions/node/v7.10.0/lib/node_modules/ts-node/src/index.ts:358:40)
+    at Object.compile (/Users/nathanfriend/.nvm/versions/node/v7.10.0/lib/node_modules/ts-node/src/index.ts:546:11)
+    at Module.m._compile (/Users/nathanfriend/.nvm/versions/node/v7.10.0/lib/node_modules/ts-node/src/index.ts:430:43)
+    at Module._extensions..js (module.js:580:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (/Users/nathanfriend/.nvm/versions/node/v7.10.0/lib/node_modules/ts-node/src/index.ts:433:12)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Function.Module.runMain (module.js:605:10)
+```
+
+This is good!  You shouldn't be able to run a TypeScript file if it contains compile-time errors.
+
+### So where is that compile step?
+
+There isn't one!  Well, not one that you have to explicitly run, anyway.  This is the magic of [ts-node](https://www.npmjs.com/package/ts-node) - it compiles and run TypeScript files _on the fly_ much like regular node runs JavaScript files.w
