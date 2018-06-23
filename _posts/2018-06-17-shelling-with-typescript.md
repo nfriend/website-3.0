@@ -2,10 +2,15 @@
 layout: post
 title:  "Shell-ing With TypeScript"
 date:   2018-06-17 04:59:12 -0300
-image:  assets/img/shelling-with-typescript/sdfasdf.png
+image:  assets/img/shelling-with-typescript/shebang.jpg
 ---
 
-If you're like me, most of your time writing [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) scripts is spent Googling basic things like "how to loop in bash" while grumbling to yourself how easy this would be in a sane language like [TypeScript](https://www.typescriptlang.org/).  
+<figure>
+    <img src="{{ 'assets/img/shelling-with-typescript/shebang.jpg' | relative_url }}" alt="The shebang text for running scripts using ts-node." />
+    <figcaption>Here's a TL;DR for my future self when I inevitably forget the correct shebang to use.</figcaption>
+</figure>
+
+If you're like me, most of your time writing [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) scripts is spent Googling basic things like "how to loop in bash" while grumbling to yourself how easy this would be in a sane language like [TypeScript](https://www.typescriptlang.org/).
 
 As it turns out, you _can_ write shell scripts using TypeScript, and it isn't even that hard!  Here's how:
 
@@ -43,7 +48,7 @@ After saving your TypeScript file, you'll need to update its permissions to allo
 chmod u+x your-shell-script.ts
 ```
 
-## 4. Run your TypeScript script
+## 4. Run your TypeScript file
 
 You can now run the script as you would any other command-line utility:
 
@@ -60,7 +65,7 @@ Hello from TypeScript!
 
 ## 5. Prove to yourself that it's working
 
-That seemed a bit too easy - shoudn't there be an intermediate build step in there somewhere?  As a sanity check, update your `.ts` file with something that _shouldn't_ compile:
+That seemed a bit too easy - shouldn't there be an intermediate build step in there somewhere?  As a sanity check, update your `.ts` file with something that _shouldn't_ compile:
 
 ```ts
 #!/usr/bin/env ts-node
@@ -97,4 +102,4 @@ This is good!  You shouldn't be able to run a TypeScript file if it contains com
 
 ### So where is that compile step?
 
-There isn't one!  Well, not one that you have to explicitly run, anyway.  This is the magic of [ts-node](https://www.npmjs.com/package/ts-node) - it compiles and run TypeScript files _on the fly_ much like regular node runs JavaScript files.w
+There isn't one!  Well, not one that you have to explicitly run, anyway.  This is the magic of [ts-node](https://www.npmjs.com/package/ts-node) - it compiles and runs TypeScript files _on the fly_ much like regular node runs JavaScript files.
