@@ -8,9 +8,7 @@ image:  assets/img/shelling-with-typescript/shebang.jpg
 <figure>
     <img src="{{ 'assets/img/shelling-with-typescript/shebang.jpg' | relative_url }}" alt="The shebang text for running scripts using ts-node." />
     <figcaption>Here's a TL;DR for my future self when I inevitably forget the correct shebang to use.</figcaption>
-</figure>
-
-If you're like me, most of your time writing [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) scripts is spent Googling basic things like "how to loop in bash" while grumbling to yourself how easy this would be in a sane language like [TypeScript](https://www.typescriptlang.org/).
+</figure>If you're like me, most of your time writing [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) scripts is spent Googling basic things like "how to loop in bash" while grumbling to yourself how easy this would be in a sane language like [TypeScript](https://www.typescriptlang.org/).
 
 As it turns out, you _can_ write shell scripts using TypeScript, and it isn't even that hard!  Here's how:
 
