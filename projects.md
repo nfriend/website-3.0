@@ -125,6 +125,17 @@ This little device tracks a user's hands in full 3D with incredible precision, o
 </p>
 
 <p>
+Around the same time, I discovered the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>. I have always been fascinated with the intersection of technology and music - I grew up in a musical family and even considered pursuing music professionally (<a href="https://youtu.be/4EZwNBJoiek">I play the cello</a>).  I began brainstorming  side project ideas that would make use of this technology when I ran across a video showcasing the creepy, futuristic sounds of the <a href="https://en.wikipedia.org/wiki/Theremin">theremin</a>, an electronic instrument that is played without any physical contact:
+</p>
+
+<figure>
+    <iframe class="rounded" width="500" height="315" src="https://www.youtube.com/embed/K6KbEnGnymk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <figcaption>"Over The Rainbow" played on a theremin.</figcaption>
+</figure>
+
+<p>What a perfect application for the Leap Motion controller!  I immediately began building an in-browser theremin powered by the Web Audio API that used the Leap Motion device as a controller.</p>
+
+<p>
 Since these devices haven't really taken off (yet), it's probably safe to assume you don't own one.  That's okay, because I made a little demo video to showcase the project:
 </p>
 
