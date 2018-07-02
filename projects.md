@@ -214,6 +214,48 @@ A small web application that hosts a <a href="https://en.wikipedia.org/wiki/QBas
     </a>
 </div>
 
+<h2>Roggle</h2>
+
+<p>
+My Canadian <del>girlfriend</del> <del>fiancée</del> wife and I dated long-distance for about a year before I made the leap across the border to <a href="https://www.google.ca/maps/place/Prince+Edward+Island/@46.6625399,-64.2347791,8z/data=!3m1!4b1!4m5!3m4!1s0x4b5e52ddd47f83c5:0xa968d6d5f4926686!8m2!3d46.510712!4d-63.4168136">Prince Edward Island</a> to live closer to her.  As a result, we spent <em>a lot</em> of time on Skype.  Since five hours of non-stop conversation can be a bit exhausting, we would often play video-chat-friendly games to pass the time.
+</p>
+
+<p>
+One of our favorites was a little project I built called Roggle, a digital clone of Boggle built with React.  The project used WebSockets to synchronize the board between countries to ensure my wife and I were always looking at the same set of letters.
+</p>
+
+<ul>
+  <li>
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> November, 2015
+    </div>
+  </li>
+  <li>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="https://www.typescriptlang.org/">TypeScript</a>,
+      <a href="https://reactjs.org/">React</a>,
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">WebSockets</a>
+    </div>
+  </li>
+  <li>
+    <div class="hanging-indent">
+      <b class="info-heading">Source:</b> 
+      <a href="https://github.com/nfriend/roggle">github.com/nfriend/roggle</a>
+    </div>
+  </li>
+</ul>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/roggle.jpg" alt="A screenshot of Roggle" />
+        <figcaption>13.84.128.73/roggle.  Pardon the lack of a domain name - I haven't had time to migrate this project to my new server!</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" style="margin-bottom: 17px;" href="http://13.84.128.73/roggle" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
+    </a>
+</div>
+
 <h2>Alexa Skills</h2>
 
 <p>
