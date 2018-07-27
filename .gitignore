@@ -2,4 +2,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+_tests/node_modules
+
 .DS_Store

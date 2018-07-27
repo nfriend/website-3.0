@@ -6,6 +6,10 @@ Another iteration of my personal website.  This one is blog-focused and utilizes
 
 To bundle and run this website locally, run `bundle exec jekyll serve` at the root of this project.
 
+## Testing
+
+To run tests, `cd` into the `_tests` directory, run `npm install`, and run `npm test`.
+
 ## TODO
 
 - Fix indentation in `<li>`'s in projects page.
