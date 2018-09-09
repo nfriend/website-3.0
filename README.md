@@ -10,6 +10,15 @@ To bundle and run this website locally, run `bundle exec jekyll serve` at the ro
 
 To run tests, `cd` into the `_tests` directory, run `npm install`, and run `npm test`.
 
+## Publishing
+
+To publish the finalized build artifacts to NPM, bump the version in `package.json` and run:
+
+- `bundle exec jekyll build`
+- `npm publish .\_site\`
+
+Make sure not to run `npm publish` from the root of the project, as this command will succeed, but will publish the wrong directory to NPM.
+
 ## TODO
 
 - Fix indentation in `<li>`'s in projects page.

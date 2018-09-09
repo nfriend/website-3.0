@@ -1,0 +1,13 @@
+{
+  "name": "@nathanfriend/website-3.0",
+  "version": "1.0.0",
+  "description": "The build artifacts from my static Jekyll site (nathanfriend.io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfriend/website-3.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nfriend/website-3.0/issues"
+  },
+  "homepage": "https://github.com/nfriend/website-3.0#readme"
+}
