@@ -249,10 +249,10 @@ One of our favorites was a little project I built called Roggle, a digital clone
 <div class="figure-link">
     <figure>
         <img src="/assets/img/projects/roggle.jpg" alt="A screenshot of Roggle" />
-        <figcaption>13.84.128.73/roggle.  Pardon the lack of a domain name - I haven't had time to migrate this project to my new server!</figcaption>
+        <figcaption>nathanfriend.io/roggle</figcaption>
     </figure>
-    <a class="figure-link-overlay dark" style="margin-bottom: 17px;" href="http://13.84.128.73/roggle" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
+    <a class="figure-link-overlay dark" style="margin-bottom: 17px;" href="https://nathanfriend.io/roggle" target="_blank">
+        <img class="play-button" src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
     </a>
 </div>
 
