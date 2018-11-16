@@ -7,9 +7,7 @@ image:  assets/img/es6-object-literal-shorthand-is-fun-and-kind-of-scary/object-
 
 <figure>
     <img src="{{ 'assets/img/es6-object-literal-shorthand-is-fun-and-kind-of-scary/object-literal.jpg' | relative_url }}" alt="An ES6 object literal with two emojis in it" />
-</figure><br />
-
-One of the small but important features of ES6 is a shorthand syntax for creating object literals:
+</figure><br />One of the small but important features of ES6 is a shorthand syntax for creating object literals:
 
 ```ts
 const person = { name, age, height, hairColor };
