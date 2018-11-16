@@ -6,7 +6,7 @@ Another iteration of my personal website.  This one is blog-focused and utilizes
 
 To bundle and run this website locally, run `bundle exec jekyll serve` at the root of this project.
 
-To include drafts and incremental compilation, use `bundle exec jekyll serve --incremental --drafts`.
+To include drafts, incremental compilation, and livereload, use `bundle exec jekyll serve --incremental --drafts --livereload`. (Livereload doesn't seem to work on Windows.)
 
 ## Testing
 

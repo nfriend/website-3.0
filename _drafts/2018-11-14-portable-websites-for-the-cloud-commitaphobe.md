@@ -25,11 +25,11 @@ Finally, I decided to get my act together and build a (mostly) automated process
 
 ## Dockerize everything
 
-Content about switching to Docker containers here.
+The first step involved refactoring each of my side [projects](/projects) to run in their own, dedicated container.  I was a little worried that getting some of my ancient PHP and MySQL projects to run in a modern Docker container would be difficult, but in fact it was surprisingly straight-forward.
 
 ### Let's Encrypt
 
-Content about switching to Let's Encrypt here.
+Perhaps the trickiest part was 
 
 ## (Ab)Use NPM as a build artifact store
 
