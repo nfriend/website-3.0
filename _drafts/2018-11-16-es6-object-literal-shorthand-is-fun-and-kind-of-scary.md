@@ -64,4 +64,3 @@ But wait! By changing the name of an internal variable, you've now changed the _
 If you're not using a compile-safe language like [TypeScript](https://www.typescriptlang.org/), you might forget to update the consumers of this function.  Or even if you _are_ using TypeScript, you might forget to update an HTML template that references this variable name. This has bitten me a few times in the past.
 
 Like I said, it's only _kind_ of scary.
-
