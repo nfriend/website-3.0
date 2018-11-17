@@ -14,23 +14,23 @@ Generating PDF reports is one of those features that _every_ enterprise develope
 
 This approach seems kind of weird and a bit overkill at first, but it has a number of pretty huge advantages:
 
--   You can build your reports using the most popular layout system in the world (HTML/CSS)
--   Anything that can be rendered in a webpage can be used in a report, including:
+-   You can build your PDFs using the most popular layout system in the world (HTML/CSS)
+-   Anything that can be rendered in a webpage can be used in a PDF, including:
     -   images
     -   custom fonts
     -   links
     -   3<sup>rd</sup> party JavaScript libraries (think visualization libraries like [D3.js](https://d3js.org/) or graphing libraries like [Google Charts](https://developers.google.com/chart/))
     -   _etc..._
--   If you're building a web application, you can reuse components from you application in your report
+-   If you're building a web application, you can reuse components from your application in your PDF
 -   Printing to a PDF is a [supported use case](https://developers.google.com/web/updates/2017/04/headless-chrome#create_a_pdf_dom) of Chrome's headless mode
 -   Google's own [Puppeteer](https://pptr.dev/) library gives you full control over the headless instance
--   You can develop your report in Chrome - with full access to Chrome's dev tools - instead of continually regenerating your report
+-   You can develop your PDF layout in Chrome - with full access to Chrome's dev tools - instead of continually regenerating the PDF to see changes
 
-It's not all unicorns and rainbows, though. Below are a few of the gotchas I discovered while building a real PDF report using headless Chrome.
+It's not all unicorns and rainbows, though. Below are a few of the gotchas I discovered while building a real PDF using headless Chrome.
 
 ## Headers and footers can't use external resources
 
-This is the big one. If you try and place an `<img>` tag in your header or footer (a pretty common use-case for a header or footer):
+This is the big one. If you try and place an `<img>` tag in your header or footer (a pretty common use case for a header or footer):
 
 ```html
 <img src="/assets/logo.jpg" />
@@ -44,9 +44,11 @@ One workaround is to encode the image into the template as a base64'd string:
 <img src="data:image/png;base64, iVBORw0KGg..." />
 ```
 
+I've found [this site](https://www.base64-image.de/) handy for converting an image into an `<img>`-compatible base64 string.
+
 ## Headers and footers don't inherit styles from the rest of the page
 
-Headers and footers are specified at PDF render time by passing HTML strings to the `pdf` method:
+Headers and footers are specified at PDF render time by passing HTML strings to the `page.pdf()` method:
 
 ```ts
 page.pdf({
@@ -55,14 +57,16 @@ page.pdf({
 });
 ```
 
-These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. This means that any styles that apply to the content of your report that you would like to also apply to your header and footer must be repeated in each of your header and footer templates. And unfortunately you can't just reference that same stylesheet using a `<link>` element - see point #1 above.
+These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. Any styles that apply to the content of your PDF that you would like to also apply to your header and footer must be repeated in each of your header and footer templates. And unfortunately you can't just reference that same stylesheet using a `<link>` element - see point #1 above.
 
 ## Headers and footers require explicit margins in order to show up
 
-This one took me a while to figure out. Chrome won't automatically resize your content to make space for the your header and footer templates. You'll need to make space for your header and footer by specifying a fixed margin at the top and bottom of your page:
+This one took me a while to figure out. Chrome won't automatically resize your content to make space for the header and footer templates. You'll need to make space for your header and footer by specifying a fixed margin at the top and bottom of your page:
 
 ```ts
 page.pdf({
+    headerTemplate: '<h1>This is the header!</h1>',
+    footerTemplate: '<h1>This is the footer!</h1>',
     margin: {
         top: '100px',
         bottom: '50px'
@@ -70,7 +74,7 @@ page.pdf({
 });
 ```
 
-Without this, the content will be rendered on top of your header and footer, leaving you wondering why your header and footer template aren't showing up.
+Without these margins, the content will be rendered on top of your header and footer, leaving you wondering why your header and footer template aren't showing up.
 
 ## Page breaks can be a pain
 
@@ -78,7 +82,7 @@ CSS provides some rules that determine where a page break should be placed when 
 
 ```css
 @media print {
-    .page-break {
+    .page {
         page-break-after: always;
     }
 }
@@ -99,11 +103,12 @@ There's a few edge cases - mostly dealing with headers/footers and page wrapping
 
 ## The page needs to finish loading
 
-If the page being screenshotted requires time to load, (for example, maybe the page has JavaScript that makes an AJAX request for some data), you'll need to wait for this initialization to complete before triggering screenshot.  If you simply screenshot the page right after the initial load, your PDF will be filled with loading bars and missing data.
+If the page being screenshotted requires time to load, (for example, if the page has JavaScript that makes an AJAX request for some data), you'll need to wait for this initialization to complete before triggering the screenshot.  If you simply screenshot the page right after the initial load, your PDF will be filled with loading bars and missing data.
 
 I worked around this by setting a global flag in the webpage once all initialization work is finished:
 
 ```ts
+// in the web page
 async init() {
     const data = await this.dataService.getData();
     const user = await this.userService.getUserProfile();
@@ -117,6 +122,7 @@ async init() {
 Then, using Puppeteer's [`page.waitForFunction()`] method, we can wait for this global variable to bet set:
 
 ```ts
+// on the server
 await page.waitForFunction('window.isReadyForPDF');
 // now we know the page is ready for a screenshot
 ```
@@ -145,7 +151,11 @@ There's some downsides to this approach, though:
 
 ---
 
-References/Attributions
+Disclaimer: my PDF generator was written in .NET Core, so I actually used a library called [Puppeteer Sharp](https://www.puppeteersharp.com/) which aims to replicate the API of the official [Puppeteer library](https://pptr.dev/) (which runs on Node).  Some of the examples above might be slightly off since I translated them from C♯ into JavaScript.
+
+---
+
+**References/Attributions**
 
 \[1\]: [https://stackoverflow.com/a/26265549/1063392](https://stackoverflow.com/a/26265549/1063392)
 
