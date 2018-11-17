@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PDF Gotchas with Headless Chrome"
-date:   2018-11-15 18:36:55 -0300
+date:   2018-11-16 18:36:55 -0300
 image:  assets/img/pdf-gotchas-with-headless-chrome/minifigure-chrome.jpg
 ---
 
@@ -30,7 +30,32 @@ It's not all unicorns and rainbows, though.  Below are a few of the gotchas I di
 
 ## Headers and footers can't use external resources
 
+This is the big one. If you try and place an `<img>` tag in your header or footer (a pretty common use-case for a header or footer):
+
+```html
+<img src="/assets/logo.jpg" />
+```
+
+...your image won't show up.  This is because Chrome won't make any requests for external resources that appear in the header or footer templates. 
+
+One workaround is to encode the image into the template as a base64'd string:
+
+```html
+<img src="data:image/png;base64, iVBORw0KGg..." />
+```
+
 ## Headers and footers don't inherit styles from the rest of the page
+
+Headers and footers are specified at PDF render time by passing HTML strings to the `pdf` method:
+
+```ts
+page.pdf({
+    headerTemplate: '<h1>This is the header!</h1>',
+    footerTemplate: '<h1>This is the footer!</h1>'
+});
+```
+
+These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. This means that 
 
 ## Headers and footers require explicit margins in order to show up
 
