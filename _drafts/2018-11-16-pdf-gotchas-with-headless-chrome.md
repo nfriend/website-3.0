@@ -99,7 +99,7 @@ I also had issues using `page-break-after` inside of a flexbox layout.
 
 ## Some advanced layouts simply aren't possible
 
-There's a few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control.  For example, want to place a special footer only on pages 2, 4, and 7?  Not possible.  (If it is, [let me know how!](mailto:hello@nathanfriend.io))
+There are few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control.  For example, want to place a special footer only on pages 2, 4, and 7?  Not possible.  (If it is, [let me know how!](mailto:hello@nathanfriend.io))
 
 ## The page needs to finish loading
 
@@ -142,7 +142,7 @@ await page.evaluate(() => {
 })
 ```
 
-There's some downsides to this approach, though:
+There are some downsides to this approach, though:
 
 - You now need to maintain a system account for logging in to the application for PDF screenshots
 - The extra login step adds quite a bit of time to the PDF generation process
