@@ -55,11 +55,26 @@ page.pdf({
 });
 ```
 
-These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. This means that 
+These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. This means that any styles that apply to the content of your report that you would like to also apply to your header and footer must be repeated in each of your header and footer templates.  And unfortunately you can't just reference that same stylesheet using a `<link>` element - see point #1 above.
 
 ## Headers and footers require explicit margins in order to show up
 
+This one took me a while to figure out.  Chrome won't automatically resize your content to make space for the your header and footer templates.  You'll need to make space for your header and footer by specifying a fixed margin at the top and bottom of your page:
+
+```ts
+page.pdf({
+    margin: {
+        top: '100px',
+        bottom: '50px'
+    }
+});
+```
+
+Without this, the content will be rendered on top of your header and footer, leaving you wondering why your header and footer template aren't showing up.
+
 ## Page breaks can be a pain
+
+CSS provides some rules that determine where a page break should be placed within the page when printing.  They work - but they're a bit finicky.
 
 ## Some advanced layouts simply aren't possible
 
