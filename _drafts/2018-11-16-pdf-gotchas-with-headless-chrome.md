@@ -136,14 +136,17 @@ await page.evaluate(() => {
 })
 ```
 
+There's some downsides to this approach, though:
 
+- You now need to maintain a system account for logging in to the application for PDF screenshots
+- The extra login step adds quite a bit of time to the PDF generation process
+- Your PDF generation is now dependent on your authentication/authorization system
+- It just feels kind of wrong
 
 ---
 
-References:
+References/Attributions
 
 \[1\]: [https://stackoverflow.com/a/26265549/1063392](https://stackoverflow.com/a/26265549/1063392)
 
-Attributions:
-
--   Minifigure/Chrome image from [https://hackernoon.com/so-many-testing-frameworks-so-little-time-b03c707b8f90](https://hackernoon.com/so-many-testing-frameworks-so-little-time-b03c707b8f90)
+Minifigure/Chrome image from [https://hackernoon.com/so-many-testing-frameworks-so-little-time-b03c707b8f90](https://hackernoon.com/so-many-testing-frameworks-so-little-time-b03c707b8f90)
