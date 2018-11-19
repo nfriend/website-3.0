@@ -23,7 +23,7 @@ This approach seems kind of weird and a bit overkill at first, but it has a numb
     -   _etc..._
 -   If you're building a web application, you can reuse components from your application in your PDF
 -   Printing to a PDF is a [supported use case](https://developers.google.com/web/updates/2017/04/headless-chrome#create_a_pdf_dom) of Chrome's headless mode
--   Google's own [Puppeteer](https://pptr.dev/) library gives you full control over the headless instance
+-   Google's own [Puppeteer](https://pptr.dev/) library gives you full control over the headless instance of Chrome
 -   You can develop your PDF layout in Chrome - with full access to Chrome's dev tools - instead of continually regenerating the PDF to see changes
 
 It's not all unicorns and rainbows, though. Below are a few of the gotchas I discovered while building a real PDF using headless Chrome.
@@ -57,9 +57,9 @@ page.pdf({
 });
 ```
 
-These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. Any styles that apply to the content of your PDF that you would like to also apply to your header and footer must be repeated in each of your header and footer templates. And unfortunately you can't just reference that same stylesheet using a `<link>` element - see point #1 above.
+These templates are rendered in a separate context than the content of the webpage. Because of this, the CSS styles that apply to the content won't apply to the header and the footer. Any styles that apply to the content of your PDF that you would like to also apply to your header and footer must be repeated in each of your header and footer templates. And unfortunately, you can't just reference a common stylesheet using a `<link>` element - see point #1 above.
 
-## Headers and footers require explicit margins in order to show up
+## Headers and footers require explicit margins to be visible
 
 This one took me a while to figure out. Chrome won't automatically resize your content to make space for the header and footer templates. You'll need to make space for your header and footer by specifying a fixed margin at the top and bottom of your page:
 
@@ -74,7 +74,7 @@ page.pdf({
 });
 ```
 
-Without these margins, the content will be rendered on top of your header and footer, leaving you wondering why your header and footer template aren't showing up.
+Without these margins, the content will be rendered on top of your header and footer, leaving you wondering why your header and footer templates aren't showing up.
 
 ## Page breaks can be a pain
 
@@ -99,7 +99,7 @@ I also had issues using `page-break-after` inside of a flexbox layout.
 
 ## Some advanced layouts simply aren't possible
 
-There are few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control.  For example, want to place a special footer only on pages 2, 4, and 7?  Not possible.  (If it is, [let me know how!](mailto:hello@nathanfriend.io))
+There are a few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control.  For example, want to place a special footer only on pages 2, 4, and 7?  Not possible.  (If it is, [let me know how!](mailto:hello@nathanfriend.io))
 
 ## The page needs to finish loading
 
@@ -115,11 +115,11 @@ async init() {
 
     // ...etc...
 
-    this.window.isReadyForPDF = true;
+    window.isReadyForPDF = true;
 }
 ```
 
-Then, using Puppeteer's [`page.waitForFunction()`] method, we can wait for this global variable to bet set:
+Then, using Puppeteer's [`page.waitForFunction()`](https://pptr.dev/#?product=Puppeteer&version=v1.10.0&show=api-pagewaitforfunctionpagefunction-options-args) method, we can wait for this global variable to bet set:
 
 ```ts
 // on the server
@@ -139,7 +139,7 @@ await page.evaluate(() => {
     document.querySelector('#username').value = 'my-username';
     document.querySelector('#password').value = 'my-password';
     document.querySelector('#log-in-button').click();
-})
+});
 ```
 
 There are some downsides to this approach, though:
@@ -151,7 +151,7 @@ There are some downsides to this approach, though:
 
 ---
 
-Disclaimer: my PDF generator was written in .NET Core, so I actually used a library called [Puppeteer Sharp](https://www.puppeteersharp.com/) which aims to replicate the API of the official [Puppeteer library](https://pptr.dev/) (which runs on Node).  Some of the examples above might be slightly off since I translated them from C♯ into JavaScript.
+Disclaimer: my PDF generator was written in .NET Core, so I actually used a library called [Puppeteer Sharp](https://www.puppeteersharp.com/) which aims to replicate the API of the official [Puppeteer library](https://pptr.dev/) (which runs on Node).  Some of the code examples above might be slightly off since I translated them from C♯ into JavaScript.
 
 ---
 
