@@ -51,23 +51,40 @@ pre {
         margin-top: 5px;
 
         a {
-            padding: 7px;
+            padding: 6px;
 
             svg {
                 width: 24px;
                 height: 24px;
-
-                path {
-                    fill: #267cb9;
-                }
             }
 
             &:hover,
             &:focus,
             &:active {
                 text-decoration: none;
+            }
+        }
+
+        a:not(.gitlab-link) {
+            &:hover,
+            &:focus,
+            &:active {
                 svg path {
                     fill: #015179;
+                }
+            }
+
+            svg path {
+                fill: #267cb9;
+            }
+        }
+
+        a.gitlab-link {
+            &:hover,
+            &:focus,
+            &:active {
+                svg path {
+                    opacity: 0.7;
                 }
             }
         }
