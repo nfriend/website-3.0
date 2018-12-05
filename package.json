@@ -1,6 +1,6 @@
 {
   "name": "@nathanfriend/website-3.0",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "The build artifacts from my static Jekyll site (nathanfriend.io)",
   "repository": {
     "type": "git",
