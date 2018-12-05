@@ -19,7 +19,7 @@ Hi, I'm Nathan Friend.  I live in Charlottetown, Prince Edward Island, Canada, a
 </figure>
 
 <p>
-<a href="/2018/12/04/the-next-chapter.html">I recently accepted a job</a> as a Senior Frontend Engineer at <a href="https://about.gitlab.com/">GitLab</a> on the <a href="https://about.gitlab.com/product/continuous-integration/">Release (Continuous Delivery)</a> team, where I'll be building new features using <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a> and <a href="https://vuejs.org/">Vue.js</a>. Check out what I'm up to on my <a href="https://gitlab.com/users/nathanfriend/activity">GitLab profile's activity page</a>.
+<a href="/2018/12/04/the-next-chapter.html">I recently accepted a job</a> as a Senior Frontend Engineer at <a href="https://about.gitlab.com/">GitLab</a> on the <a href="https://about.gitlab.com/product/continuous-integration/">Release (Continuous Delivery)</a> team, where I'll be building new features using <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a> and <a href="https://vuejs.org/">Vue.js</a>. Check out what I'm up to on my <a href="https://gitlab.com/users/nfriend/activity">GitLab profile's activity page</a>.
 </p>
 
 <p>
