@@ -7,9 +7,10 @@ author:
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
-hideHeader: true
 includeSearchScripts: true
 ---
 
-<div id="search-box"></div>
-<div id="hits"></div>
+<div class="search-page">
+    <div id="search-box"></div>
+    <div id="hits"></div>
+</div>

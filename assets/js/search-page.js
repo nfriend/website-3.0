@@ -5,12 +5,17 @@ var searchClient = algoliasearch(
 
 var search = instantsearch({
     indexName: 'nathanfriend.io',
-    searchClient
+    searchClient: searchClient,
+    routing: true
 });
 
 search.addWidget(
     instantsearch.widgets.searchBox({
-        container: '#search-box'
+        container: '#search-box',
+        placeholder: 'Search this site...',
+        autofocus: true,
+        showReset: false,
+        showSubmit: false
     })
 );
 
@@ -20,7 +25,7 @@ var hitTemplate = [
     '        {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}',
     '    </h2>',
     '</a>',
-    '<p> {{ date }} </p>',
+    '<span class="post-date"> {{ date }} </span>',
     '<p>',
     '    {{#helpers.highlight}}{ "attribute": "content" }{{/helpers.highlight}}',
     '</p>'
