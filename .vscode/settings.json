@@ -1,0 +1,7 @@
+// for CE
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#d6ce35",
+        "titleBar.activeForeground": "#000000"
+    }
+}

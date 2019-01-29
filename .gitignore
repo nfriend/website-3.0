@@ -5,3 +5,5 @@ _site/
 _tests/node_modules
 
 .DS_Store
+
+_algolia_api_key

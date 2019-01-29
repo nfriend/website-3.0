@@ -1,9 +1,7 @@
 <!-- Store the numnber of words minus 250 in "words" -->
 <!-- Taken from here: https://sacha.me/articles/jekyll-word-counts/ -->
-{% capture words %} 
-    {{ page.content | number_of_words | minus: 250 }}
-{% endcapture %}
-
+{% capture words %} {{ page.content | number_of_words | minus: 250 }} {%
+endcapture %} {% unless page.hideHeader %}
 <!-- If we are on the main page, make the title of the shown
      blog post be a link to the real post page  -->
 {% if page.layout == 'home' %}
@@ -19,49 +17,45 @@
 {% endif %}
 
 <p style="margin-bottom: 10px;">
-
     <!-- Add the date of the post to the title -->
-    {{ page.date | default: post.date | date: "%B %-d, %Y" }}
+    {{ page.date | default: post.date | date: '%B %-d, %Y' }}
 
     <!-- If there's a date, put a separator between it
          and the reading time indicator -->
     {% if (page and page.date) or (post and post.date) %}
-        <span>&nbsp;|&nbsp;</span>
-    {% endif %}
+    <span>&nbsp;|&nbsp;</span> {% endif %}
 
     <!-- Add the number of minutes to read to the title -->
     {% unless page.hideTimeToRead %}
-        {{ page.content | reading_time_as_i | append: " to read" }}
-    {% endunless %}
+    {{ page.content | reading_time_as_i | append: ' to read' }} {% endunless %}
 </p>
 
-<hr /> 
-<div class="content-container">
+<hr />
+{% endunless %}
 
+<div class="content-container">
     {% if (page.alert.danger or post.alert.danger) %}
     <div class="alert alert-danger">
-        <b>{{ page.alert.danger.title | default: post.alert.danger.title }}</b> 
+        <b>{{ page.alert.danger.title | default: post.alert.danger.title }}</b>
         {{ page.alert.danger.message | default: post.alert.danger.message }}
     </div>
-    {% endif %}
-
-    {% if (page.alert.warning or post.alert.warning) %}
+    {% endif %} {% if (page.alert.warning or post.alert.warning) %}
     <div class="alert alert-warning">
-        <b>{{ page.alert.warning.title | default: post.alert.warning.title }}</b> 
+        <b>{{
+            page.alert.warning.title | default: post.alert.warning.title
+        }}</b>
         {{ page.alert.warning.message | default: post.alert.warning.message }}
     </div>
-    {% endif %}
-    
-    {% if (page.alert.info or post.alert.info) %}
+    {% endif %} {% if (page.alert.info or post.alert.info) %}
     <div class="alert alert-info">
-        <b>{{ page.alert.info.title | default: post.alert.info.title }}</b> 
+        <b>{{ page.alert.info.title | default: post.alert.info.title }}</b>
         {{ page.alert.info.message | default: post.alert.info.message }}
     </div>
-    {% endif %}
-
-    {% if (page.alert.success or post.alert.success) %}
+    {% endif %} {% if (page.alert.success or post.alert.success) %}
     <div class="alert alert-success">
-        <b>{{ page.alert.success.title | default: post.alert.success.title }}</b> 
+        <b>{{
+            page.alert.success.title | default: post.alert.success.title
+        }}</b>
         {{ page.alert.success.message | default: post.alert.success.message }}
     </div>
     {% endif %}

@@ -12,6 +12,10 @@ To include drafts, incremental compilation, and livereload, use `bundle exec jek
 
 To run tests, `cd` into the `_tests` directory, run `npm install`, and run `npm test`.
 
+## Rebuilding Algolia search index
+
+To rebuild the Algolia search index (used on the search page), run `bundle exec jekyll algolia`.
+
 ## Publishing
 
 To publish the finalized build artifacts to NPM, bump the version in `package.json` and run:

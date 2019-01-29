@@ -1,12 +1,28 @@
 <script src="{{ '/assets/js/scale.fix.min.js' | relative_url }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.2/tippy.all.min.js"
-        integrity="sha256-EFZoge4iactaO4A0YELFBg3SaveV/nICew6pctkWDpU="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
-        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
-        crossorigin="anonymous"></script> 
-        
-{% unless page.hideComments %}
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.2/tippy.all.min.js"
+    integrity="sha256-EFZoge4iactaO4A0YELFBg3SaveV/nICew6pctkWDpU="
+    crossorigin="anonymous"
+></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+    integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
+    crossorigin="anonymous"
+></script>
+
+{% if page.includeSearchScripts %}
+<script
+    src="https://cdn.jsdelivr.net/npm/algoliasearch@3.32.0/dist/algoliasearchLite.min.js"
+    integrity="sha384-S8jhNOGc0AfeLoiD+nFdrcS/JFKUD6PB1hgDgsygZRANQdVm6wM7KpKf0U53Utad"
+    crossorigin="anonymous"
+></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/instantsearch.js@3.0.0/dist/instantsearch.production.min.js"
+    integrity="sha384-QlRusneySqU4Rf/1pbb7CvVnHxpjB9Xu+6FxKFKBe0TJObboUW58/TtLAo6QbHNf"
+    crossorigin="anonymous"
+></script>
+<script src="assets/js/search-page.js"></script>
+{% endif %} {% unless page.hideComments %}
 <!-- Discourse integration setup -->
 
 <!--
@@ -35,7 +51,6 @@
 
 <!-- Page setup -->
 <script>
-
     function setupPage() {
         // setup tippy tooltips on social media icons
         tippy('.tooltip-target', {
@@ -45,18 +60,16 @@
             duration: [0, 300]
         });
 
-
         // add page anchors to h1 - h6 elements in the content
         anchors.add(
             '.content-container h1,' +
-            '.content-container h2,' +
-            '.content-container h3,' +
-            '.content-container h4,' +
-            '.content-container h5,' +
-            '.content-container h6'
+                '.content-container h2,' +
+                '.content-container h3,' +
+                '.content-container h4,' +
+                '.content-container h5,' +
+                '.content-container h6'
         );
     }
 
     window.onload = setupPage;
-
 </script>
