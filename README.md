@@ -31,6 +31,7 @@ Make sure not to run `npm publish` from the root of the project, as this command
     -   Finish updating search page styles. Should match the Blog page.
     -   Add persistent search bar to page footer
     -   Add "powered by Algolia" tag
+    -   Add OpenSearch integration: https://developer.mozilla.org/en-US/docs/Web/OpenSearch
 -   Fix indentation in `<li>`'s in projects page.
 -   Add more context to Theremin project on the project page.
 
