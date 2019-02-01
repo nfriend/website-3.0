@@ -15,19 +15,27 @@ search.addWidget(
         placeholder: 'Search this site...',
         autofocus: true,
         showReset: false,
-        showSubmit: false
+        showSubmit: false,
+        showLoadingIndicator: false
     })
 );
 
 var hitTemplate = [
     '<a href="{{ url }}">',
-    '    <h2>',
+    '    <h2 class="post-list-title">',
     '        {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}',
     '    </h2>',
     '</a>',
-    '<span class="post-date"> {{ date }} </span>',
+    '<p class="post-list-date"> {{ date }} </p>',
+    '<div style="clear: both; float: none;"></div>',
     '<p>',
     '    {{#helpers.highlight}}{ "attribute": "content" }{{/helpers.highlight}}',
+    '</p>'
+].join('\n');
+
+var emptyTemplate = [
+    '<p>',
+    '    No results found for <b>{{ query }}</b>',
     '</p>'
 ].join('\n');
 
@@ -65,7 +73,10 @@ var transformItems = function transformItems(items) {
 search.addWidget(
     instantsearch.widgets.hits({
         container: '#hits',
-        templates: { item: hitTemplate },
+        templates: {
+            item: hitTemplate,
+            empty: emptyTemplate
+        },
         transformItems: transformItems
     })
 );

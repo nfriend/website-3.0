@@ -220,7 +220,7 @@ code.highlighter-rouge {
 // Styles specific to the search page
 .search-page {
     #search-box {
-        padding-bottom: 20px;
+        padding-bottom: 5px;
 
         input.ais-SearchBox-input {
             // Stolen from Bootstrap 4
@@ -286,6 +286,15 @@ code.highlighter-rouge {
     float: none;
     clear: both;
     margin-bottom: 15px;
+}
+
+#search-by-algolia {
+    text-align: right;
+    padding-bottom: 10px;
+
+    img {
+        width: 120px;
+    }
 }
 
 @media print, screen and (max-width: 960px) {
