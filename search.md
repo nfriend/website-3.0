@@ -18,4 +18,13 @@ includeSearchScripts: true
         </a>
     </div>
     <div id="hits"></div>
+
+    <noscript>
+        <p style="font-weight: bold">This page requires JavaScript to be enabled.</p>
+        <p>
+            For instructions on enabling JavaScript, please visit
+            <a href="https://enablejavascript.co/" target="_blank">https://enablejavascript.co/</a>
+        </p>
+    </noscript>
+
 </div>
