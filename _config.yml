@@ -33,6 +33,10 @@ sass:
 algolia:
     application_id: RYJN1YRC0M
     index_name: nathanfriend.io
+    files_to_exclude:
+        - index.html
+        - index.md
+        - search.md
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
