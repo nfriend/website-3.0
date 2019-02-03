@@ -399,7 +399,7 @@ A naïve attempt at a client-side binding library, based on <a href="http://knoc
 
 <p>
 Here's a non-programming project to add some variety to this page.
-This LEGO rendition of the <a href="https://about.gitlab.com/press/">GitLab Logo</a> took a few hours to build using some ancient software from my high school days.
+This LEGO rendition of the <a href="https://about.gitlab.com/press/press-kit/">GitLab Logo</a> took a few hours to build using some ancient software from my high school days.
 </p>
 
 <p>
