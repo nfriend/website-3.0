@@ -2,12 +2,12 @@
 layout: post
 title: Projects
 author:
-  name: Nathan Friend
-  url: https://nathanfriend.io
+    name: Nathan Friend
+    url: https://nathanfriend.io
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
-image:  assets/img/projects/inspirograph.jpg
+image: assets/img/projects/inspirograph.jpg
 ---
 
 <style>
@@ -392,6 +392,45 @@ A naïve attempt at a client-side binding library, based on <a href="http://knoc
     </figure>
     <a class="figure-link-overlay dark" href="https://nathanfriend.io/nfjs/" target="_blank">
         <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
+    </a>
+</div>
+
+<h2>LEGO GitLab Tanuki</h2>
+
+<p>
+Here's a non-programming project to add some variety to this page.
+This LEGO rendition of the <a href="https://about.gitlab.com/press/">GitLab Logo</a> took a few hours to build using some software I discovered as a pre-teen.
+</p>
+
+<p>
+Unfortunately, I don't yet have all the pieces necessary to build a non-digital version of this model. 
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8YJSGS6ZNCJ5S&item_name=To+buy+the+LEGO+pieces+necessary+to+build+the+LEGO+GitLab+Tanuki+model.&currency_code=USD&source=url" target="_blank">Want to help me out?</a>
+</p>
+
+<ul>
+  <li>
+    <div class="hanging-indent">
+      <b class="info-heading">Dates:</b> February, 2019
+    </div>
+  </li>
+  <li>
+    <div class="hanging-indent">
+      <b class="info-heading">Technologies:</b>
+      <a href="http://mlcad.lm-software.com/">MLCAD</a>,
+      <a href="http://www.ldraw.org/">LDraw</a>,
+      <a href="http://ldview.sourceforge.net/">LDView</a>,
+      <a href="https://trevorsandy.github.io/lpub3d/">LPub3D</a>
+    </div>
+  </li>
+</ul>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/lego-gitlab-logo.jpg" alt="The GitLab logo built with LEGOs" />
+        <figcaption>nathanfriend.io/LegoGitLabTanukiInstructions.pdf</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" href="https://nathanfriend.io/LegoGitLabTanukiInstructions.pdf" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
     </a>
 </div>
 
