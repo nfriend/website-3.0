@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'PDF Gotchas with Headless Chrome'
-date: 2018-11-22 18:36:55 -0300
+date: 2019-04-15 06:20:55 -0300
 image: assets/img/pdf-gotchas-with-headless-chrome/minifigure-chrome.jpg
 ---
 
-Generating PDF reports is one of those features that _every_ enterprise developer will implement at some point in their career. I had my turn on a project with my previous employer (I recently accepted [an exciting new job]({{ '/2018/11/26/the-next-chapter.html' | relative_url }})). After exploring the available options, I settled on using [Chrome's headless mode](https://developers.google.com/web/updates/2017/04/headless-chrome) to render HTML and save the result as a PDF.
+Generating PDF reports is one of those features that _every_ enterprise developer will implement at some point in their career. I had my turn on a project with my previous employer. After exploring the available options, I settled on using [Chrome's headless mode](https://developers.google.com/web/updates/2017/04/headless-chrome) to render HTML and save the result as a PDF.
 
 <figure>
     <img src="{{ 'assets/img/pdf-gotchas-with-headless-chrome/minifigure-chrome.jpg' | relative_url }}" alt="A headless minifigure and a Chrome logo" />
@@ -99,11 +99,11 @@ I also had issues using `page-break-after` inside of a flexbox layout.
 
 ## Some advanced layouts simply aren't possible
 
-There are a few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control.  For example, want to place a special footer only on pages 2, 4, and 7?  Not possible.  (If it is, [let me know how!](mailto:hello@nathanfriend.io))
+There are a few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control. For example, want to place a special footer only on pages 2, 4, and 7? Not possible. (If it is, [let me know how!](mailto:hello@nathanfriend.io))
 
 ## The page needs to finish loading
 
-If the page being screenshotted requires time to load, (for example, if the page has JavaScript that makes an AJAX request for some data), you'll need to wait for this initialization to complete before triggering the screenshot.  If you simply screenshot the page right after the initial load, your PDF will be filled with loading bars and missing data.
+If the page being screenshotted requires time to load, (for example, if the page has JavaScript that makes an AJAX request for some data), you'll need to wait for this initialization to complete before triggering the screenshot. If you simply screenshot the page right after the initial load, your PDF will be filled with loading bars and missing data.
 
 I worked around this by setting a global flag in the webpage once all initialization work is finished:
 
@@ -129,7 +129,7 @@ await page.waitForFunction('window.isReadyForPDF');
 
 ## The page might require authentication
 
-If the page you're screenshotting is part of a web application, it's likely there's an authentication step that's required to view the page.  This can be a bit of a pain to work around, but fortunately, Puppeteer provides enough control to programmatically log in to the application:
+If the page you're screenshotting is part of a web application, it's likely there's an authentication step that's required to view the page. This can be a bit of a pain to work around, but fortunately, Puppeteer provides enough control to programmatically log in to the application:
 
 ```ts
 await page.waitForSelector('#username');
@@ -144,14 +144,14 @@ await page.evaluate(() => {
 
 There are some downsides to this approach, though:
 
-- You now need to maintain a system account for logging in to the application for PDF screenshots
-- The extra login step adds quite a bit of time to the PDF generation process
-- Your PDF generation is now dependent on your authentication/authorization system
-- It just feels kind of wrong
+-   You now need to maintain a system account for logging in to the application for PDF screenshots
+-   The extra login step adds quite a bit of time to the PDF generation process
+-   Your PDF generation is now dependent on your authentication/authorization system
+-   It just feels kind of wrong
 
 ---
 
-Disclaimer: my PDF generator was written in .NET Core, so I actually used a library called [Puppeteer Sharp](https://www.puppeteersharp.com/) which aims to replicate the API of the official [Puppeteer library](https://pptr.dev/) (which runs on Node).  Some of the code examples above might be slightly off since I translated them from C♯ into JavaScript.
+Disclaimer: my PDF generator was written in .NET Core, so I actually used a library called [Puppeteer Sharp](https://www.puppeteersharp.com/) which aims to replicate the API of the official [Puppeteer library](https://pptr.dev/) (which runs on Node). Some of the code examples above might be slightly off since I translated them from C♯ into JavaScript.
 
 ---
 
