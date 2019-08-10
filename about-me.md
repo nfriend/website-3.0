@@ -2,8 +2,8 @@
 layout: post
 title: About Me
 author:
-  name: Nathan Friend
-  url: https://nathanfriend.io
+    name: Nathan Friend
+    url: https://nathanfriend.io
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
@@ -28,7 +28,7 @@ Before joining GitLab, I worked in both the agriculture and healthcare industrie
 </p>
 
 <p>
-I received my bachelor's in Computer Science from <a href="https://www.dordt.edu/">Dordt University</a> in Sioux Center, Iowa and am almost finished with a <a href="http://www.vrac.iastate.edu/hci/">Masters in Human-Computer Interaction from Iowa State University</a>.
+I received my bachelor's in Computer Science from <a href="https://www.dordt.edu/">Dordt University</a> in Sioux Center, Iowa and <del>am almost finished with</del> just completed a <a href="http://www.vrac.iastate.edu/hci/">Masters in Human-Computer Interaction from Iowa State University</a>.
 </p>
 
 <p>In my free time, I like to reinforce software engineer stereotypes by playing Ultimate Frisbee and <a href="/projects">working on side projects.</a> I also play the cello and do session work every chance I get.</p>
