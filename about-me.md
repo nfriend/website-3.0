@@ -31,6 +31,9 @@ Before joining GitLab, I worked in both the agriculture and healthcare industrie
 I received my bachelor's in Computer Science from <a href="https://www.dordt.edu/">Dordt University</a> in Sioux Center, Iowa and <del>am almost finished with</del> just completed a <a href="http://www.vrac.iastate.edu/hci/">Masters in Human-Computer Interaction from Iowa State University</a>.
 </p>
 
-<p>In my free time, I like to reinforce software engineer stereotypes by playing Ultimate Frisbee and <a href="/projects">working on side projects.</a> I also play the cello and do session work every chance I get.</p>
+<p>
+In my free time, I like to reinforce software engineer stereotypes by playing Ultimate Frisbee and <a href="/projects">working on side projects.</a> I play the cello and do session work every chance I get.
+I enjoy confusing my brain by <a href="https://gitlab.com/nfriend/qmk_firmware/tree/nfriend-ergodox-ez-layout/keyboards/ergodox_ez/keymaps/nfriend">customizing my keyboard layout</a>; check out <a href="https://people.ergodox-ez.com/nathan-friend/">this profile of me</a> that the makers of <a href="https://ergodox-ez.com/">my keyboard</a> put together.
+</p>
 
 <p>Oh, and no, <a href="https://en.wikipedia.org/wiki/Nathan_Friend">I'm not an Australian rugby player.</a></p>
