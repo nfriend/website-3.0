@@ -1,5 +1,8 @@
 {
     "extends": ["config:base", ":automergeMinor"],
     "labels": ["renovate", "dependencies"],
-    "assignees": ["nfriend"]
+    "assignees": ["nfriend"],
+    "bundler": {
+        "enabled": true
+    }
 }
