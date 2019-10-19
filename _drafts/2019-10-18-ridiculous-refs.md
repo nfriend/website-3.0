@@ -5,14 +5,14 @@ date: 2019-10-18 19:27:01 -0300
 image: assets/img/ridiculous-refs/mind-blown.png
 ---
 
-What is the absolute craziest name that [Git](https://www.git-scm.com/) will accept as a [ref](https://git-scm.com/book/en/v2/Git-Internals-Git-References) name (i.e. the name of a [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) or a [branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging))?
+How many special characters can you jam into a [Git ref](https://git-scm.com/book/en/v2/Git-Internals-Git-References) name (i.e. the name of a [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) or a [branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)) before Git will complain?
 
 <figure>
     <img src="{{ 'assets/img/ridiculous-refs/mind-blown.png' | relative_url }}" alt="The git logo with a exploding head inside" />
     <figcaption>As if Git isn't complicated enough <em>without</em> pushing it to its limits.</figcaption>
 </figure>
 
-The answer is... a lot crazier than I expected.
+The answer is... a _lot_.
 
 Here's the most ludicrous, verbose, asinine ref name I could come up with that Git still considers valid:
 
