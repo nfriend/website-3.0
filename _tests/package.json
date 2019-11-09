@@ -18,7 +18,7 @@
     "@types/request": "2.48.3",
     "@types/request-promise": "4.1.44",
     "chai": "4.2.0",
-    "chalk": "2.4.2",
+    "chalk": "3.0.0",
     "request": "2.88.0",
     "request-promise": "4.2.4",
     "require-dir": "1.2.0",
