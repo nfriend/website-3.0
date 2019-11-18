@@ -47,10 +47,10 @@ This project earned me a few minutes of internet fame in 2014 when it trended on
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b> 
-      <a href="http://d3js.org/">D3.js</a>, 
-      <a href="http://www.typescriptlang.org/">TypeScript</a>, 
-      <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>, 
+      <b class="info-heading">Technologies:</b>
+      <a href="http://d3js.org/">D3.js</a>,
+      <a href="http://www.typescriptlang.org/">TypeScript</a>,
+      <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>,
       <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">HTML5 Canvas</a>
     </div>
   </li>
@@ -86,14 +86,14 @@ One of my most rewarding projects, but perhaps one of the least flashy.  CoolToJ
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b> 
+      <b class="info-heading">Technologies:</b>
       <a href="https://en.wikipedia.org/wiki/Cool_(programming_language)">Cool</a>,
       <a href="http://www.typescriptlang.org/">TypeScript</a>
     </div>
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Source:</b> 
+      <b class="info-heading">Source:</b>
       <a href="https://github.com/nfriend/cooltojs">github.com/nfriend/cooltojs</a>
     </div>
   </li>
@@ -160,7 +160,7 @@ Since these devices haven't really taken off (yet), it's probably safe to assume
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Source:</b> 
+      <b class="info-heading">Source:</b>
       <a href="https://github.com/nfriend/Theremin">github.com/nfriend/Theremin</a>
     </div>
   </li>
@@ -198,7 +198,7 @@ A small web application that hosts a <a href="https://en.wikipedia.org/wiki/QBas
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Source:</b> 
+      <b class="info-heading">Source:</b>
       <a href="https://github.com/nfriend/origins-host">github.com/nfriend/origins-host</a>
     </div>
   </li>
@@ -240,7 +240,7 @@ One of our favorites was a little project I built called Roggle, a digital clone
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Source:</b> 
+      <b class="info-heading">Source:</b>
       <a href="https://github.com/nfriend/roggle">github.com/nfriend/roggle</a>
     </div>
   </li>
@@ -279,7 +279,7 @@ I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Source:</b> 
+      <b class="info-heading">Source:</b>
       <a href="https://github.com/nfriend/tone-drone">github.com/nfriend/tone-drone</a>,
       <a href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>
     </div>
@@ -395,42 +395,45 @@ A naïve attempt at a client-side binding library, based on <a href="http://knoc
     </a>
 </div>
 
-<h2>LEGO GitLab Tanuki</h2>
+<h2>Snow Day Notifier</h2>
 
 <p>
-Here's a non-programming project to add some variety to this page.
-This LEGO rendition of the <a href="https://about.gitlab.com/press/press-kit/">GitLab Logo</a> took a few hours to build using some ancient software from my high school days.
+My wife is a teacher, and <a href="/about-me">since we live in PEI</a>, we get <a href="https://www.google.com/search?q=2015+pei+snow&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiS64fJ9vTlAhWXvJ4KHVxHCEIQ_AUIESgB&biw=1680&bih=885&dpr=2"><em>lots</em> of snow</a>.
+We like to know as early as possible whether or not school is delayed or cancelled.
+Since <a href="2018/12/04/the-next-chapter.html">I work from home</a>, no school = no need to shovel the driveway.
 </p>
 
 <p>
-Unfortunately, I don't yet have all the pieces necessary to build a non-digital version of this model. 
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8YJSGS6ZNCJ5S&item_name=To+buy+the+LEGO+pieces+necessary+to+build+the+LEGO+GitLab+Tanuki+model.&currency_code=USD&source=url" target="_blank">Want to help me out?</a>
+This little project periodically scrapes the
+<a href="https://edu.princeedwardisland.ca/psb/">PEI Public Schools website</a>
+and looks for mentions of delays or closures.
+If it finds something, it sends an alert (through <a href="https://ifttt.com/">IFTTT</a>) to our phones.
 </p>
 
 <ul>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> February, 2019
+      <b class="info-heading">Dates:</b> November, 2019
     </div>
   </li>
   <li>
     <div class="hanging-indent">
       <b class="info-heading">Technologies:</b>
-      <a href="http://mlcad.lm-software.com/">MLCAD</a>,
-      <a href="http://www.ldraw.org/">LDraw</a>,
-      <a href="http://ldview.sourceforge.net/">LDView</a>,
-      <a href="https://trevorsandy.github.io/lpub3d/">LPub3D</a>
+      <a href="https://www.typescriptlang.org/">TypeScript</a>,
+      <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>,
+      <a href="https://serverless.com/">Serverless Framework</a>,
+      <a href="https://docs.gitlab.com/ee/ci/">GitLab CI/CD</a>
     </div>
   </li>
 </ul>
 
 <div class="figure-link">
     <figure>
-        <img src="/assets/img/projects/lego-gitlab-logo.jpg" alt="The GitLab logo built with LEGOs" />
-        <figcaption>nathanfriend.io/LegoGitLabTanukiInstructions.pdf</figcaption>
+        <img src="/assets/img/projects/snow-day-notifier.png" alt="A screenshot of the IFTTT notification sent by Snow Day Notifier" />
+        <figcaption>gitlab.com/nfriend/snow-day-notifier</figcaption>
     </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/LegoGitLabTanukiInstructions.pdf" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
+    <a class="figure-link-overlay dark" href="https://gitlab.com/nfriend/snow-day-notifier" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
     </a>
 </div>
 
