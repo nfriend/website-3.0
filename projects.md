@@ -272,16 +272,17 @@ I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=
     <div class="hanging-indent">
       <b class="info-heading">Technologies:</b>
       <a href="https://aws.amazon.com/">AWS</a>,
-      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
+      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>/<a href="https://www.typescriptlang.org/">TypeScript</a>,
       <a href="https://nodejs.org/en/">Node.js</a>,
       <a href="https://developer.amazon.com/alexa-skills-kit">Alexa Skills Kit</a>
     </div>
   </li>
   <li>
     <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
+      <b class="info-heading">Sources:</b>
       <a href="https://github.com/nfriend/tone-drone">github.com/nfriend/tone-drone</a>,
-      <a href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>
+      <a href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>,
+      <a href="https://gitlab.com/nfriend/lab-assistant">gitlab.com/nfriend/lab-assistant</a>
     </div>
   </li>
 </ul>
@@ -302,6 +303,16 @@ I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=
         <figcaption>Tone Drone Alexa Skill</figcaption>
     </figure>
     <a class="figure-link-overlay dark" href="https://www.amazon.com/gp/product/B074M1XLNC?ie=UTF8&ref-suffix=ss_rw" target="_blank">
+        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
+    </a>
+</div>
+
+<div class="figure-link">
+    <figure>
+        <img src="/assets/img/projects/lab-assistant.png" alt="A screenshot of the Lab Assistant Alexa skill" />
+        <figcaption>Lab Assistant Alexa Skill</figcaption>
+    </figure>
+    <a class="figure-link-overlay dark" href="https://www.amazon.com/Nathan-Friend-Consulting-LLC-Assistant/dp/B07XY2NBQC" target="_blank">
         <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
     </a>
 </div>
