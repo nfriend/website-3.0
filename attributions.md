@@ -2,36 +2,27 @@
 layout: post
 title: Attributions
 author:
-  name: Nathan Friend
-  url: https://nathanfriend.io
+    name: Nathan Friend
+    url: https://nathanfriend.io
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
 ---
 
-<p>
-  Profile photo taken by <a href="https://www.bridgetvictoria.ca/">Bridget Victoria Photography</a>.
-</p>
+Profile photo taken by
+[Bridget Victoria Photography](https://www.bridgetvictoria.ca/).
 
-<p>
-  This site's
-  <a href="https://jekyllrb.com/">Jekyll</a>
-  theme is based on
-  <a href="https://github.com/pages-themes/minimal">jekyll-theme-minimal</a>.
-  <a href="https://github.com/nfriend/website-3.0">View this site's Jekyll theme on GitHub.</a>
-</p>
+This site's [Jekyll](https://jekyllrb.com/) theme is based on
+[jekyll-theme-minimal](https://github.com/pages-themes/minimal).
+View this site's Jekyll theme on [GitLab](https://gitlab.com/nfriend/website-3.0)
+or [GitHub](https://github.com/nfriend/website-3.0).
 
-<p>
-  Social media icons were sourced from
-  <a href="https://fontawesome.com/">Font Awesome</a>
-  (<a href="https://fontawesome.com/license">license</a>).
-  No changes were made to the icons.
-</p>
+Social media icons were sourced from
+[Font Awesome](https://fontawesome.com/) ([license](https://fontawesome.com/license)).
+No changes were made to the icons.
 
-<p>
-  <div>
-    Favicon made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> 
-    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
-    is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
-  </div>
-</p>
+Favicon made by
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy 'Dave Gandy')
+from [www.flaticon.com](https://www.flaticon.com/ 'Flaticon')
+is licensed by
+[CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/ 'Creative Commons BY 3.0').
