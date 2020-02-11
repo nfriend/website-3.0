@@ -116,6 +116,16 @@ a {
     }
 }
 
+ul {
+    margin-left: 2em;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+li {
+    padding-left: 1em;
+}
+
 .header-section {
     padding-bottom: 30px;
     a {
@@ -235,6 +245,14 @@ figure {
         font-size: 90%;
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    .figure-link {
+        max-width: 500px;
+    }
+
+    p {
+        margin: 0;
     }
 }
 

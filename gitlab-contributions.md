@@ -10,19 +10,6 @@ hideMorePosts: true
 image: assets/img/gitlab-contributions/gitlab-logo.jpg
 ---
 
-<style>
-  ul {
-    list-style: disc outside none;
-    margin-left: 2em;
-    padding-left: 1em;
-    text-indent: -1em;
-  }
-
-  li {
-    padding-left: 1em;
-  }
-</style>
-
 One of the coolest things about working at [GitLab](https://about.gitlab.com/)
 is that _every_ line of code I write is source-available, and most of it
 is open source.
