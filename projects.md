@@ -10,477 +10,356 @@ hideMorePosts: true
 image: assets/img/projects/inspirograph.jpg
 ---
 
-<style>
-  .hanging-indent {
-    margin-left: 1em;
-    text-indent: -1em;
-  }
+I love teaching myself new technologies, and I learn best by doing.
+As a result, I always have at least three or four side projects on the go.
+Below are a few that managed to make it to a semi-finished state.
 
-  .figure-link {
-    max-width: 500px;
-  }
-</style>
+For a full list of all my side projects, check out my profile on
+[GitLab](https://gitlab.com/users/nfriend/projects) or
+[GitHub](https://github.com/nfriend?tab=repositories).
 
-<p>
-I love teaching myself new technologies, and I learn best by doing. As a result, I always have at least three or four side projects on the go.  Below are a few that managed to make it to a semi-finished state.
-</p>
+For examples of my professional work, check out
+[this summary of my contributions at GitLab](/gitlab-contributions)
+or take at [my résumé](/assets/Nathan%20Friend%20-%20Résumé.pdf).
 
-<p>
-For a full list of all my side projects, <a href="https://github.com/nfriend?tab=repositories">check out my profile on GitHub</a>.
-</p>
+## Inspirograph
 
-<p>
-Also, a quick note - these are all <em>personal</em> projects.  Unfortunately, I can't include any of my professional projects here since they're all proprietary!  However, <a href="/assets/Nathan%20Friend%20-%20Résumé.pdf">you can take a look at my résumé</a> to get a feel for my professional experience.
-</p>
+This project earned me a few minutes of internet fame in 2014 when it trended on
+[Hacker News](https://news.ycombinator.com/item?id=8698131) and
+[Reddit](https://www.reddit.com/r/InternetIsBeautiful/comments/2kwc6k/incredibly_well_done_online_inspirograph_maker/).
+I wrote up a more detailed post about this project [which you can read
+here](/2015/01/26/inspirograph.html).
 
-<h2>Inspirograph</h2>
+-   **Dates:** July - August, 2014
+-   **Technologies:**
+    [D3.js](http://d3js.org/),
+    [TypeScript](http://www.typescriptlang.org/),
+    [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),
+    [HTML5 Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+-   **Source:** [github.com/nfriend/inspirograph](https://github.com/nfriend/inspirograph)
 
-<p>
-This project earned me a few minutes of internet fame in 2014 when it trended on sites like <a href="https://news.ycombinator.com/item?id=8698131">Hacker News</a> and <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/2kwc6k/incredibly_well_done_online_inspirograph_maker/">Reddit</a>.  I wrote up a more detailed post about this project <a href="/2015/01/26/inspirograph.html">which you can read here</a>.
-</p>
-
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> July - August, 2014
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="http://d3js.org/">D3.js</a>,
-      <a href="http://www.typescriptlang.org/">TypeScript</a>,
-      <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>,
-      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">HTML5 Canvas</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/inspirograph">github.com/nfriend/inspirograph</a>
-    </div>
-  </li>
-</ul>
-
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/inspirograph.jpg" alt="A screenshot of Inspirograph" />
-        <figcaption>nathanfriend.io/inspirograph</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/inspirograph" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of Inspirograph](/assets/img/projects/inspirograph.jpg)
+<figcaption>nathanfriend.io/inspirograph</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
+](https://nathanfriend.io/inspirograph){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>CoolToJS</h2>
+## CoolToJS
 
-<p>
-One of my most rewarding projects, but perhaps one of the least flashy.  CoolToJS is a <a href="https://en.wikipedia.org/wiki/Cool_(programming_language)">Cool</a>-to-JavaScript transpiler, written for an online course I took for fun (<a href="https://online.stanford.edu/courses/soe-ycscs1-compilers">Stanford's <em>Compilers</em> by Alex Aiken.</a>). This project helped me develop a <em>much</em> deeper appreciation for the compilers I use every day.
-</p>
+One of my most rewarding projects, but perhaps one of the least flashy. CoolToJS
+is a
+[Cool](<https://en.wikipedia.org/wiki/Cool_(programming_language)>)-to-JavaScript
+transpiler, written for an online course I took for fun ([Stanford's _Compilers_
+by Alex Aiken.](https://online.stanford.edu/courses/soe-ycscs1-compilers)). This
+project helped me develop a _much_ deeper appreciation for the compilers I use
+every day.
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> April - May, 2015
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://en.wikipedia.org/wiki/Cool_(programming_language)">Cool</a>,
-      <a href="http://www.typescriptlang.org/">TypeScript</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/cooltojs">github.com/nfriend/cooltojs</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** April - May, 2015
+-   **Technologies:**
+    [Cool](<https://en.wikipedia.org/wiki/Cool_(programming_language)>),
+    [TypeScript](http://www.typescriptlang.org/)
+-   **Source:** [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/cooltojs.jpg" alt="A screenshot of CoolToJS" />
-        <figcaption>nathanfriend.io/cooltojs</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/cooltojs" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of CoolToJS](/assets/img/projects/cooltojs.jpg)
+<figcaption>nathanfriend.io/cooltojs</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
+](https://nathanfriend.io/cooltojs){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>Theremin</h2>
+## Theremin
 
-<p>
-When I saw the first demo of the <a href="https://amzn.to/2LB3jd4">Leap Motion</a> controller, I was hooked.
-</p>
+When I saw the first demo of the [Leap Motion](https://amzn.to/2LB3jd4) controller, I was hooked.
 
-<figure>
-    <img style="border: 1px solid #ddd;" src="/assets/img/projects/leap-motion-controller.jpg" alt="A Leap Motion controller" />
-    <figcaption>A Leap Motion controller</figcaption>
+<figure markdown="1">
+![A Leap Motion controller](/assets/img/projects/leap-motion-controller.jpg){:style="border: 1px solid #ddd;"}
+<figcaption>A Leap Motion controller</figcaption>
 </figure>
 
-<p>
-This little device tracks a user's hands in full 3D with incredible precision, opening up a whole new class of human-computer interaction.  And it retails for about $80!
-</p>
+This little device tracks a user's hands in full 3D with incredible
+precision, opening up a whole new class of human-computer interaction.
+And it retails for about \$80!
 
-<p>
-Around the same time, I discovered the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>. I have always been fascinated with the intersection of technology and music - I grew up in a musical family and even considered pursuing music professionally (<a href="https://youtu.be/4EZwNBJoiek">I play the cello</a>).  I began brainstorming  side project ideas that would make use of this technology when I ran across a video showcasing the creepy, futuristic sounds of the <a href="https://en.wikipedia.org/wiki/Theremin">theremin</a>, an electronic instrument that is played without any physical contact:
-</p>
+Around the same time, I discovered the [Web Audio
+API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). I have
+always been fascinated with the intersection of technology and music - I grew up
+in a musical family and even considered pursuing music professionally ([I play
+the cello](https://youtu.be/4EZwNBJoiek)). I began brainstorming side project
+ideas that would make use of this technology when I ran across a video
+showcasing the creepy, futuristic sounds of the
+[theremin](https://en.wikipedia.org/wiki/Theremin), an electronic instrument
+that is played without any physical contact:
 
 <figure>
-    <iframe class="rounded" width="500" height="315" src="https://www.youtube.com/embed/K6KbEnGnymk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe class="rounded"
+            width="500"
+            height="315"
+            src="https://www.youtube.com/embed/K6KbEnGnymk"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+    </iframe>
     <figcaption>"Over The Rainbow" played on a theremin.</figcaption>
 </figure>
 
-<p>What a perfect application for the Leap Motion controller!  I immediately began building an in-browser theremin powered by the Web Audio API that used the Leap Motion device as a controller.</p>
+What a perfect application for the Leap Motion controller! I immediately began
+building an in-browser theremin powered by the Web Audio API that used the Leap
+Motion device as a controller.
 
-<p>
-Since these devices haven't really taken off (yet), it's probably safe to assume you don't own one.  That's okay, because I made a little demo video to showcase the project:
-</p>
+Since these devices haven't really taken off (yet), it's probably safe to assume
+you don't own one. That's okay, because I made a little demo video to showcase
+the project:
 
 <figure>
-    <iframe class="rounded" width="500" height="315" src="https://www.youtube.com/embed/J5wW4-yr6zY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe class="rounded"
+            width="500"
+            height="315"
+            src="https://www.youtube.com/embed/J5wW4-yr6zY"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+    </iframe>
     <figcaption>A demo of Theremin using the Leap Motion controller.</figcaption>
 </figure>
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> August - September, 2013
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
-      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>,
-      <a href="https://www.leapmotion.com/">Leap Motion controller</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/Theremin">github.com/nfriend/Theremin</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** August - September, 2013
+-   **Technologies:**
+    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
+    [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API),
+    [Leap Motion controller](https://www.leapmotion.com/)
+-   **Source:** [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/theremin.jpg" alt="A screenshot of Theremin" />
-        <figcaption>nathanfriend.io/theremin</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/theremin" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of Theremin](/assets/img/projects/theremin.jpg)
+<figcaption>nathanfriend.io/theremin</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
+](https://nathanfriend.io/theremin){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>Origins</h2>
+## Origins
 
-<p>
-A small web application that hosts a <a href="https://en.wikipedia.org/wiki/QBasic">QBasic</a> environment inside the browser (using <a href="https://www.dosbox.com/download.php?main=1">DOSBox</a>) and runs all the little programs I wrote as a child when first learning to program.  I wrote a blog post about this project which <a href="/2018/06/07/my-first-hello-world.html">you can read here.</a>
-</p>
+A small web application that hosts a
+[QBasic](https://en.wikipedia.org/wiki/QBasic) environment inside the browser
+(using [DOSBox](https://www.dosbox.com/download.php?main=1)) and runs all the
+little programs I wrote as a child when first learning to program. I wrote a
+blog post about this project which [you can read
+here.](/2018/06/07/my-first-hello-world.html)
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> May - June, 2018
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>,
-      <a href="https://www.dosbox.com/download.php?main=1">DOSBox</a>,
-      <a href="https://en.wikipedia.org/wiki/QBasic">QBasic</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/origins-host">github.com/nfriend/origins-host</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** May - June, 2018
+-   **Technologies:**
+    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
+    [DOSBox](https://www.dosbox.com/download.php?main=1),
+    [QBasic](https://en.wikipedia.org/wiki/QBasic)
+-   **Source:** [github.com/nfriend/origins-host](https://github.com/nfriend/origins-host)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/origins.jpg" alt="A screenshot of Origins" />
-        <figcaption>nathanfriend.io/origins</figcaption>
-    </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of Origins](/assets/img/projects/origins.jpg)
+<figcaption>nathanfriend.io/origins</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px.svg){: .play-button}
+](https://nathanfriend.io/origins){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
 </div>
 
-<h2>Roggle</h2>
+## Roggle
 
-<p>
-My Canadian <del>girlfriend</del> <del>fiancée</del> wife and I dated long-distance for about a year before I made the leap across the border to <a href="https://www.google.ca/maps/place/Prince+Edward+Island/@46.6625399,-64.2347791,8z/data=!3m1!4b1!4m5!3m4!1s0x4b5e52ddd47f83c5:0xa968d6d5f4926686!8m2!3d46.510712!4d-63.4168136">Prince Edward Island</a> to live closer to her.  As a result, we spent <em>a lot</em> of time on Skype.  Since five hours of non-stop conversation can be a bit exhausting, we would often play video-chat-friendly games to pass the time.
-</p>
+My Canadian ~~girlfriend~~ ~~fiancée~~ wife and I dated
+long-distance for about a year before I made the leap across the border to
+[Prince Edward
+Island](https://www.google.ca/maps/place/Prince+Edward+Island/@46.6625399,-64.2347791,8z/data=!3m1!4b1!4m5!3m4!1s0x4b5e52ddd47f83c5:0xa968d6d5f4926686!8m2!3d46.510712!4d-63.4168136)
+to live closer to her. As a result, we spent _a lot_ of time on Skype. Since
+five hours of non-stop conversation can be a bit exhausting, we would often play
+video-chat-friendly games to pass the time.
 
-<p>
-One of our favorites was a little project I built called Roggle, a digital clone of Boggle built with React.  The project used WebSockets to synchronize the board between countries to ensure my wife and I were always looking at the same set of letters.
-</p>
+One of our favorites was a little project I built called Roggle, a digital clone
+of Boggle built with React. The project used WebSockets to synchronize the board
+between countries to ensure my wife and I were always looking at the same set of
+letters.
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> November, 2015
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://www.typescriptlang.org/">TypeScript</a>,
-      <a href="https://reactjs.org/">React</a>,
-      <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">WebSockets</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/roggle">github.com/nfriend/roggle</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** November, 2015
+-   **Technologies:**
+    [TypeScript](https://www.typescriptlang.org/),
+    [React](https://reactjs.org/),
+    [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+-   **Source:** [github.com/nfriend/roggle](https://github.com/nfriend/roggle)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/roggle.jpg" alt="A screenshot of Roggle" />
-        <figcaption>nathanfriend.io/roggle</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" style="margin-bottom: 17px;" href="https://nathanfriend.io/roggle" target="_blank">
-        <img class="play-button" src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of Roggle](/assets/img/projects/roggle.jpg)
+<figcaption>nathanfriend.io/roggle</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
+](https://nathanfriend.io/roggle){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>Alexa Skills</h2>
+## Alexa Skills
 
-<p>
-I couldn't resist building a few <a href="https://www.amazon.com/b?ie=UTF8&node=13727921011">Alexa skills</a> when Amazon offered <a href="https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-promotion">free Echo Dots for creating skills.</a>  The end results were simple, but fun!
-</p>
+I couldn't resist building a few [Alexa
+skills](https://www.amazon.com/b?ie=UTF8&node=13727921011) when Amazon offered
+[free Echo Dots for creating
+skills.](https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-promotion)
+The end results were simple, but fun!
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> August - September, 2017
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://aws.amazon.com/">AWS</a>,
-      <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">JavaScript</a>/<a href="https://www.typescriptlang.org/">TypeScript</a>,
-      <a href="https://nodejs.org/en/">Node.js</a>,
-      <a href="https://developer.amazon.com/alexa-skills-kit">Alexa Skills Kit</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Sources:</b>
-      <a href="https://github.com/nfriend/tone-drone">github.com/nfriend/tone-drone</a>,
-      <a href="https://github.com/nfriend/days-until">github.com/nfriend/days-until</a>,
-      <a href="https://gitlab.com/nfriend/lab-assistant">gitlab.com/nfriend/lab-assistant</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** August - September, 2017
+-   **Technologies:**
+    [AWS](https://aws.amazon.com/),
+    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)/[TypeScript](https://www.typescriptlang.org/),
+    [Node.js](https://nodejs.org/en/),
+    [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit)
+-   **Sources:**
+    [github.com/nfriend/tone-drone](https://github.com/nfriend/tone-drone),
+    [github.com/nfriend/days-until](https://github.com/nfriend/days-until),
+    [gitlab.com/nfriend/lab-assistant](https://gitlab.com/nfriend/lab-assistant)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/days-until.jpg" alt="A screenshot of the Days Until Alexa skill" />
-        <figcaption>Days Until Alexa Skill</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://www.amazon.com/gp/product/B0759KJ8D2?ie=UTF8&ref-suffix=ss_rw" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of the Days Until Alexa skill](/assets/img/projects/days-until.jpg)
+<figcaption>Days Until Alexa Skill</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
+](https://www.amazon.com/gp/product/B0759KJ8D2?ie=UTF8&ref-suffix=ss_rw){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/tone-drone.jpg" alt="A screenshot of the Tone Drone Alexa skill" />
-        <figcaption>Tone Drone Alexa Skill</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://www.amazon.com/gp/product/B074M1XLNC?ie=UTF8&ref-suffix=ss_rw" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![Tone Drone Alexa Skill](/assets/img/projects/tone-drone.jpg)
+<figcaption>Tone Drone Alexa Skill</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
+](https://www.amazon.com/gp/product/B074M1XLNC?ie=UTF8&ref-suffix=ss_rw){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/lab-assistant.png" alt="A screenshot of the Lab Assistant Alexa skill" />
-        <figcaption>Lab Assistant Alexa Skill</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://www.amazon.com/Nathan-Friend-Consulting-LLC-Assistant/dp/B07XY2NBQC" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of the Lab Assistant Alexa skill](/assets/img/projects/lab-assistant.png)
+<figcaption>Lab Assistant Alexa Skill</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
+](https://www.amazon.com/Nathan-Friend-Consulting-LLC-Assistant/dp/B07XY2NBQC){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>WebGL Chess</h2>
+## WebGL Chess
 
-<p>
-The final project for a graduate course I took at <a href="https://www.iastate.edu/">ISU</a> (HCI 557: Computer Graphics and Geometric Modeling) while working towards my Masters.  Here are a couple of bullet points stolen from the project's README on GitHub:
-</p>
+The final project for a graduate course I took at
+[ISU](https://www.iastate.edu/) (HCI 557: Computer Graphics and Geometric
+Modeling) while working towards my Masters. Here are a couple of bullet points
+stolen from the project's README on GitHub:
 
-<ul>
-  <li>
-  Utilizes <a href="https://stockfishchess.org/">Stockfish</a> Chess AI (in the form of <a href="https://github.com/exoticorn/stockfish-js">stockfish-js</a>) to generate chess moves for both players client-side
-  </li>
-  <li>
-  Full camera navigation using mouse (click + drag and scroll wheel), keyboard (arrow keys and <span class="keyboard-key">-</span> and <span class="keyboard-key">+</span>), and mobile gestures (drag to pan, pinch to zoom, two-finger rotate)
-  </li>
-  <li>Supports standard chess play - castling, substitution, check, etc.</li>
-  <li>Written in vanilla WebGL - no wrapping or abstraction libraries used</li>
-</ul>
+-   Utilizes [Stockfish](https://stockfishchess.org/) Chess AI (in the form of
+    [stockfish-js](https://github.com/exoticorn/stockfish-js)) to generate chess
+    moves for both players client-side
+-   Full camera navigation using mouse (click + drag and scroll wheel), keyboard
+    (arrow keys and <span class="keyboard-key">-</span> and <span
+    class="keyboard-key">+</span>), and mobile gestures (drag to pan, pinch to
+    zoom, two-finger rotate)
+-   Supports standard chess play - castling, substitution, check, etc.
+-   Written in vanilla WebGL - no wrapping or abstraction libraries used
 
-<p>Before you ask - unfortunately, no, you can't move the pieces yourself!  The Stockfish engine plays for both players.</p>
+Before you ask - unfortunately, no, you can't move the pieces yourself! The
+Stockfish engine plays for both players.
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> November - December, 2016
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://www.typescriptlang.org/">TypeScript</a>,
-      <a href="https://www.khronos.org/webgl/">WebGL</a>,
-      <a href="https://stockfishchess.org/">Stockfish</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/webgl-chess">github.com/nfriend/webgl-chess</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** November - December, 2016
+-   **Technologies:**
+    [TypeScript](https://www.typescriptlang.org/),
+    [WebGL](https://www.khronos.org/webgl/),
+    [Stockfish](https://stockfishchess.org/)
+-   **Source:** [github.com/nfriend/webgl-chess](https://github.com/nfriend/webgl-chess)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/webgl-chess.jpg" alt="A screenshot of webgl-chess" />
-        <figcaption>nathanfriend.io/webgl-chess</figcaption>
-    </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/webgl-chess" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of webgl-chess](/assets/img/projects/webgl-chess.jpg)
+<figcaption>nathanfriend.io/webgl-chess</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px.svg){: .play-button}
+](https://nathanfriend.io/webgl-chess){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
 </div>
 
-<h2>nfjs</h2>
+## nfjs
 
-<p>
-A naïve attempt at a client-side binding library, based on <a href="http://knockoutjs.com/">Knockout</a> and <a href="https://vuejs.org/">Vue</a>. Built to teach myself how JavaScript binding frameworks are implemented.
-</p>
+A naïve attempt at a client-side binding library, based on
+[Knockout](http://knockoutjs.com/) and [Vue](https://vuejs.org/). Built to teach
+myself how JavaScript binding frameworks are implemented.
 
-<p>Should you use this library? No, definitely not!</p>
+Should you use this library? No, definitely not!
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> February, 2015
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://www.typescriptlang.org/">TypeScript</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/nfjs">github.com/nfriend/nfjs</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** February, 2015
+-   **Technologies:**
+    [TypeScript](https://www.typescriptlang.org/),
+-   **Source:** [github.com/nfriend/nfjs](https://github.com/nfriend/nfjs)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/nfjs.jpg" alt="A screenshot of nfjs" />
-        <figcaption>nathanfriend.io/nfjs</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/nfjs/" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of nfjs](/assets/img/projects/nfjs.jpg)
+<figcaption>nathanfriend.io/nfjs</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
+](https://nathanfriend.io/nfjs){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>Snow Day Notifier</h2>
+## Snow Day Notifier
 
-<p>
-My wife is a teacher, and <a href="/about-me">since we live in PEI</a>, we get <a href="https://www.google.com/search?q=2015+pei+snow&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiS64fJ9vTlAhWXvJ4KHVxHCEIQ_AUIESgB&biw=1680&bih=885&dpr=2"><em>lots</em> of snow</a>.
-We like to know as early as possible whether or not school is delayed or cancelled.
-Since <a href="2018/12/04/the-next-chapter.html">I work from home</a>, no school = no need to shovel the driveway.
-</p>
+My wife is a teacher, and [since we ~~live~~ used to live in PEI](/about-me), we got [_lots_ of
+snow](https://www.google.com/search?q=2015+pei+snow&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiS64fJ9vTlAhWXvJ4KHVxHCEIQ_AUIESgB&biw=1680&bih=885&dpr=2).
+We like to know as early as possible whether or not school is delayed or
+cancelled. Since [I work from home](2018/12/04/the-next-chapter.html), no school
+= no need to shovel the driveway.
 
-<p>
-This little project periodically scrapes the
-<a href="https://edu.princeedwardisland.ca/psb/">PEI Public Schools website</a>
-and looks for mentions of delays or closures.
-If it finds something, it sends an alert (through <a href="https://ifttt.com/">IFTTT</a>) to our phones.
-</p>
+This little project periodically scrapes the [PEI Public Schools
+website](https://edu.princeedwardisland.ca/psb/) and looks for mentions of
+delays or closures. If it finds something, it sends an alert (through
+[IFTTT](https://ifttt.com/)) to our phones.
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> November, 2019
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://www.typescriptlang.org/">TypeScript</a>,
-      <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>,
-      <a href="https://serverless.com/">Serverless Framework</a>,
-      <a href="https://docs.gitlab.com/ee/ci/">GitLab CI/CD</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** November, 2019
+-   **Technologies:**
+    [TypeScript](https://www.typescriptlang.org/),
+    [AWS Lambda](https://aws.amazon.com/lambda/),
+    [Serverless Framework](https://serverless.com/),
+    [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+-   **Source:** [gitlab.com/nfriend/snow-day-notifier](https://gitlab.com/nfriend/snow-day-notifier)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/snow-day-notifier.png" alt="A screenshot of the IFTTT notification sent by Snow Day Notifier" />
-        <figcaption>gitlab.com/nfriend/snow-day-notifier</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://gitlab.com/nfriend/snow-day-notifier" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-exit_to_app-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of the IFTTT notification sent by Snow Day Notifier](/assets/img/projects/snow-day-notifier.png)
+<figcaption>gitlab.com/nfriend/snow-day-notifier</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
+](https://gitlab.com/nfriend/snow-day-notifier){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-<h2>nathanfriend.io</h2>
+## nathanfriend.io
 
-<p>
-Little needs to be said about this project - you're currently experiencing it first-hand!
-</p>
+Little needs to be said about this project - you're currently experiencing it
+first-hand!
 
-<ul>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Dates:</b> April - June, 2018
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Technologies:</b>
-      <a href="https://jekyllrb.com/">Jekyll</a>,
-      <a href="https://azure.microsoft.com/">Azure</a>
-    </div>
-  </li>
-  <li>
-    <div class="hanging-indent">
-      <b class="info-heading">Source:</b>
-      <a href="https://github.com/nfriend/website-3.0">github.com/nfriend/website-3.0</a>
-    </div>
-  </li>
-</ul>
+-   **Dates:** April - June, 2018
+-   **Technologies:**
+    [Jekyll](https://jekyllrb.com/), [Azure](https://azure.microsoft.com/)
+-   **Source:** [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
 
-<div class="figure-link">
-    <figure>
-        <img src="/assets/img/projects/nathanfriendio.jpg" alt="A screenshot of this website" />
-        <figcaption>nathanfriend.io</figcaption>
-    </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/" target="_blank">
-        <img class="play-button"      src="/assets/img/shared/baseline-play_circle_outline-24px-dark.svg" />
-    </a>
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of this website](/assets/img/projects/nathanfriendio.jpg)
+<figcaption>nathanfriend.io</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
+](https://nathanfriend.io/){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
