@@ -23,9 +23,8 @@ the [Release Management
 group](https://about.gitlab.com/handbook/product/categories/#release-management-group),
 where I build new features using
 [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript) and
-[Vue](https://vuejs.org/)/[Vuex](https://vuex.vuejs.org/). Check out what I'm up
-to on my [GitLab profile's activity
-page](https://gitlab.com/users/nfriend/activity).
+[Vue](https://vuejs.org/)/[Vuex](https://vuex.vuejs.org/). Check out [this
+page](/gitlab-contributions) for some of the hightlights of my time at GitLab.
 
 Before joining GitLab, I worked in both the agriculture and healthcare
 industries, primarily using [Angular](https://angular.io/),
