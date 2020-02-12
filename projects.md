@@ -10,17 +10,17 @@ hideMorePosts: true
 image: assets/img/projects/inspirograph.jpg
 ---
 
-I love teaching myself new technologies, and I learn best by doing.
-As a result, I always have at least three or four side projects on the go.
-Below are a few that managed to make it to a semi-finished state.
+I love teaching myself new technologies, and I learn best by doing. As a result,
+I always have at least three or four side projects on the go. Below are a few
+that managed to make it to a semi-finished state.
 
 For a full list of all my side projects, check out my profile on
 [GitLab](https://gitlab.com/users/nfriend/projects) or
 [GitHub](https://github.com/nfriend?tab=repositories).
 
-For examples of my professional work, check out
-[this summary of my contributions at GitLab](/gitlab-contributions)
-or take at [my résumé](/assets/Nathan%20Friend%20-%20Résumé.pdf).
+For examples of my professional work, check out [this summary of my
+contributions at GitLab](/gitlab-contributions) or take a look at [my
+résumé](/assets/Nathan%20Friend%20-%20Résumé.pdf).
 
 ## Inspirograph
 
@@ -31,12 +31,12 @@ I wrote up a more detailed post about this project [which you can read
 here](/2015/01/26/inspirograph.html).
 
 -   **Dates:** July - August, 2014
--   **Technologies:**
-    [D3.js](http://d3js.org/),
+-   **Technologies:** [D3.js](http://d3js.org/),
     [TypeScript](http://www.typescriptlang.org/),
-    [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),
-    [HTML5 Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
--   **Source:** [github.com/nfriend/inspirograph](https://github.com/nfriend/inspirograph)
+    [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [HTML5
+    Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+-   **Source:**
+    [github.com/nfriend/inspirograph](https://github.com/nfriend/inspirograph)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -62,7 +62,8 @@ every day.
 -   **Technologies:**
     [Cool](<https://en.wikipedia.org/wiki/Cool_(programming_language)>),
     [TypeScript](http://www.typescriptlang.org/)
--   **Source:** [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
+-   **Source:**
+    [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -76,24 +77,25 @@ every day.
 
 ## Theremin
 
-When I saw the first demo of the [Leap Motion](https://amzn.to/2LB3jd4) controller, I was hooked.
+When I saw the first demo of the [Leap Motion](https://amzn.to/2LB3jd4)
+controller, I was hooked.
 
 <figure markdown="1">
 ![A Leap Motion controller](/assets/img/projects/leap-motion-controller.jpg){:style="border: 1px solid #ddd;"}
 <figcaption>A Leap Motion controller</figcaption>
 </figure>
 
-This little device tracks a user's hands in full 3D with incredible
-precision, opening up a whole new class of human-computer interaction.
-And it retails for about \$80!
+This little device tracks a user's hands in full 3D with incredible precision,
+opening up a whole new class of human-computer interaction. And it retails for
+about \$80!
 
 Around the same time, I discovered the [Web Audio
 API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). I have
 always been fascinated with the intersection of technology and music - I grew up
-in a musical family and even considered pursuing music professionally ([I play
-the cello](https://youtu.be/4EZwNBJoiek)). I began brainstorming side project
-ideas that would make use of this technology when I ran across a video
-showcasing the creepy, futuristic sounds of the
+in a musical family and even considered pursuing music professionally ([I
+play](https://youtu.be/IEQqjCgrNQw) [the cello](https://youtu.be/4EZwNBJoiek)).
+I began brainstorming side project ideas that would make use of this technology
+when I ran across a video showcasing the creepy, futuristic sounds of the
 [theremin](https://en.wikipedia.org/wiki/Theremin), an electronic instrument
 that is played without any physical contact:
 
@@ -131,10 +133,11 @@ the project:
 
 -   **Dates:** August - September, 2013
 -   **Technologies:**
-    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
-    [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API),
+    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript), [Web
+    Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API),
     [Leap Motion controller](https://www.leapmotion.com/)
--   **Source:** [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
+-   **Source:**
+    [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -160,7 +163,8 @@ here.](/2018/06/07/my-first-hello-world.html)
     [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
     [DOSBox](https://www.dosbox.com/download.php?main=1),
     [QBasic](https://en.wikipedia.org/wiki/QBasic)
--   **Source:** [github.com/nfriend/origins-host](https://github.com/nfriend/origins-host)
+-   **Source:**
+    [github.com/nfriend/origins-host](https://github.com/nfriend/origins-host)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -174,9 +178,8 @@ here.](/2018/06/07/my-first-hello-world.html)
 
 ## Roggle
 
-My Canadian ~~girlfriend~~ ~~fiancée~~ wife and I dated
-long-distance for about a year before I made the leap across the border to
-[Prince Edward
+My Canadian ~~girlfriend~~ ~~fiancée~~ wife and I dated long-distance for about
+a year before I made the leap across the border to [Prince Edward
 Island](https://www.google.ca/maps/place/Prince+Edward+Island/@46.6625399,-64.2347791,8z/data=!3m1!4b1!4m5!3m4!1s0x4b5e52ddd47f83c5:0xa968d6d5f4926686!8m2!3d46.510712!4d-63.4168136)
 to live closer to her. As a result, we spent _a lot_ of time on Skype. Since
 five hours of non-stop conversation can be a bit exhausting, we would often play
@@ -188,8 +191,7 @@ between countries to ensure my wife and I were always looking at the same set of
 letters.
 
 -   **Dates:** November, 2015
--   **Technologies:**
-    [TypeScript](https://www.typescriptlang.org/),
+-   **Technologies:** [TypeScript](https://www.typescriptlang.org/),
     [React](https://reactjs.org/),
     [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 -   **Source:** [github.com/nfriend/roggle](https://github.com/nfriend/roggle)
@@ -213,11 +215,10 @@ skills.](https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-pro
 The end results were simple, but fun!
 
 -   **Dates:** August - September, 2017
--   **Technologies:**
-    [AWS](https://aws.amazon.com/),
+-   **Technologies:** [AWS](https://aws.amazon.com/),
     [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)/[TypeScript](https://www.typescriptlang.org/),
-    [Node.js](https://nodejs.org/en/),
-    [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit)
+    [Node.js](https://nodejs.org/en/), [Alexa Skills
+    Kit](https://developer.amazon.com/alexa-skills-kit)
 -   **Sources:**
     [github.com/nfriend/tone-drone](https://github.com/nfriend/tone-drone),
     [github.com/nfriend/days-until](https://github.com/nfriend/days-until),
@@ -274,11 +275,11 @@ Before you ask - unfortunately, no, you can't move the pieces yourself! The
 Stockfish engine plays for both players.
 
 -   **Dates:** November - December, 2016
--   **Technologies:**
-    [TypeScript](https://www.typescriptlang.org/),
+-   **Technologies:** [TypeScript](https://www.typescriptlang.org/),
     [WebGL](https://www.khronos.org/webgl/),
     [Stockfish](https://stockfishchess.org/)
--   **Source:** [github.com/nfriend/webgl-chess](https://github.com/nfriend/webgl-chess)
+-   **Source:**
+    [github.com/nfriend/webgl-chess](https://github.com/nfriend/webgl-chess)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -299,8 +300,7 @@ myself how JavaScript binding frameworks are implemented.
 Should you use this library? No, definitely not!
 
 -   **Dates:** February, 2015
--   **Technologies:**
-    [TypeScript](https://www.typescriptlang.org/),
+-   **Technologies:** [TypeScript](https://www.typescriptlang.org/),
 -   **Source:** [github.com/nfriend/nfjs](https://github.com/nfriend/nfjs)
 
 <div class="figure-link" markdown="1">
@@ -315,24 +315,25 @@ Should you use this library? No, definitely not!
 
 ## Snow Day Notifier
 
-My wife is a teacher, and [since we ~~live~~ used to live in PEI](/about-me), we got [_lots_ of
+My wife is a teacher, and [since we ~~live~~ used to live in PEI](/about-me), we
+got [_lots_ of
 snow](https://www.google.com/search?q=2015+pei+snow&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiS64fJ9vTlAhWXvJ4KHVxHCEIQ_AUIESgB&biw=1680&bih=885&dpr=2).
-We like to know as early as possible whether or not school is delayed or
+We liked to know as early as possible whether or not school was delayed or
 cancelled. Since [I work from home](2018/12/04/the-next-chapter.html), no school
 = no need to shovel the driveway.
 
-This little project periodically scrapes the [PEI Public Schools
-website](https://edu.princeedwardisland.ca/psb/) and looks for mentions of
-delays or closures. If it finds something, it sends an alert (through
+This little project periodically scraped the [PEI Public Schools
+website](https://edu.princeedwardisland.ca/psb/) and looked for mentions of
+delays or closures. If it found something, it sent an alert (through
 [IFTTT](https://ifttt.com/)) to our phones.
 
 -   **Dates:** November, 2019
--   **Technologies:**
-    [TypeScript](https://www.typescriptlang.org/),
-    [AWS Lambda](https://aws.amazon.com/lambda/),
-    [Serverless Framework](https://serverless.com/),
-    [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
--   **Source:** [gitlab.com/nfriend/snow-day-notifier](https://gitlab.com/nfriend/snow-day-notifier)
+-   **Technologies:** [TypeScript](https://www.typescriptlang.org/), [AWS
+    Lambda](https://aws.amazon.com/lambda/), [Serverless
+    Framework](https://serverless.com/), [GitLab
+    CI/CD](https://docs.gitlab.com/ee/ci/)
+-   **Source:**
+    [gitlab.com/nfriend/snow-day-notifier](https://gitlab.com/nfriend/snow-day-notifier)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -350,9 +351,11 @@ Little needs to be said about this project - you're currently experiencing it
 first-hand!
 
 -   **Dates:** April - June, 2018
--   **Technologies:**
-    [Jekyll](https://jekyllrb.com/), [Azure](https://azure.microsoft.com/)
--   **Source:** [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
+-   **Technologies:** [Jekyll](https://jekyllrb.com/),
+    ~~[Azure](https://azure.microsoft.com/),~~
+    [AWS EC2](https://aws.amazon.com/ec2/)
+-   **Source:**
+    [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
