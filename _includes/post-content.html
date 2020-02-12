@@ -60,5 +60,9 @@ endcapture %} {% unless page.hideHeader %}
     </div>
     {% endif %}
 
-    {{ page.content | markdownify | default: post.content }}
+    {% if page.layout == 'post' %}
+        {{ page.content | markdownify }}
+    {% else %}
+        {{ post.content }}
+    {% endif %}
 </div>
