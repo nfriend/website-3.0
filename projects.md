@@ -20,7 +20,7 @@ For a full list of all my side projects, check out my profile on
 
 For examples of my professional work, check out [this summary of my
 contributions at GitLab](/gitlab-contributions) or take a look at [my
-résumé](/assets/Nathan%20Friend%20-%20Résumé.pdf).
+résumé](https://resume.nathanfriend.io).
 
 ## Inspirograph
 
