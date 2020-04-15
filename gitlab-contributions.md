@@ -25,9 +25,9 @@ record of my professional work:
 -   [All merge requests authored by
     me](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&author_username=nfriend)
 -   [All issues opened by
-    me](https://gitlab.com/gitlab-org/gitlab/issues?author_username=nfriend&scope=all&sort=created_date&state=all&utf8=%E2%9C%93)
--   [All commits authored by me _(coming
-    soon)_](https://gitlab.com/gitlab-org/gitlab/issues/14984)
+    me](https://gitlab.com/gitlab-org/gitlab/-/issues?author_username=nfriend&scope=all&sort=created_date&state=all&utf8=%E2%9C%93)
+-   [All commits authored by
+    me](https://gitlab.com/gitlab-org/gitlab/-/commits/master?author=Nathan%20Friend)
 -   [My recent GitLab.com activity](https://gitlab.com/users/nfriend/activity)
 
 Below are some of the highlights of my time at GitLab, complete with links to
