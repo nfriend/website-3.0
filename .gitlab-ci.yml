@@ -7,6 +7,7 @@
   before_script:
     - ruby -v
     - gem install bundler -v 1.17.3
+    - apt-get update -qq && apt-get install --assume-yes -qq nodejs
     - bundle install -j $(nproc) --path vendor/ruby
 
 .node_template: &node_template
@@ -54,7 +55,6 @@ jekyll:
   stage: build
   needs: []
   script:
-    - apt-get update -qq && apt-get install --assume-yes -qq nodejs
     - JEKYLL_ENV="production" bundle exec jekyll build
   artifacts:
     paths:
