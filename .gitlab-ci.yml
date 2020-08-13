@@ -1,0 +1,6 @@
+stages:
+  - deploy
+
+trigger deploy:
+  stage: deploy
+  trigger: nfriend/website-3.0-docker
