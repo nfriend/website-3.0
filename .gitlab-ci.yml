@@ -15,7 +15,10 @@
     paths:
       - .npm/
   before_script:
-    - npm ci --cache .npm --prefer-offline
+    - >
+      if [[ -f package-lock.json ]]; then
+        npm ci --cache .npm --prefer-offline
+      fi
 
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
