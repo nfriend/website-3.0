@@ -4,10 +4,10 @@
     "description": "The build artifacts from my static Jekyll site (nathanfriend.io)",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nfriend/website-3.0.git"
+        "url": "git+https://gitlab.com/nfriend/website-3.0.git"
     },
     "bugs": {
-        "url": "https://github.com/nfriend/website-3.0/issues"
+        "url": "https://gitlab.com/nfriend/website-3.0/issues"
     },
-    "homepage": "https://github.com/nfriend/website-3.0#readme"
+    "homepage": "https://gitlab.com/nfriend/website-3.0#readme"
 }
