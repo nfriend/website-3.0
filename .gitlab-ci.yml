@@ -6,6 +6,9 @@
       - vendor/ruby
   before_script:
     - ruby -v
+    - node -v
+    - npm -v
+    - yarn -v
     - gem install bundler -v 1.17.3
     - bundle install -j $(nproc) --path vendor/ruby
 
@@ -16,6 +19,9 @@
     paths:
       - .npm/
   before_script:
+    - node -v
+    - npm -v
+    - yarn -v
     - >
       if [[ -f package-lock.json ]]; then
         npm ci --cache .npm --prefer-offline
@@ -67,7 +73,7 @@ npm publish:
     - jekyll
   script:
     - >
-      if [[ -f is-up-to-date ]]; then
+      if [[ -f is_up_to_date ]]; then
         echo "npm version is up-to-date. No new package will be published."
       else
         echo "npm version was updated. Publishing a new version to npm..."
