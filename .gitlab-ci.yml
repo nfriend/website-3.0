@@ -1,6 +1,104 @@
+.ruby_template: &ruby_template
+  image: ruby:2.7.1
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - vendor/ruby
+  before_script:
+    - ruby -v
+    - bundle install -j $(nproc) --path vendor/ruby
+
+.node_template: &node_template
+  image: node:12.18.3
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .npm/
+  before_script:
+    - npm ci --cache .npm --prefer-offline
+
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
+  - template: SAST.gitlab-ci.yml
+
 stages:
+  - version
+  - test
+  - build
+  - publish
   - deploy
 
+test version:
+  <<: *node_template
+  stage: version
+  script:
+    - >
+      if [[ $(node scripts/is-up-to-date.js) == 'true' ]]; then
+        touch is_up_to_date;
+      fi
+  artifacts:
+    paths:
+      - is_up_to_date
+
+jekyll:
+  <<: *ruby_template
+  stage: build
+  needs: []
+  script:
+    - JEKYLL_ENV="production" bundle exec jekyll build
+  artifacts:
+    paths:
+      - _site
+
+npm publish:
+  <<: *node_template
+  stage: publish
+  needs:
+    - test version
+    - jekyll
+  script:
+    - >
+      if [[ -f is-up-to-date ]]; then
+        echo "npm version is up-to-date. No new package will be published."
+      else
+        echo "npm version was updated. Publishing a new version to npm..."
+        npm publish _site/
+      fi
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
 trigger deploy:
+  <<: *node_template
   stage: deploy
+  script:
+    - >
+      if [[ -f is-up-to-date ]]; then
+        echo "No new npm package version was published. A new deployment will not be triggered."
+        exit 1
+      else
+        echo "A new npm package version was published. Triggering a new deployment in nfriend/website-3.0-docker..."
+      fi
+  needs:
+    - test version
+    - npm publish
   trigger: nfriend/website-3.0-docker
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  allow_failure: true
+
+algolia:
+  <<: *ruby_template
+  stage: deploy
+  needs:
+    - test version
+  script:
+    - >
+      if [[ -f is-up-to-date ]]; then
+        echo "New version was not deployed. Algolia index will not be updated."
+        exit 1
+      else
+        echo "A new version was deployed. Updating the Algolia index..."
+        bundle exec jekyll algolia
+      fi
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
