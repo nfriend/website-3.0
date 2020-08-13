@@ -1,5 +1,5 @@
 .ruby_template: &ruby_template
-  image: ruby:2.7.1
+  image: timbru31/ruby-node:2.7
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
@@ -7,7 +7,6 @@
   before_script:
     - ruby -v
     - gem install bundler -v 1.17.3
-    - apt-get update -qq && apt-get install --assume-yes -qq nodejs
     - bundle install -j $(nproc) --path vendor/ruby
 
 .node_template: &node_template
