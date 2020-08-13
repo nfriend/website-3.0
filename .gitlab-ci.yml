@@ -81,7 +81,7 @@ trigger deploy:
   stage: deploy
   script:
     - >
-      if [[ -f is-up-to-date ]]; then
+      if [[ -f is_up_to_date ]]; then
         echo "No new npm package version was published. A new deployment will not be triggered."
       else
         echo "A new npm package version was published. Triggering a new deployment in nfriend/website-3.0-docker..."
@@ -100,7 +100,7 @@ algolia:
     - test version
   script:
     - >
-      if [[ -f is-up-to-date ]]; then
+      if [[ -f is_up_to_date ]]; then
         echo "New version was not deployed. Algolia index will not be updated."
       else
         echo "A new version was deployed. Updating the Algolia index..."
