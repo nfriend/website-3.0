@@ -36,9 +36,14 @@ test version:
   <<: *node_template
   stage: version
   script:
+    - PACKAGE_JSON_VERSION=$(node -p "require('./package.json').version")
+    - LATEST_PUBLISHED_VERIONS=$(npm view @nathanfriend/website-3.0 version)
     - >
-      if [[ $(node scripts/is-up-to-date.js) == 'true' ]]; then
+      if [[ PACKAGE_JSON_VERSION == LATEST_PUBLISHED_VERIONS ]]; then
+        echo "Version in package.json ($PACKAGE_JSON_VERSION) has already been published"
         touch is_up_to_date;
+      else
+        echo "Version in package.json ($PACKAGE_JSON_VERSION) differs from the published version ($LATEST_PUBLISHED_VERIONS)"
       fi
   artifacts:
     paths:
