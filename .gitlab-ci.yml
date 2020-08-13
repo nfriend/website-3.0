@@ -49,6 +49,7 @@ jekyll:
   stage: build
   needs: []
   script:
+    - apt-get update -qq && apt-get install --assume-yes -qq nodejs
     - JEKYLL_ENV="production" bundle exec jekyll build
   artifacts:
     paths:
