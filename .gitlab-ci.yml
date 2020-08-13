@@ -40,7 +40,7 @@ test version:
     - PACKAGE_JSON_VERSION=$(node -p "require('./package.json').version")
     - LATEST_PUBLISHED_VERIONS=$(npm view @nathanfriend/website-3.0 version)
     - >
-      if [[ PACKAGE_JSON_VERSION == LATEST_PUBLISHED_VERIONS ]]; then
+      if [[ $PACKAGE_JSON_VERSION == $LATEST_PUBLISHED_VERIONS ]]; then
         echo "Version in package.json ($PACKAGE_JSON_VERSION) has already been published"
         touch is_up_to_date;
       else
