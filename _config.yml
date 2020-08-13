@@ -28,6 +28,10 @@ plugins:
     - jekyll-minifier
 sass:
     style: compressed
+assets:
+    external:
+        uglifier:
+            harmony: true
 
 # Algolia search settings
 algolia:
