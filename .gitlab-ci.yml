@@ -67,7 +67,7 @@ jekyll:
       - _site
 
 save git info:
-  <<: .node_template
+  <<: *node_template
   stage: build
   needs: []
   script:
