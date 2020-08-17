@@ -66,6 +66,19 @@ jekyll:
     paths:
       - _site
 
+save git info:
+  <<: .node_template
+  stage: build
+  needs: []
+  script:
+    - echo $CI_COMMIT_SHA > CI_COMMIT_SHA
+    - echo $CI_COMMIT_MESSAGE > $CI_COMMIT_MESSAGE
+  artifacts:
+    paths:
+      - _site
+      - CI_COMMIT_SHA
+      - CI_COMMIT_MESSAGE
+
 npm publish:
   <<: *node_template
   stage: publish
