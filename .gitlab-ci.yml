@@ -75,7 +75,6 @@ save git info:
     - echo $CI_COMMIT_MESSAGE > CI_COMMIT_MESSAGE
   artifacts:
     paths:
-      - _site
       - CI_COMMIT_SHA
       - CI_COMMIT_MESSAGE
 
