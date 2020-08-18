@@ -170,8 +170,35 @@ li {
         }
     }
 
-    #legal {
+    #legal,
+    #deployment-info {
         font-size: 12px;
+    }
+
+    #deployment-info {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        > * {
+            margin-right: 5px;
+            margin-bottom: 3px;
+        }
+
+        .pipeline-status-link {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .view-source-link {
+            display: inline-flex;
+            align-items: center;
+
+            svg {
+                height: 1rem;
+                margin-left: 3px;
+            }
+        }
     }
 }
 
