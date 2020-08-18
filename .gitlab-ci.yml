@@ -71,14 +71,13 @@ save git info:
   stage: build
   needs: []
   script:
-    - echo $CI_COMMIT_SHA > CI_COMMIT_SHA
-    - echo $CI_COMMIT_SHORT_SHA > CI_COMMIT_SHORT_SHA
-    - echo $CI_COMMIT_MESSAGE > CI_COMMIT_MESSAGE
+    - mkdir _site
+    - echo $CI_COMMIT_SHA > _site/CI_COMMIT_SHA
+    - echo $CI_COMMIT_SHORT_SHA > _site/CI_COMMIT_SHORT_SHA
+    - echo $CI_COMMIT_MESSAGE > _site/CI_COMMIT_MESSAGE
   artifacts:
     paths:
-      - CI_COMMIT_SHA
-      - CI_COMMIT_MESSAGE
-      - CI_COMMIT_SHORT_SHA
+      - _site
 
 npm publish:
   <<: *node_template
