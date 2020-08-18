@@ -77,7 +77,9 @@ save git info:
     - echo $CI_COMMIT_MESSAGE > _site/CI_COMMIT_MESSAGE
   artifacts:
     paths:
-      - _site
+      - _site/CI_COMMIT_SHA
+      - _site/CI_COMMIT_SHORT_SHA
+      - _site/CI_COMMIT_MESSAGE
 
 npm publish:
   <<: *node_template
