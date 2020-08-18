@@ -15,7 +15,7 @@
     <!--{{ site.time | date: '%Y' }}-->
     | <a href="{{ '/attributions' | relative_url }}">Attributions</a>
 </p>
-<p id="deployment-info" style="opacity: 0;">
+<p id="deployment-info">
     <span>
         Site last deployed on %%DEPLOY_DATE%% at %%DEPLOY_TIME%% UTC for commit
         <a
@@ -24,6 +24,7 @@
             title="%%COMMIT_MESSAGE%%"
             data-tippy-placement="top"
             data-tippy-delay="250"
+            target="_blank"
         >
             %%COMMIT_SHA%%
         </a>
@@ -40,7 +41,11 @@
         />
     </a>
 
-    <a class="view-source-link" href="https://gitlab.com/nfriend/nuxt-resume">
+    <a
+        class="view-source-link"
+        href="https://gitlab.com/nfriend/website-3.0"
+        target="_blank"
+    >
         View the source on GitLab
         <svg
             aria-hidden="true"
