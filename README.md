@@ -20,10 +20,14 @@ work on Windows.)
 
 ## Testing
 
-To run tests, `cd` into the `_tests` directory, run `npm install`, and run `npm test`.
+Once a new version of this site is published to
+[nathanfriend.io](https://nathanfriend.io), automated tests can be run against
+the live site by running the tests in the
+[`website-3.0-tests`](https://gitlab.com/nfriend/website-3.0-tests) project.
 
-_Note: These don't currently run and will most likely be moved to the
-[`website-3.0-docker`](https://gitlab.com/nfriend/website-3.0-docker) project._
+**Note:** Usually there is no need to trigger these manually; the [deployment
+project](https://gitlab.com/nfriend/website-3.0-docker) automatically triggers a
+test run via a downstream pipeline after a successful deployment.
 
 ## Publishing
 
