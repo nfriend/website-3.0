@@ -66,21 +66,6 @@ jekyll:
     paths:
       - _site
 
-save git info:
-  <<: *node_template
-  stage: build
-  needs: []
-  script:
-    - mkdir _site
-    - echo $CI_COMMIT_SHA > _site/CI_COMMIT_SHA
-    - echo $CI_COMMIT_SHORT_SHA > _site/CI_COMMIT_SHORT_SHA
-    - echo $CI_COMMIT_MESSAGE > _site/CI_COMMIT_MESSAGE
-  artifacts:
-    paths:
-      - _site/CI_COMMIT_SHA
-      - _site/CI_COMMIT_SHORT_SHA
-      - _site/CI_COMMIT_MESSAGE
-
 npm publish:
   <<: *node_template
   stage: publish
@@ -88,6 +73,9 @@ npm publish:
     - test version
     - jekyll
   script:
+    - echo $CI_COMMIT_SHA > _site/CI_COMMIT_SHA
+    - echo $CI_COMMIT_SHORT_SHA > _site/CI_COMMIT_SHORT_SHA
+    - echo $CI_COMMIT_MESSAGE > _site/CI_COMMIT_MESSAGE
     - >
       if [[ -f is_up_to_date ]]; then
         echo "npm version is up-to-date. No new package will be published."
