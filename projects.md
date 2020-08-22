@@ -122,10 +122,10 @@ the project:
 <figure>
     <iframe class="rounded"
             width="500"
-            height="315"
+            height="888"
             src="https://www.youtube.com/embed/J5wW4-yr6zY"
             frameborder="0"
-            allow="autoplay; encrypted-media"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
     </iframe>
     <figcaption>A demo of Theremin using the Leap Motion controller.</figcaption>
