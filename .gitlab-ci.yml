@@ -13,7 +13,7 @@
     - bundle install -j $(nproc) --path vendor/ruby
 
 .node_template: &node_template
-  image: node:12.18.4
+  image: node:12.19.0
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
