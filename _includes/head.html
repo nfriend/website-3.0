@@ -1,47 +1,95 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="Nathan Friend" href="{{ '/feed.xml' | relative_url }}"
-          image="{{ '/favicon.ico?v=47Mvyardey' | absolute_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png?v=47Mvyardey' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png?v=47Mvyardey' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png?v=47Mvyardey' | relative_url }}">
-    <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg?v=47Mvyardey' | relative_url }}" color="#5bbad5">
-    <link rel="shortcut icon" href="{{ '/favicon.ico?v=47Mvyardey' | relative_url }}">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="search" type="application/opensearchdescription+xml" title="nathanfriend.io" href="{{ '/opensearch.xml' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Nathan Friend"
+    href="{{ '/feed.xml' | relative_url }}"
+    image="{{ '/favicon.ico?v=47Mvyardey' | absolute_url }}"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ '/apple-touch-icon.png?v=47Mvyardey' | relative_url }}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ '/favicon-32x32.png?v=47Mvyardey' | relative_url }}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ '/favicon-16x16.png?v=47Mvyardey' | relative_url }}"
+  />
+  <link
+    rel="mask-icon"
+    href="{{ '/safari-pinned-tab.svg?v=47Mvyardey' | relative_url }}"
+    color="#5bbad5"
+  />
+  <link
+    rel="shortcut icon"
+    href="{{ '/favicon.ico?v=47Mvyardey' | relative_url }}"
+  />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <link
+    rel="search"
+    type="application/opensearchdescription+xml"
+    title="nathanfriend.io"
+    href="{{ '/opensearch.xml' | relative_url }}"
+  />
 
-    <meta property="og:title" content="{{ page.title | default: site.posts[0].title }}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:description" content="{{ page.content | default: site.posts[0].content | strip_html | escape }}" />
+  <meta
+    property="og:title"
+    content="{{ page.title | default: site.posts[0].title }}"
+  />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta
+    property="og:description"
+    content="{{ page.content | default: site.posts[0].content | strip_html | escape }}"
+  />
 
-    {% if page.layout == 'home' %}
-    <meta property="og:image" content="{{ site.posts[0].image | default: '/assets/img/profile.jpg' | absolute_url }}" />
-    {% endif %}
+  {% if page.layout == 'home' %}
+  <meta
+    property="og:image"
+    content="{{ site.posts[0].image | default: '/assets/img/profile.jpg' | absolute_url }}"
+  />
+  {% endif %} {% if page.layout != 'home' %}
+  <meta
+    property="og:image"
+    content="{{ page.image | default: '/assets/img/profile.jpg' | absolute_url }}"
+  />
+  {% endif %}
 
-    {% if page.layout != 'home' %}
-    <meta property="og:image" content="{{ page.image | default: '/assets/img/profile.jpg' | absolute_url }}" />
-    {% endif %}
-    
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-36351579-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36351579-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-36351579-1');
-    </script>
+    gtag('config', 'UA-36351579-1');
+  </script>
 </head>
