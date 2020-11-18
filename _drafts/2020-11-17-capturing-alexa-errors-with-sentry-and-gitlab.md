@@ -5,29 +5,29 @@ date: 2020-11-16 13:36:10 -0300
 image: assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg
 ---
 
-Diagnosing issues with your deployed Alexa skill can be tricky.
+Diagnosing issues with a live Alexa skill can be tricky.
 
 <figure>
     <img src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg' | relative_url }}" alt="The Amazon Echo logo with a speech bubble saying &quot;Uh oh&quot;" />
-    <figcaption>"Hmm, I don't know that one"</figcaption>
 </figure>
 
 Most users who run into issues will simply uninstall your skill. A few unusually
 inspired users may even leave helpful reviews like this:
 
 <figure>
-    <img class="bordered" src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/this-skill-is-broken.png' | relative_url }}" alt="An Amazon reveiw that says &qout;This skill is broken&qout;" />
+    <img class="bordered" src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/this-skill-is-broken.png' | relative_url }}" alt="An Amazon review that says &qout;This skill is broken&qout;" />
 </figure>
 
 How do you go about figuring out what's wrong?
 
-Fortunately, by plugging a few open-source tools together, you can get great visiblity into what's going wrong.
+By plugging a few open source tools together, you can get great visibility into
+what's going wrong.
 
 ## 1. Implement an `ErrorHandler` in your skill code
 
-First, we need a way to globally catch errors in our Alexa skill. The ASK SDK
-provides an `ErrorHandler` interface that does just this. Create a new file for
-your `ErrorHandler` implementation:
+First, you'll need a way to globally catch errors in your Alexa skill. The ASK
+SDK provides an `ErrorHandler` interface that does just this. Create a new file
+for your `ErrorHandler` implementation:
 
 ```ts
 // lambda/src/handlers/ErrorHandler.ts
@@ -42,7 +42,7 @@ export class ErrorHandler implements Alexa.ErrorHandler {
   handle(handlerInput: Alexa.HandlerInput, error: Error) {
     console.log(`~~~~ Error handled: ${error.stack}`);
 
-    const speech = 'Sorry, something went wrong! Can please you try again?';
+    const speech = 'Sorry, something went wrong! Can you please try again?';
 
     return handlerInput.responseBuilder
       .speak(speech)
@@ -52,7 +52,8 @@ export class ErrorHandler implements Alexa.ErrorHandler {
 }
 ```
 
-(I'm using [TypeScript](https://www.typescriptlang.org/) in this example.)
+(I'm using [TypeScript](https://www.typescriptlang.org/) in this example, but a
+vanilla JS implementation shouldn't be much different.)
 
 Next, register this error handler in your skill's entrypoint:
 
@@ -68,24 +69,25 @@ export const handler = Alexa.SkillBuilders.custom()
   .lambda();
 ```
 
-This already gets us pretty close! If anything goes wrong, we'll have a nice
-stack trace in CloudWatch, and the user will get a polite message informing them
-something went wrong.
+This already gets you pretty close! If anything goes wrong, you'll have a nice
+stack trace in your [CloudWatch](https://aws.amazon.com/cloudwatch/) logs, and
+the user will get a polite message informing them something went wrong.
 
 ## 2. Ship error details to Sentry
 
-[Sentry](https://sentry.io/welcome/) is an open-source monitoring platform that
+[Sentry](https://sentry.io/welcome/) is an open source monitoring platform that
 does a great job of tracking and organizing software errors.
 
-After creating a free account, create a new Sentry project with the "Node.js"
-platform option. Install the dependencies it recommends:
+After creating a free account at [https://sentry.io](https://sentry.io/), create
+a new Sentry project with the "Node.js" platform option. Install the
+dependencies it recommends:
 
 ```bash
 yarn add @sentry/node @sentry/tracing
 ```
 
-We'll need to set up Sentry with the tracking info it needs on every request. We
-can do this by creating a new [request
+Next, set up `@sentry/node` with the tracking info it needs. You can do this at
+the beginning of every Alexa request by creating a new [request
 interceptor](https://developer.amazon.com/blogs/alexa/post/0e2015e1-8be3-4513-94cb-da000c2c9db0/what-s-new-with-request-and-response-interceptors-in-the-alexa-skills-kit-sdk-for-node-js):
 
 ```ts
@@ -104,9 +106,10 @@ export class SentryInterceptor implements Alexa.RequestInterceptor {
 }
 ```
 
-(Your Sentry DSN will be provided to you when setting up your Sentry project.)
+(Your [Sentry DSN](https://docs.sentry.io/product/sentry-basics/dsn-explainer/)
+will be provided to you when setting up your Sentry project.)
 
-Don't forget to register this interceptor, similar to how we registered our
+Don't forget to register this interceptor, similar to how you registered your
 `ErrorHandler` above:
 
 ```ts
@@ -122,7 +125,7 @@ export const handler = Alexa.SkillBuilders.custom()
   .lambda();
 ```
 
-Finally, in the error handler we created earlier, send the error to Sentry:
+Finally, in the error handler you created earlier, send the error to Sentry:
 
 ```ts
 // lambda/src/handlers/ErrorHandler.ts
@@ -140,7 +143,7 @@ export class ErrorHandler implements Alexa.ErrorHandler {
 
     Sentry.captureException(error); // ← also add this
 
-    const speech = 'Sorry, something went wrong! Can please you try again?';
+    const speech = 'Sorry, something went wrong! Can you please try again?';
 
     return handlerInput.responseBuilder
       .speak(speech)
@@ -152,7 +155,7 @@ export class ErrorHandler implements Alexa.ErrorHandler {
 
 That's it! Now all that's left is to...
 
-## 4. Test it!
+## 3. Test it!
 
 In your `LaunchRequest` handler, do something silly like this:
 
@@ -161,15 +164,15 @@ const anObject: any = {};
 anObject.aMethodThatDoesntExist();
 ```
 
-(Explicitly specifying `any` here, otherwise TypeScript won't let us get away
-with this!)
+(I'm explicitly specifying `any` here, otherwise TypeScript won't let me get
+away with this!)
 
 Deploy your skill and give it a spin!
 
 ```bash
 ❯ ask dialog
-User  > Open my neat skill
-Alexa > Sorry, something went wrong! Can please you try again?
+User  > Open <your skill name here>
+Alexa > Sorry, something went wrong! Can you please try again?
 ```
 
 Jump back into your Sentry project - you should now be the proud owner of a new
@@ -179,7 +182,7 @@ issue:
     <img class="bordered" src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/sentry-screenshot.png' | relative_url }}" alt="A screenshot of the Sentry dashboard with a new issue" />
 </figure><br>
 
-## 3. Integrate Sentry with GitLab _(optional)_
+## 4. Integrate Sentry with GitLab _(optional)_
 
 If you host you skill's code on [GitLab](https://about.gitlab.com/) you can take
 advantage of GitLab's [first-class Sentry
@@ -202,7 +205,7 @@ error details directly in your GitLab project:
 1. Click **Save changes**
 
 That's it! Navigate to **Operations > Error Tracking**. You should see the same
-set of Sentry errors displayed directly inside your GitLab project.
+set of Sentry errors nicely displayed inside your GitLab project.
 
 <figure>
     <img class="bordered" src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/gitlab-error-tracking-screenshot.png' | relative_url }}" alt="A screenshot of GitLab's Error Tracking page showing an issue's details" />
@@ -210,5 +213,7 @@ set of Sentry errors displayed directly inside your GitLab project.
 
 ## Source
 
-See this code in action at [https://gitlab.com/nfriend/days-until](https://gitlab.com/nfriend/days-until), or give my
-[Days Until](https://www.amazon.com/dp/B0759KJ8D2) skill a try for yourself!
+See this code in action at
+[https://gitlab.com/nfriend/days-until](https://gitlab.com/nfriend/days-until),
+or give my [Days Until](https://www.amazon.com/dp/B0759KJ8D2) skill a try for
+yourself.
