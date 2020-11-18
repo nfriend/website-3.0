@@ -17,7 +17,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="search" type="application/opensearchdescription+xml" title="nathanfriend.io" href="{{ '/opensearch.xml' | relative_url }}">
 
-    <meta property="og:title" content="{{ page.title | default: site.posts[1].title }}" />
+    <meta property="og:title" content="{{ page.title | default: site.posts[0].title }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:description" content="{{ page.content | default: site.posts[0].content | strip_html | escape }}" />
