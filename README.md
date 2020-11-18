@@ -32,15 +32,15 @@ test run via a downstream pipeline after a successful deployment.
 ## Publishing
 
 In most cases, it is not necessary to publish or deploy manually. This is
-automated by the GitLab pipeline; simply push new changes to `master` to trigger
-this project's pipeline. See the [**Deployment**](#deployment) section below for
-more information.
+automated by the GitLab pipeline; simply bump the version in `package.json` and
+push new changes to `master` to trigger this project's pipeline. See the
+[**Deployment**](#deployment) section below for more information.
 
 If for some reason it is necessary to manually publish the finalized build
 artifacts to NPM, bump the version in `package.json` and run:
 
--   `JEKYLL_ENV="production" bundle exec jekyll build`
--   `npm publish _site/`
+- `JEKYLL_ENV="production" bundle exec jekyll build`
+- `npm publish _site/`
 
 Make sure not to run `npm publish` from the root of the project, as this command
 will succeed, but will publish the wrong directory to NPM.
@@ -86,9 +86,9 @@ the site to be redeployed.
 The following directories and their contents are Copyright Nathan Friend. You
 may not reuse anything therein without my permission:
 
--   \_posts/
--   \_drafts/
--   assets/img/
+- \_posts/
+- \_drafts/
+- assets/img/
 
 All other directories and files are MIT Licensed. Feel free to use the HTML and
 SCSS as you please. If you do use them, a link back to
