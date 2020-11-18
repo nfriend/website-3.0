@@ -2,13 +2,13 @@
 layout: post
 title: 'Capturing Alexa Errors with Sentry and GitLab'
 date: 2020-11-18 09:22:10 -0500
-image: assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg
+image: assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg?v=2
 ---
 
 Diagnosing issues with a live Alexa skill can be tricky.
 
 <figure>
-    <img src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg' | relative_url }}" alt="The Amazon Echo logo with a speech bubble saying &quot;Uh oh&quot;" />
+    <img src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg?v=2' | relative_url }}" alt="The Amazon Echo logo with a speech bubble saying &quot;Uh oh&quot;" />
 </figure>
 
 Most users who run into issues will simply uninstall your skill. A few unusually
