@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Capturing Alexa Errors with Sentry and GitLab'
-date: 2020-11-16 13:36:10 -0300
+date: 2020-11-18 09:22:10 -0500
 image: assets/img/capturing-alexa-errors-with-sentry-and-gitlab/uh-oh.jpg
 ---
 
