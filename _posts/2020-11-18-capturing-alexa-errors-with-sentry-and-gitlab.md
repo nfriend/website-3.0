@@ -208,7 +208,7 @@ That's it! Navigate to **Operations > Error Tracking**. You should see the same
 set of Sentry errors nicely displayed inside your GitLab project.
 
 <figure>
-    <img class="bordered" src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/gitlab-error-tracking-screenshot.png' | relative_url }}" alt="A screenshot of GitLab's Error Tracking page showing an issue's details" />
+    <img class="bordered" src="{{ 'assets/img/capturing-alexa-errors-with-sentry-and-gitlab/gitlab-error-tracking-screenshot.png?v=2' | relative_url }}" alt="A screenshot of GitLab's Error Tracking page showing an issue's details" />
 </figure><br>
 
 ## Source
