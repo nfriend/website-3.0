@@ -216,4 +216,4 @@ set of Sentry errors nicely displayed inside your GitLab project.
 See this code in action at
 [https://gitlab.com/nfriend/days-until](https://gitlab.com/nfriend/days-until),
 or give my [Days Until](https://www.amazon.com/dp/B0759KJ8D2) skill a try for
-yourself.
+yourself. [Here's a quick link to the skill!](https://alexa-skills.amazon.com/apis/custom/skills/amzn1.ask.skill.a904b878-9342-4031-9e86-a81ac29bddca/launch)
