@@ -2,8 +2,8 @@
 layout: post
 title: About Me
 author:
-    name: Nathan Friend
-    url: https://nathanfriend.io
+  name: Nathan Friend
+  url: https://nathanfriend.io
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
@@ -22,9 +22,10 @@ I work at [GitLab](https://about.gitlab.com/) as a Senior Frontend Engineer in
 the [Release Management
 group](https://about.gitlab.com/handbook/product/categories/#release-management-group),
 where I build new features using
-[JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript) and
-[Vue](https://vuejs.org/)/[Vuex](https://vuex.vuejs.org/). Check out [this
-page](/gitlab-contributions) for some of the hightlights of my time at GitLab.
+[JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
+[Vue](https://vuejs.org/)/[Vuex](https://vuex.vuejs.org/), and
+[GraphQL](https://graphql.org/). Check out [this page](/gitlab-contributions)
+for some of the hightlights of my time at GitLab.
 
 Before joining GitLab, I worked in both the agriculture and healthcare
 industries, primarily using [Angular](https://angular.io/),

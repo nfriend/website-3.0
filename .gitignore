@@ -9,3 +9,5 @@ _tests/node_modules
 _algolia_api_key
 
 is_up_to_date
+
+.bundle
