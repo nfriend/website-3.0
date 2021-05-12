@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  My First "Hello, World!"
-date:   2018-06-07 09:40:45 -0300
-image:  assets/img/my-first-hello-world/qbasic.png
+title: My First "Hello, World!"
+date: 2018-06-07 09:40:45 -0300
+image: assets/img/my-first-hello-world/qbasic.png
 ---
 
 The other day, I ran across [Windows 95 In Your Browser](https://win95.ajf.me/), which uses [Emscripten](https://github.com/kripken/emscripten) and [DOSBox](https://www.dosbox.com/download.php?main=1) to run a full-fledged operating system in a browser. What a time to be alive.
@@ -53,14 +53,14 @@ So, without further ado, here are the most interesting programs, delivered to yo
 
 ## SPIRO.BAS
 
-A precursor to my more modern project [Inspirograph](https://nathanfriend.io/inspirograph), this program creates Spirograph designs based on a few simple configurations.
+A precursor to my more modern project [Inspiral Web](https://nathanfriend.io/inspiral-web), this program creates Spirograph designs based on a few simple configurations.
 
 Hint: Here's an example configuration to get you started:
 
--   Inner wheel size: 52
--   Outer wheel size: 100
--   Hole number: 25
--   Color: 12
+- Inner wheel size: 52
+- Outer wheel size: 100
+- Hole number: 25
+- Color: 12
 
 <div class="figure-link">
     <figure>

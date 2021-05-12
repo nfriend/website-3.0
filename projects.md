@@ -2,12 +2,12 @@
 layout: post
 title: Projects
 author:
-    name: Nathan Friend
-    url: https://nathanfriend.io
+  name: Nathan Friend
+  url: https://nathanfriend.io
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
-image: assets/img/projects/inspirograph.jpg
+image: assets/img/projects/inspiral-web.jpg
 ---
 
 I love teaching myself new technologies, and I learn best by doing. As a result,
@@ -22,30 +22,30 @@ For examples of my professional work, check out [this summary of my
 contributions at GitLab](/gitlab-contributions) or take a look at [my
 résumé](https://resume.nathanfriend.io).
 
-## Inspirograph
+## Inspiral Web
 
 This project earned me a few minutes of internet fame in 2014 when it trended on
 [Hacker News](https://news.ycombinator.com/item?id=8698131) and
 [Reddit](https://www.reddit.com/r/InternetIsBeautiful/comments/2kwc6k/incredibly_well_done_online_inspirograph_maker/).
 I wrote up a more detailed post about this project [which you can read
-here](/2015/01/26/inspirograph.html).
+here](/2015/01/26/inspiral-web.html).
 
--   **Dates:** July - August, 2014
--   **Technologies:** [D3.js](http://d3js.org/),
-    [TypeScript](http://www.typescriptlang.org/),
-    [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [HTML5
-    Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
--   **Source:**
-    [github.com/nfriend/inspirograph](https://github.com/nfriend/inspirograph)
+- **Dates:** July - August, 2014
+- **Technologies:** [D3.js](http://d3js.org/),
+  [TypeScript](http://www.typescriptlang.org/),
+  [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [HTML5
+  Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+- **Source:**
+  [github.com/nfriend/inspiral-web](https://github.com/nfriend/inspiral-web)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
-![A screenshot of Inspirograph](/assets/img/projects/inspirograph.jpg)
-<figcaption>nathanfriend.io/inspirograph</figcaption>
+![A screenshot of Inspiral Web](/assets/img/projects/inspiral-web.jpg)
+<figcaption>nathanfriend.io/inspiral-web</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/inspirograph){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.io/inspiral-web){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## CoolToJS
@@ -58,12 +58,12 @@ by Alex Aiken.](https://online.stanford.edu/courses/soe-ycscs1-compilers)). This
 project helped me develop a _much_ deeper appreciation for the compilers I use
 every day.
 
--   **Dates:** April - May, 2015
--   **Technologies:**
-    [Cool](<https://en.wikipedia.org/wiki/Cool_(programming_language)>),
-    [TypeScript](http://www.typescriptlang.org/)
--   **Source:**
-    [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
+- **Dates:** April - May, 2015
+- **Technologies:**
+  [Cool](<https://en.wikipedia.org/wiki/Cool_(programming_language)>),
+  [TypeScript](http://www.typescriptlang.org/)
+- **Source:**
+  [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -131,13 +131,13 @@ the project:
     <figcaption>A demo of Theremin using the Leap Motion controller.</figcaption>
 </figure>
 
--   **Dates:** August - September, 2013
--   **Technologies:**
-    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript), [Web
-    Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API),
-    [Leap Motion controller](https://www.leapmotion.com/)
--   **Source:**
-    [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
+- **Dates:** August - September, 2013
+- **Technologies:**
+  [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript), [Web
+  Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API),
+  [Leap Motion controller](https://www.leapmotion.com/)
+- **Source:**
+  [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -158,13 +158,13 @@ little programs I wrote as a child when first learning to program. I wrote a
 blog post about this project which [you can read
 here.](/2018/06/07/my-first-hello-world.html)
 
--   **Dates:** May - June, 2018
--   **Technologies:**
-    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
-    [DOSBox](https://www.dosbox.com/download.php?main=1),
-    [QBasic](https://en.wikipedia.org/wiki/QBasic)
--   **Source:**
-    [github.com/nfriend/origins-host](https://github.com/nfriend/origins-host)
+- **Dates:** May - June, 2018
+- **Technologies:**
+  [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
+  [DOSBox](https://www.dosbox.com/download.php?main=1),
+  [QBasic](https://en.wikipedia.org/wiki/QBasic)
+- **Source:**
+  [github.com/nfriend/origins-host](https://github.com/nfriend/origins-host)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -190,11 +190,11 @@ of Boggle built with React. The project used WebSockets to synchronize the board
 between countries to ensure my wife and I were always looking at the same set of
 letters.
 
--   **Dates:** November, 2015
--   **Technologies:** [TypeScript](https://www.typescriptlang.org/),
-    [React](https://reactjs.org/),
-    [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
--   **Source:** [github.com/nfriend/roggle](https://github.com/nfriend/roggle)
+- **Dates:** November, 2015
+- **Technologies:** [TypeScript](https://www.typescriptlang.org/),
+  [React](https://reactjs.org/),
+  [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- **Source:** [github.com/nfriend/roggle](https://github.com/nfriend/roggle)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -214,15 +214,15 @@ skills](https://www.amazon.com/b?ie=UTF8&node=13727921011) when Amazon offered
 skills.](https://developer.amazon.com/alexa-skills-kit/alexa-developer-skill-promotion)
 The end results were simple, but fun!
 
--   **Dates:** August - September, 2017
--   **Technologies:** [AWS](https://aws.amazon.com/),
-    [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)/[TypeScript](https://www.typescriptlang.org/),
-    [Node.js](https://nodejs.org/en/), [Alexa Skills
-    Kit](https://developer.amazon.com/alexa-skills-kit)
--   **Sources:**
-    [github.com/nfriend/tone-drone](https://github.com/nfriend/tone-drone),
-    [github.com/nfriend/days-until](https://github.com/nfriend/days-until),
-    [gitlab.com/nfriend/lab-assistant](https://gitlab.com/nfriend/lab-assistant)
+- **Dates:** August - September, 2017
+- **Technologies:** [AWS](https://aws.amazon.com/),
+  [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)/[TypeScript](https://www.typescriptlang.org/),
+  [Node.js](https://nodejs.org/en/), [Alexa Skills
+  Kit](https://developer.amazon.com/alexa-skills-kit)
+- **Sources:**
+  [github.com/nfriend/tone-drone](https://github.com/nfriend/tone-drone),
+  [github.com/nfriend/days-until](https://github.com/nfriend/days-until),
+  [gitlab.com/nfriend/lab-assistant](https://gitlab.com/nfriend/lab-assistant)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -261,25 +261,25 @@ The final project for a graduate course I took at
 Modeling) while working towards my Masters. Here are a couple of bullet points
 stolen from the project's README on GitHub:
 
--   Utilizes [Stockfish](https://stockfishchess.org/) Chess AI (in the form of
-    [stockfish-js](https://github.com/exoticorn/stockfish-js)) to generate chess
-    moves for both players client-side
--   Full camera navigation using mouse (click + drag and scroll wheel), keyboard
-    (arrow keys and <span class="keyboard-key">-</span> and <span
-    class="keyboard-key">+</span>), and mobile gestures (drag to pan, pinch to
-    zoom, two-finger rotate)
--   Supports standard chess play - castling, substitution, check, etc.
--   Written in vanilla WebGL - no wrapping or abstraction libraries used
+- Utilizes [Stockfish](https://stockfishchess.org/) Chess AI (in the form of
+  [stockfish-js](https://github.com/exoticorn/stockfish-js)) to generate chess
+  moves for both players client-side
+- Full camera navigation using mouse (click + drag and scroll wheel), keyboard
+  (arrow keys and <span class="keyboard-key">-</span> and <span
+  class="keyboard-key">+</span>), and mobile gestures (drag to pan, pinch to
+  zoom, two-finger rotate)
+- Supports standard chess play - castling, substitution, check, etc.
+- Written in vanilla WebGL - no wrapping or abstraction libraries used
 
 Before you ask - unfortunately, no, you can't move the pieces yourself! The
 Stockfish engine plays for both players.
 
--   **Dates:** November - December, 2016
--   **Technologies:** [TypeScript](https://www.typescriptlang.org/),
-    [WebGL](https://www.khronos.org/webgl/),
-    [Stockfish](https://stockfishchess.org/)
--   **Source:**
-    [github.com/nfriend/webgl-chess](https://github.com/nfriend/webgl-chess)
+- **Dates:** November - December, 2016
+- **Technologies:** [TypeScript](https://www.typescriptlang.org/),
+  [WebGL](https://www.khronos.org/webgl/),
+  [Stockfish](https://stockfishchess.org/)
+- **Source:**
+  [github.com/nfriend/webgl-chess](https://github.com/nfriend/webgl-chess)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -299,9 +299,9 @@ myself how JavaScript binding frameworks are implemented.
 
 Should you use this library? No, definitely not!
 
--   **Dates:** February, 2015
--   **Technologies:** [TypeScript](https://www.typescriptlang.org/),
--   **Source:** [github.com/nfriend/nfjs](https://github.com/nfriend/nfjs)
+- **Dates:** February, 2015
+- **Technologies:** [TypeScript](https://www.typescriptlang.org/),
+- **Source:** [github.com/nfriend/nfjs](https://github.com/nfriend/nfjs)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -327,13 +327,13 @@ website](https://edu.princeedwardisland.ca/psb/) and looked for mentions of
 delays or closures. If it found something, it sent an alert (through
 [IFTTT](https://ifttt.com/)) to our phones.
 
--   **Dates:** November, 2019
--   **Technologies:** [TypeScript](https://www.typescriptlang.org/), [AWS
-    Lambda](https://aws.amazon.com/lambda/), [Serverless
-    Framework](https://serverless.com/), [GitLab
-    CI/CD](https://docs.gitlab.com/ee/ci/)
--   **Source:**
-    [gitlab.com/nfriend/snow-day-notifier](https://gitlab.com/nfriend/snow-day-notifier)
+- **Dates:** November, 2019
+- **Technologies:** [TypeScript](https://www.typescriptlang.org/), [AWS
+  Lambda](https://aws.amazon.com/lambda/), [Serverless
+  Framework](https://serverless.com/), [GitLab
+  CI/CD](https://docs.gitlab.com/ee/ci/)
+- **Source:**
+  [gitlab.com/nfriend/snow-day-notifier](https://gitlab.com/nfriend/snow-day-notifier)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -350,12 +350,12 @@ delays or closures. If it found something, it sent an alert (through
 Little needs to be said about this project - you're currently experiencing it
 first-hand!
 
--   **Dates:** April - June, 2018
--   **Technologies:** [Jekyll](https://jekyllrb.com/),
-    ~~[Azure](https://azure.microsoft.com/),~~
-    [AWS EC2](https://aws.amazon.com/ec2/)
--   **Source:**
-    [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
+- **Dates:** April - June, 2018
+- **Technologies:** [Jekyll](https://jekyllrb.com/),
+  ~~[Azure](https://azure.microsoft.com/),~~
+  [AWS EC2](https://aws.amazon.com/ec2/)
+- **Source:**
+  [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
