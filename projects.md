@@ -22,6 +22,31 @@ For examples of my professional work, check out [this summary of my
 contributions at GitLab](/gitlab-contributions) or take a look at [my
 résumé](https://resume.nathanfriend.io).
 
+## Inspiral
+
+Inspiral is my most ambitious side project to date. It's a mobile app follow-up
+to the web version (see below). Over 25,000 people signed up to be notified of
+its release!
+
+Everything about this project was new to me. It was my first time writing a
+mobile app and publishing to either app store; my first time using both Dart and
+Flutter; my first time monetizing a side project.
+
+- **Dates:** January - May, 2021
+- **Technologies:** [Flutter](https://flutter.dev/), [Dart](https://dart.dev/),
+  [RevenueCat](https://www.revenuecat.com/)
+- **Source:** [gitlab.com/nfriend/inspiral](https://gitlab.com/nfriend/inspiral)
+
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of Inspiral](/assets/img/projects/inspiral.jpg)
+<figcaption>inspiral.nathanfriend.io</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
+](https://inspiral.nathanfriend.io){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+</div>
+
 ## Inspiral Web
 
 This project earned me a few minutes of internet fame in 2014 when it trended on
