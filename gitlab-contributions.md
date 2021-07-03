@@ -123,6 +123,25 @@ APIs](https://docs.gitlab.com/ee/api/releases/) in GraphQL:
 - [!56417: Add GraphQL mutation to delete release asset
   link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/56417)
 
+Then, I updated our frontends to use this new GraphQL data:
+
+- [!56882: Convert individual release page to
+  VueApollo](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/56882)
+- [!61828: Convert Releases index page to Apollo
+  Client](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/61828)
+- [!62234: Add pagination controls to new Releases
+  page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/62234)
+- [!62848: Add sort controls to new Releases
+  page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/62848)
+
+This conversion made it easier to implement some [frontend performance
+improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/330784):
+
+- [!63528: Progressively load releases on the Releases
+  page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/63528)
+- [!63914: Update the Releases page to make use of startup
+  queries](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/63914)
+
 The part I'm most proud of? Despite swapping out the entire backend of the
 **Releases** page, no one's seemed to notice 😀
 
