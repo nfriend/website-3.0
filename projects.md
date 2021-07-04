@@ -73,6 +73,27 @@ here](/2015/01/26/inspiral-web.html).
 ](https://nathanfriend.io/inspiral-web){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
+## tree.nathanfriend.io
+
+A little web app to scratch an itch. It makes generating ASCII hierarchical
+diagrams as frictionless as possible.
+
+- **Dates:** December, 2019
+- **Technologies:** [React](https://reactjs.org/) &
+  [Redux](https://redux.js.org/), [TypeScript](http://www.typescriptlang.org/)
+- **Source:**
+  [gitlab.com/nfriend/tree-online](https://gitlab.com/nfriend/tree-online)
+
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![A screenshot of tree.nathanfriend.io](/assets/img/projects/tree-online.jpg)
+<figcaption>tree.nathanfriend.io</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-play_circle_outline-24px.svg){: .play-button}
+](https://tree.nathanfriend.io){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
+</div>
+
 ## CoolToJS
 
 One of my most rewarding projects, but perhaps one of the least flashy. CoolToJS
