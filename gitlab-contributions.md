@@ -227,6 +227,26 @@ search for issues and merge requests by Release:
 - [!20076: Update release search filter feature flag to be enabled by
   default](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/20076)
 
+## DORA 4 metrics
+
+[DORA
+4](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)
+is a set of metrics that gauge the health of a DevOps team. I implemented DORA 4
+charts within GitLab, and played a significant role in the design of the API.
+
+- [!50885: Add deployment frequency charts to CI/CD Analytics
+  page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/50885)
+- [!57872: Add project-level DORA lead time
+  graphs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/57872)
+- [!61053: Add group-level deployment frequency
+  charts](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/61053)
+- [!62941: Add group-level lead time
+  charts](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/62941)
+- [!64961: Add project-level DORA metrics to
+  GraphQL](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/64961)
+- [!65279: Add group-level DORA metrics to
+  GraphQL](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/65279)
+
 ## Quality of life
 
 Every once in a while I step outside the boundaries of the Release Management
