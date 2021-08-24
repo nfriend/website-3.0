@@ -18,10 +18,13 @@ I grew up in the States (in Iowa) but immigrated to Canada in 2015 and spent my
 first several years in this country living on [a lovely rock floating in the
 Atlantic](https://goo.gl/maps/CJZM5Q2NDJragd4dA).
 
-I work at [GitLab](https://about.gitlab.com/) as a Senior Frontend Engineer in
-the [Release Management
-group](https://about.gitlab.com/handbook/product/categories/#release-management-group),
-where I build new features using
+I work remotely at [Stripe](https://stripe.com/) as a Fullstack Engineer on the
+[Connect](https://stripe.com/connect) team.
+
+Before Stripe, I worked at [GitLab](https://about.gitlab.com/) as a Senior
+Frontend Engineer on the
+[Release team](https://about.gitlab.com/handbook/engineering/development/ops/release/),
+where I built new features using
 [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript),
 [Vue](https://vuejs.org/)/[Vuex](https://vuex.vuejs.org/), and
 [GraphQL](https://graphql.org/). Check out [this page](/gitlab-contributions)

@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Nathan Friend
 description: >- # this means to ignore newlines until "baseurl:"
-    Senior Frontend Engineer at GitLab and cellist based out of Woodstock, Ontario. Fascinated with building usable, delightful software. Remote work advocate.
+    Remote Fullstack Engineer @ Stripe and cellist based out of Woodstock, Ontario. Fascinated with building usable, delightful software.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nathanfriend.io" # the base hostname & protocol for your site, e.g. http://example.com
 host: 0.0.0.0
