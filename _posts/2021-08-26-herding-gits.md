@@ -2,12 +2,14 @@
 layout: post
 title: Herding Gits
 date: 2021-08-26 19:42:44 -0400
+image: assets/img/herding-gits/git-mosaic.png
 ---
 
-Juggling multiple Git identites on a single machine can be tricky.
+Juggling multiple Git identities can be tricky.
 
-<!-- TODO: image here -->
-<!-- (Also add image as article's image in frontmatter) -->
+<figure>
+    <img src="{{ 'assets/img/herding-gits/git-mosaic.png' | relative_url }}" alt="A screenshot of the Git logo" />
+</figure>
 
 For example, at [Stripe](https://stripe.com/), we encourage developers to create
 a separate GitHub account for Stripe-related open source activity. For me, this
