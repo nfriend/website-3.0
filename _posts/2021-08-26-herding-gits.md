@@ -104,3 +104,8 @@ Some things I found helpful while setting this up:
   [https://stackoverflow.com/a/48088291/1063392](https://stackoverflow.com/a/48088291/1063392)
 - Using Git's `core.sshCommand` configuration to select an SSH key:
   [https://superuser.com/a/912281/144803](https://superuser.com/a/912281/144803)
+
+## Feedback
+
+Thoughts? Let me know in [this GitLab
+issue](https://gitlab.com/nfriend/website-3.0/-/issues/7)!
