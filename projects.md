@@ -73,6 +73,29 @@ here](/2015/01/26/inspiral-web.html).
 ](https://nathanfriend.io/inspiral-web){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
+## Wordle Bot
+
+A bot that solves the daily [Wordle](https://www.powerlanguage.co.uk/wordle/)
+puzzle every morning and [posts its results to
+Twitter](https://twitter.com/bot_wordle/).
+
+Check out [this blog post I wrote about how it works!](/2022/01/25/wordle.html).
+
+- **Dates:** January, 2022
+- **Technologies:** [TypeScript](http://www.typescriptlang.org/), [Puppeteer](https://pptr.dev/),
+  [GitLab](https://about.gitlab.com/)
+- **Source:** [gitlab.com/nfriend/wordle-solver](https://gitlab.com/nfriend/wordle-solver)
+
+<div class="figure-link" markdown="1">
+<figure markdown="1">
+![The Wordle Bot logo](/assets/img/projects/wordle-bot.png)
+<figcaption>twitter.com/bot_wordle</figcaption>
+</figure>
+[
+  ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
+](https://twitter.com/bot_wordle/){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+</div>
+
 ## tree.nathanfriend.io
 
 A little web app to scratch an itch. It makes generating ASCII hierarchical
@@ -108,8 +131,7 @@ every day.
 - **Technologies:**
   [Cool](<https://en.wikipedia.org/wiki/Cool_(programming_language)>),
   [TypeScript](http://www.typescriptlang.org/)
-- **Source:**
-  [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
+- **Source:** [github.com/nfriend/cooltojs](https://github.com/nfriend/cooltojs)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -179,11 +201,10 @@ the project:
 
 - **Dates:** August - September, 2013
 - **Technologies:**
-  [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript), [Web
-  Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API),
-  [Leap Motion controller](https://www.leapmotion.com/)
-- **Source:**
-  [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
+  [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript), [Web Audio
+  API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), [Leap
+  Motion controller](https://www.leapmotion.com/)
+- **Source:** [github.com/nfriend/Theremin](https://github.com/nfriend/Theremin)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
@@ -398,8 +419,8 @@ first-hand!
 
 - **Dates:** April - June, 2018
 - **Technologies:** [Jekyll](https://jekyllrb.com/),
-  ~~[Azure](https://azure.microsoft.com/),~~
-  [AWS EC2](https://aws.amazon.com/ec2/)
+  ~~[Azure](https://azure.microsoft.com/),~~ [AWS
+  EC2](https://aws.amazon.com/ec2/)
 - **Source:**
   [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
 
