@@ -79,7 +79,7 @@ A bot that solves the daily [Wordle](https://www.powerlanguage.co.uk/wordle/)
 puzzle every morning and [posts its results to
 Twitter](https://twitter.com/bot_wordle/).
 
-Check out [this blog post I wrote about how it works!](/2022/01/25/wordle.html).
+Check out [this blog post I wrote about how it works!](/2022/01/25/wordle.html)
 
 - **Dates:** January, 2022
 - **Technologies:** [TypeScript](http://www.typescriptlang.org/), [Puppeteer](https://pptr.dev/),
