@@ -49,7 +49,7 @@ GEM
       nokogiri (~> 1.6)
       progressbar (~> 1.9)
       verbal_expressions (~> 0.1.5)
-    jekyll-feed (0.15.1)
+    jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
@@ -108,7 +108,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.0)
   jekyll-algolia (~> 1.0)
-  jekyll-feed (~> 0.15.0)
+  jekyll-feed (~> 0.16.0)
   jekyll-minifier (~> 0.1.5)
   jekyll-time-to-read (~> 0.1.2)
   tzinfo-data
