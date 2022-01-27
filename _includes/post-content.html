@@ -1,7 +1,12 @@
-<!-- Store the numnber of words minus 250 in "words" -->
-<!-- Taken from here: https://sacha.me/articles/jekyll-word-counts/ -->
-{% capture words %} {{ page.content | number_of_words | minus: 250 }} {%
-endcapture %} {% unless page.hideHeader %}
+{% capture content %}
+    {% if page.layout == 'post' %}
+        {{ page.content | markdownify }}
+    {% else %}
+        {{ post.content }}
+    {% endif %}
+{% endcapture %}
+
+{% unless page.hideHeader %}
 <!-- If we are on the main page, make the title of the shown
      blog post be a link to the real post page  -->
 {% if page.layout == 'home' %}
@@ -27,7 +32,8 @@ endcapture %} {% unless page.hideHeader %}
 
     <!-- Add the number of minutes to read to the title -->
     {% unless page.hideTimeToRead %}
-    {{ page.content | reading_time_as_i | append: ' to read' }} {% endunless %}
+        {{ content | reading_time_as_i | append: ' to read' }}
+    {% endunless %}
 </p>
 
 <hr />
@@ -60,9 +66,5 @@ endcapture %} {% unless page.hideHeader %}
     </div>
     {% endif %}
 
-    {% if page.layout == 'post' %}
-        {{ page.content | markdownify }}
-    {% else %}
-        {{ post.content }}
-    {% endif %}
+    {{ content }}
 </div>
