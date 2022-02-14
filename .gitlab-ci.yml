@@ -1,5 +1,5 @@
 .ruby_template: &ruby_template
-  image: timbru31/ruby-node:2.7
+  image: timbru31/ruby-node:3.0
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
