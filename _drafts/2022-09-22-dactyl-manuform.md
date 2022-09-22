@@ -24,6 +24,7 @@ _(TODO: Rewrite this all in blog form.)_
 ### A few minor tweaks, and then generate and slice final STL
 
 - [Link to JSON config]({{ 'assets/other/dactyl-manuform/manuform-any-2022.09.21-01.32.29.json' | relative_url }})
+- [Link to hosted version of STL generator](https://dactyl.mbugert.de/)
 - [Link to left half STL]({{ 'assets/other/dactyl-manuform/case-left.stl' | relative_url }})
 - [Link to right half STL]({{ 'assets/other/dactyl-manuform/case-right.stl' | relative_url }})
 
