@@ -23,6 +23,7 @@ _(TODO: Rewrite this all in blog form.)_
 
 ### A few minor tweaks, and then generate and slice final STL
 
+- Decided to use external Pro Micro controller holder, which I could only find in the [Wayback Machine](https://web.archive.org/web/20220607031910/https://dactyl.siskam.link/loligagger-external-holder-promicro-v2.stl)
 - [Link to JSON config]({{ 'assets/other/dactyl-manuform/manuform-any-2022.09.21-01.32.29.json' | relative_url }})
 - [Link to hosted version of STL generator](https://dactyl.mbugert.de/)
 - [Link to left half STL]({{ 'assets/other/dactyl-manuform/case-left.stl' | relative_url }})
