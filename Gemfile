@@ -12,7 +12,7 @@ gem "jekyll", "~> 3.8.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15.0"
+  gem "jekyll-feed", "~> 0.16.0"
   gem "jekyll-time-to-read", "~> 0.1.2"
   gem "jekyll-minifier", "~> 0.1.5"
   gem "jekyll-algolia", "~> 1.0"
