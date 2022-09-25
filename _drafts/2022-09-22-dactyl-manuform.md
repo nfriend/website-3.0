@@ -36,12 +36,14 @@ _(TODO: Rewrite this all in blog form.)_
 
 ### Cost breakdown
 
-| Description                           | Cost (CAD)  | Link                                                                 |
-| ------------------------------------- | ----------- | -------------------------------------------------------------------- |
-| Wood PLA filament for 3D printed case | $40.44      | [amazon.ca](https://a.co/d/eUWep4w)                                  |
-| Kailh switch tester                   | $21.46      | [aliexpress.com](https://www.aliexpress.com/item/32898546644.html)   |
-| Kailh low-profile switch tester       | $9.68       | [aliexpress.com](https://www.aliexpress.com/item/4001204818828.html) |
-| Pro Micro controller (x2)             | $44.98      | [amazon.ca](https://a.co/d/1GsSJXg)                                  |
-| **Total**                             | **$116.56** |                                                                      |
+| Description                           | Cost (CAD) | Link                                                                 |
+| ------------------------------------- | ---------- | -------------------------------------------------------------------- |
+| Wood PLA filament for 3D printed case | $40.44     | [amazon.ca](https://a.co/d/eUWep4w)                                  |
+| Kailh switch tester                   | $21.46     | [aliexpress.com](https://www.aliexpress.com/item/32898546644.html)   |
+| Kailh low-profile switch tester       | $9.68      | [aliexpress.com](https://www.aliexpress.com/item/4001204818828.html) |
+| Pro Micro controller (x2)             | $44.98     | [amazon.ca](https://a.co/d/1GsSJXg)                                  |
+| M3 heat-seated inserts (x100)         | $12.42     | [amazon.ca](https://a.co/d/6wMZmwo)                                  |
+| TODO: Add Digi-Key order              | $51.25     | TODO                                                                 |
+| **Total**                             | **-**      |                                                                      |
 
 <br>
