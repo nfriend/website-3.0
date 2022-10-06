@@ -43,7 +43,37 @@ _(TODO: Rewrite this all in blog form.)_
 
 <figure>
     <img src="{{ 'assets/img/dactyl-manuform/cura.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
-    <figcaption></figcaption>
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/insert_installed.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/on_print_bed.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/printed_no_sanding.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/kailh_hot_swap_socket.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
 </figure>
 <br>
 
@@ -51,29 +81,30 @@ _(TODO: Rewrite this all in blog form.)_
 
 Cost of all items, including tax and shipping.
 
-| Description                                    | Cost (CAD)  | Link                                                                                            |
-| ---------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------- |
-| Wood PLA filament for 3D printed case          | $40.44      | [amazon.ca](https://a.co/d/eUWep4w)                                                             |
-| Kailh switch tester                            | $21.46      | [aliexpress.com](https://www.aliexpress.com/item/32898546644.html)                              |
-| Kailh low-profile switch tester                | $9.68       | [aliexpress.com](https://www.aliexpress.com/item/4001204818828.html)                            |
-| Pro Micro controller (x2)                      | $44.98      | [amazon.ca](https://a.co/d/1GsSJXg)                                                             |
-| Kailh BOX White switches (x90)                 | $51.26      | [aliexpress.com](https://www.aliexpress.com/item/1005004522909300.html)                         |
-| Kailh hot-swap sockets (x100)                  | $17.89      | [aliexpress.com](https://www.aliexpress.com/item/4001051840976.html)                            |
-| M3 heat-seated inserts (x100)                  | $12.42      | [amazon.ca](https://a.co/d/6wMZmwo)                                                             |
-| M3 screws (x100)                               | $12.02      | [amazon.ca](https://a.co/d/enX1CBA)                                                             |
-| EC11 rotary encoder (x4)                       | $15.80      | [amazon.ca](https://a.co/d/eAp729Y)                                                             |
-| LED strip (1m)                                 | $16.37      | [aliexpress.com](https://www.aliexpress.com/item/32682015405.html)                              |
-| 1N4148 Diode (x100)                            | $8.80       | [digikey.ca](https://www.digikey.ca/en/products/detail/onsemi/1N4148/458603)                    |
-| Reset button (x3)                              | $10.82      | [digikey.ca](https://www.digikey.ca/en/products/detail/e-switch/PS1057ABLK/46305)               |
-| 22AWG Wire (25')                               | $7.24       | [digikey.ca](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-08866/6833926)  |
-| TRRS jack, female (x3)                         | $12.65      | [digikey.ca](https://www.digikey.ca/en/products/detail/switchcraft-inc/35RASMT5CHNTRX/16569698) |
-| Jumper wire (x60)                              | $11.74      | [digikey.ca](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-12796/5993861)  |
-| Soldering iron                                 | $59.87      | [homedepot.ca](https://www.homedepot.ca/product/1001649527)                                     |
-| Solder                                         | $28.23      | [homedepot.ca](https://www.homedepot.ca/product/1001652943)                                     |
-| Gel wood stain\*                               | $19.93      | [homedepot.ca](https://www.homedepot.ca/product/1000844900)                                     |
-| Glossy polyurethane\*                          | $27.11      | [amazon.ca](https://a.co/d/do2gUQm)                                                             |
-| **Keyboard materials**                         | **$337.7**  |                                                                                                 |
-| **All items** (including tools, testers, etc.) | **$428.71** |                                                                                                 |
+| Description                                    | Cost (CAD) | Link                                                                                                                                                                  |
+| ---------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wood PLA filament for 3D printed case          | $40.44     | [amazon.ca](https://a.co/d/eUWep4w)                                                                                                                                   |
+| Kailh switch tester                            | $21.46     | [aliexpress.com](https://www.aliexpress.com/item/32898546644.html)                                                                                                    |
+| Kailh low-profile switch tester                | $9.68      | [aliexpress.com](https://www.aliexpress.com/item/4001204818828.html)                                                                                                  |
+| Pro Micro controller (x2)                      | $44.98     | [amazon.ca](https://a.co/d/1GsSJXg)                                                                                                                                   |
+| Kailh BOX White switches (x90)                 | $51.26     | [aliexpress.com](https://www.aliexpress.com/item/1005004522909300.html)                                                                                               |
+| Kailh hot-swap sockets (x100)                  | $17.89     | [aliexpress.com](https://www.aliexpress.com/item/4001051840976.html)                                                                                                  |
+| M3 heat-seated inserts (x100)                  | $12.42     | [amazon.ca](https://a.co/d/6wMZmwo)                                                                                                                                   |
+| M3 screws (x100)                               | $12.02     | [amazon.ca](https://a.co/d/enX1CBA)                                                                                                                                   |
+| EC11 rotary encoder (x4)                       | $15.80     | [amazon.ca](https://a.co/d/eAp729Y)                                                                                                                                   |
+| LED strip (1m)                                 | $16.37     | [aliexpress.com](https://www.aliexpress.com/item/32682015405.html)                                                                                                    |
+| 1N4148 Diode (x100)                            | $8.80      | [digikey.ca](https://www.digikey.ca/en/products/detail/onsemi/1N4148/458603)                                                                                          |
+| Reset button (x3)                              | $10.82     | [digikey.ca](https://www.digikey.ca/en/products/detail/e-switch/PS1057ABLK/46305)                                                                                     |
+| 22AWG Wire (25')                               | $7.24      | [digikey.ca](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-08866/6833926)                                                                        |
+| TRRS jack, female (x3)                         | $12.65     | [digikey.ca](https://www.digikey.ca/en/products/detail/switchcraft-inc/35RASMT5CHNTRX/16569698)                                                                       |
+| Jumper wire (x60)                              | $11.74     | [digikey.ca](https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-12796/5993861)                                                                        |
+| Soldering iron                                 | $59.87     | [homedepot.ca](https://www.homedepot.ca/product/1001649527)                                                                                                           |
+| Solder                                         | $28.23     | [homedepot.ca](https://www.homedepot.ca/product/1001652943)                                                                                                           |
+| Wire stripper                                  | $11.29     | [canadiantire.ca](https://www.canadiantire.ca/en/pdp/mastercraft-20-30-gauge-wire-stripper-comfort-grip-handles-high-carbon-heat-treated-steel-0584508p.html?loc=plp) |
+| Gel wood stain\*                               | $19.93     | [homedepot.ca](https://www.homedepot.ca/product/1000844900)                                                                                                           |
+| Glossy polyurethane\*                          | $27.11     | [amazon.ca](https://a.co/d/do2gUQm)                                                                                                                                   |
+| **Keyboard materials**                         | **$TODO**  |                                                                                                                                                                       |
+| **All items** (including tools, testers, etc.) | **$TODO**  |                                                                                                                                                                       |
 
 _\*Items I already owned before starting this project_
 <br>
