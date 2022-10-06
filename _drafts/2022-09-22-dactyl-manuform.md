@@ -61,6 +61,7 @@ Cost of all items, including tax and shipping.
 | Kailh hot-swap sockets (x100)                  | $17.89      | [aliexpress.com](https://www.aliexpress.com/item/4001051840976.html)                            |
 | M3 heat-seated inserts (x100)                  | $12.42      | [amazon.ca](https://a.co/d/6wMZmwo)                                                             |
 | M3 screws (x100)                               | $12.02      | [amazon.ca](https://a.co/d/enX1CBA)                                                             |
+| EC11 rotary encoder (x4)                       | $15.80      | [amazon.ca](https://a.co/d/eAp729Y)                                                             |
 | LED strip (1m)                                 | $16.37      | [aliexpress.com](https://www.aliexpress.com/item/32682015405.html)                              |
 | 1N4148 Diode (x100)                            | $8.80       | [digikey.ca](https://www.digikey.ca/en/products/detail/onsemi/1N4148/458603)                    |
 | Reset button (x3)                              | $10.82      | [digikey.ca](https://www.digikey.ca/en/products/detail/e-switch/PS1057ABLK/46305)               |
@@ -71,8 +72,8 @@ Cost of all items, including tax and shipping.
 | Solder                                         | $28.23      | [homedepot.ca](https://www.homedepot.ca/product/1001652943)                                     |
 | Gel wood stain\*                               | $19.93      | [homedepot.ca](https://www.homedepot.ca/product/1000844900)                                     |
 | Glossy polyurethane\*                          | $27.11      | [amazon.ca](https://a.co/d/do2gUQm)                                                             |
-| **Keyboard materials**                         | **$321.90** |                                                                                                 |
-| **All items** (including tools, testers, etc.) | **$412.91** |                                                                                                 |
+| **Keyboard materials**                         | **$337.7**  |                                                                                                 |
+| **All items** (including tools, testers, etc.) | **$428.71** |                                                                                                 |
 
 _\*Items I already owned before starting this project_
 <br>
