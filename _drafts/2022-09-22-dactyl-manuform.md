@@ -77,6 +77,18 @@ _(TODO: Rewrite this all in blog form.)_
 </figure>
 <br>
 
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/sanded_side.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img src="{{ 'assets/img/dactyl-manuform/sanded_top.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
 ### Cost breakdown
 
 Cost of all items, including tax and shipping.
