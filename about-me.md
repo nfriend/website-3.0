@@ -18,7 +18,7 @@ I grew up in the States (in Iowa) but immigrated to Canada in 2015 and spent my
 first several years in this country living on [a lovely rock floating in the
 Atlantic](https://goo.gl/maps/CJZM5Q2NDJragd4dA).
 
-I work remotely at [Stripe](https://stripe.com/) as a Fullstack Engineer on the
+I work remotely at [Stripe](https://stripe.com/) as a Software Engineer on the
 [Connect](https://stripe.com/connect) team.
 
 Before Stripe, I worked at [GitLab](https://about.gitlab.com/) as a Senior
