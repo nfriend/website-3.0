@@ -48,6 +48,12 @@ _(TODO: Rewrite this all in blog form.)_
 <br>
 
 <figure>
+    <img src="{{ 'assets/img/dactyl-manuform/cura-2.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
     <img src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
@@ -116,6 +122,7 @@ Cost of all items, including tax and shipping.
 | Acrylic base plate (x4)                        | $54.88     | [ponoko.com](https://www.ponoko.com/)                                                                                                                                 |
 | Gel wood stain\*                               | $19.93     | [homedepot.ca](https://www.homedepot.ca/product/1000844900)                                                                                                           |
 | Glossy polyurethane\*                          | $27.11     | [amazon.ca](https://a.co/d/do2gUQm)                                                                                                                                   |
+| Keycap set (x2)                                | $57.32     | [amazon.ca](https://www.amazon.ca/gp/product/B0B3QQ2468)                                                                                                              |
 | **Keyboard materials**                         | **$TODO**  |                                                                                                                                                                       |
 | **All items** (including tools, testers, etc.) | **$TODO**  |                                                                                                                                                                       |
 
