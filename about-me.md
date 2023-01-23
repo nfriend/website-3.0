@@ -9,10 +9,7 @@ hideComments: true
 hideMorePosts: true
 ---
 
-Hi, I'm Nathan Friend. I'm a software engineer based out of Woodstock, Ontario,
-a small town in Canada near Toronto:
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981644.8965490493!2d-82.97926138765894!3d43.13051320032554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c1f4754bf53cd%3A0x5037b28c7231e90!2sWoodstock%2C%20ON!5e0!3m2!1sen!2sca!4v1579569136374!5m2!1sen!2sca" width="500" height="400" frameborder="0" style="border:0;" class="rounded" style="margin-bottom: 20px;"></iframe>
+Hi, I'm Nathan Friend. I'm a software engineer based out of a small town in Ontario, Canada.
 
 I grew up in the States (in Iowa) but immigrated to Canada in 2015 and spent my
 first several years in this country living on [a lovely rock floating in the
