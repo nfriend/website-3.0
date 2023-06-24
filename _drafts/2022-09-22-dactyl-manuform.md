@@ -4,6 +4,12 @@ title: 'Dactyl Manuform'
 date: 2022-09-22 10:30:29 -0300
 ---
 
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/half_rainbow.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
 Bullet point build log:
 
 _(TODO: Rewrite this all in blog form.)_
@@ -16,7 +22,7 @@ _(TODO: Rewrite this all in blog form.)_
 - Helpful Hacker News comment: [https://news.ycombinator.com/item?id=23445208](https://news.ycombinator.com/item?id=23445208)
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/draft.jpg' | relative_url }}" alt="A draft print of the right half" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/draft.jpg' | relative_url }}" alt="A draft print of the right half" />
     <figcaption>Printed with a .8mm nozzle, .32mm layer height, and lightning infill</figcaption>
 </figure>
 <br>
@@ -30,67 +36,173 @@ _(TODO: Rewrite this all in blog form.)_
 - [Link to final STL]({{ 'assets/other/dactyl-manuform/case.stl' | relative_url }})
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/insert_tester.jpg' | relative_url }}" alt="A photo of a print for determining the correct insert tolerance" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_tester.jpg' | relative_url }}" alt="A photo of a print for determining the correct insert tolerance" />
     <figcaption>A test print with insert holes ranging from 3.8mm to 4.2mm in diameter</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/insert_tester_after.jpg' | relative_url }}" alt="A photo of another insert hole test print; this one includes installed screws" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_tester_after.jpg' | relative_url }}" alt="A photo of another insert hole test print; this one includes installed screws" />
     <figcaption>A second test print with insert holes ranging from 4.2mm to 4.6mm. I decided to go with 4.5mm.</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/cura.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/cura.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/cura-2.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/cura-2.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/insert_installed.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_installed.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/on_print_bed.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/on_print_bed.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/printed_no_sanding.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/printed_no_sanding.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/kailh_hot_swap_socket.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/kailh_hot_swap_socket.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/sanded_side.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/sanded_side.jpg' | relative_url }}" alt="TODO" />
     <figcaption>TODO</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img src="{{ 'assets/img/dactyl-manuform/sanded_top.jpg' | relative_url }}" alt="TODO" />
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/sanded_top.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/finish_complete_one_side.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/finish_complete_both_sides.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/broken_bed.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/encoder_adapters.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/encoders_installed.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_installed.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_soldered.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_soldered_together.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/columns_soldered.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/dupont_connectors_attached.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/it_lives.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/holder.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/spaghetti.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<!-- END -->
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/desk.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/bottom_and_side.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/pink.jpg' | relative_url }}" alt="TODO" />
+    <figcaption>TODO</figcaption>
+</figure>
+<br>
+
+<figure>
+    <video controls width="500">
+        <source src="{{ 'assets/img/dactyl-manuform/alert.mp4' | relative_url }}" />
+    </video>
     <figcaption>TODO</figcaption>
 </figure>
 <br>
@@ -123,6 +235,8 @@ Cost of all items, including tax and shipping.
 | Gel wood stain\*                               | $19.93     | [homedepot.ca](https://www.homedepot.ca/product/1000844900)                                                                                                           |
 | Glossy polyurethane\*                          | $27.11     | [amazon.ca](https://a.co/d/do2gUQm)                                                                                                                                   |
 | Keycap set (x2)                                | $57.32     | [amazon.ca](https://www.amazon.ca/gp/product/B0B3QQ2468)                                                                                                              |
+| Electrical tape                                | $5.37      | [amazon.ca](https://www.amazon.ca/dp/B001AXD0EY)                                                                                                                      |
+| Rubber feet                                    | $13.55     | [amazon.ca](https://www.amazon.ca/gp/product/B08GLMTL77)                                                                                                              |
 | **Keyboard materials**                         | **$TODO**  |                                                                                                                                                                       |
 | **All items** (including tools, testers, etc.) | **$TODO**  |                                                                                                                                                                       |
 
