@@ -1,16 +1,14 @@
 ---
 layout: post
 title: 'I built a weird keyboard'
-date: 2022-09-22 10:30:29 -0300
-image: /assets/img/dactyl-manuform/half_rarinbow.jpg
+date: 2023-06-26 21:00:00 -0300
+image: /assets/img/dactyl-manuform/half_rainbow.jpg
 ---
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/half_rainbow.jpg' | relative_url }}" alt="A picture of half a Dactyl Manuform keyboard" />
 </figure>
-<br>
-
-I spent most of my free time over the last 12 months building this bizarre keyboard from scratch. It's a [Dactyl Manuform](https://github.com/abstracthat/dactyl-manuform) - a split keyboard with a highly sculpted design that is somehow simulataneously the ugliest and most eye-catching object I've ever seen.
+<br>I spent most of my free time over the last 10 months building this bizarre keyboard from scratch. It's a [Dactyl Manuform](https://github.com/abstracthat/dactyl-manuform) - a split keyboard with a highly sculpted design that is somehow simulataneously the ugliest and most eye-catching object I've ever seen.
 
 The goal of this keyboard design is to place keys exactly along each finger's natural axis of motion. The consequences of this approach are downward-sloping (A.K.A "tented") rows to match the natural angle of the wrists, a deeper middle finger column to compensate for this finger's relative length, an offset pinky column to minimize stretching, and a thumb cluster with multiple keys to take advantage of its opposable nature.
 
@@ -18,15 +16,15 @@ There's a reason most keyboards don't look like this. It's difficult to mass-pro
 
 ## Build log
 
-The first step was to design and 3D print the case. There are a number of Dactyl Manuform model generators out there; I ended up using [this one](https://github.com/ibnuda/dactyl-keyboard/tree/refaktor) since it had a few extra features I wanted (e.g. wide pinky keys). Some design goals:
+The first step was to design and 3D print the case. There are a number of Dactyl Manuform model generators out there; I ended up using [this one](https://github.com/ibnuda/dactyl-keyboard/tree/refaktor) since it had a few extra features I wanted (e.g. wide pinky keys). Some things I was looking for in my design:
 
 - A key layout similar to the [ErgoDox EZ](https://ergodox-ez.com/) keyboards I already own
-- An aggressive tent angle (I went with π/8)
+- An aggressive tent angle (I went with π/8 = 22.5°)
 - [Hot-swap](https://en.wikipedia.org/wiki/Hot_swapping#Keyboards) sockets
 
 I gave up on the hot-swap sockets after failing to coax the generator script to produce valid hot-swap socket holders. I'm glad I did - in the end I don't think they would have worked anyway.
 
-Once I had a model I was happy with, I printed a draft version to get a feel for it!
+Once I had a model that looked good on the screen, I printed a draft version to see it in real life.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/draft.jpg' | relative_url }}" alt="A draft print of the right half" />
@@ -41,7 +39,7 @@ Overall, I was really happy with this first draft. I only made a few tweaks to t
 
 To mount the base plates to the body of the keyboard, I used [these heat set](https://a.co/d/6wMZmwo) inserts. It's a neat system; the threaded inserts are melted into the 3D print using a soldering gun, producing threaded screw holes much stronger and smaller than anything that would be possible using only 3D printing.
 
-To determine the ideal hole size for these inserts, I made this test print:
+To determine the ideal hole size for these inserts, I made a test print.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_tester.jpg' | relative_url }}" alt="A photo of a print for determining the correct insert tolerance" />
@@ -49,21 +47,19 @@ To determine the ideal hole size for these inserts, I made this test print:
 </figure>
 <br>
 
-I'm glad I tested this; they were _all_ too small. A second print with bigger holes was more successful:
+I'm glad I tested this; _all_ of the hole options were too small! A second print with bigger holes was more successful.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_tester_after.jpg' | relative_url }}" alt="A photo of another insert hole test print; this one includes installed screws" />
-    <figcaption>A second test print with insert holes ranging from 4.2mm to 4.6mm in diameter</figcaption>
+    <figcaption>A second test print with insert holes ranging from 4.2mm to 4.6mm in diameter. I decided to go with 4.5mm</figcaption>
 </figure>
 <br>
 
-I decided to go with 4.5mm.
-
-With this last detail resolved, I began printing the real halves. I used my favorite material - wood PLA - which looks (and even smells) quite similar to real wood, once properly post-processed.
+With this last detail resolved, I began printing the real halves. I used my favorite material - wood PLA - which looks (and even smells!) quite similar to real wood, once properly post-processed.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/cura.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
-    <figcaption>The final STL file being sliced in Cura</figcaption>
+    <figcaption>The final STL file being sliced in Cura. 24 hours per half!</figcaption>
 </figure>
 <br>
 
@@ -75,25 +71,43 @@ With this last detail resolved, I began printing the real halves. I used my favo
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/printed_no_sanding.jpg' | relative_url }}" alt="A picture of both halves of the keyboard" />
-    <figcaption>Both halves completed</figcaption>
+    <figcaption>Both halves printed and slightly cleaned up</figcaption>
 </figure>
 <br>
 
-I melted the inserts into the holes, which was nerve-wracking. It was awkward to try and hold the keyboard _and_ the insert in place while pressing the insert into the plastic with the soldering gun.
+I melted the inserts into the holes, which was nerve-wracking; one bad insert would have likely ruined the whole print. It was awkward to try and hold the keyboard _and_ the insert in place while pressing the insert into the plastic with the soldering gun. Somehow I managed to install all ten without issue!
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_installed.jpg' | relative_url }}" alt="A picture of an installed heat-set insert" />
-    <figcaption>An installed heat-set insert. Each half has five.</figcaption>
+    <figcaption>An installed heat-set insert</figcaption>
 </figure>
 <br>
 
-Next up was post-processing. I sanded each half with 80-grit sandpaper, which was a _ton_ of work - there are a lot of nooks and crannies that make this tedious:
+I ordered the transparent acrylic base plates from [ponoko.com](https://www.ponoko.com/) and was quite happy with the result.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/acrylic_plate.jpg' | relative_url }}" alt="The bottom plate of the keyboard, made from acrylic" />
+    <figcaption>Acrylic base plate from <a href="https://www.ponoko.com/">ponoko.com</a></figcaption>
+</figure>
+<br>
+
+Next up was post-processing. I sanded each half with 80-grit sandpaper, which was a _ton_ of work - there are a lot of nooks and crannies that make this tedious a job.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/sanded_side.jpg' | relative_url }}" alt="A picture of both keyboard halves, sanded" />
     <figcaption>Both halves, sanded</figcaption>
 </figure>
 <br>
+
+In order to sand the inside of the key holes, I printed a little attachment that I could wrap with sandpaper and fit on my screwdriver.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/screw_driver.jpg' | relative_url }}" alt="A screwdriver with a 3D-printed accessory installed" />
+    <figcaption>My custom SuperSander™ (patent pending)</figcaption>
+</figure>
+<br>
+
+Normally this would be an unnecessary step - no one sees the inside of the key holes - but the fit was a _bit_ too tight; most of the holes required some sanding before the switch would fit properly. (This is why I'm glad I didn't bother with hot-swap sockets - the fit is so tight, I'd never be able to get the switches out anyway.)
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/sanded_top.jpg' | relative_url }}" alt="Another picture of both keyboard halves, sanded" />
@@ -109,9 +123,21 @@ The next step was to stain and clear coat the prints. I used this [gel stain](ht
 </figure>
 <br>
 
-This was a time consuming step, as each half required three coats of stain (minimum 24 hours to dry per coat) and at least 3 coats of polyurethane (a few hours to dry per coat).
+This was a time consuming step, as each half required three coats of stain (minimum 24 hours to dry per coat) and at least 3 coats of polyurethane (a few hours to dry per coat). I did this in the dead of winter which made drying these in the outdoors challenging (a space heater may have been involved).
 
-At this point, I was able to set the switches and keycaps in place and get a feel for what it would be like to type on this monstrosity.
+The hard work paid off, though - I'm really happy with how these look! The layer lines even give the illusion of a wood grain.
+
+The next decision was which key switches to use. I'm a clicky switch guy; the noisier the better! I bought a Kailh switch tester so I could make an informed decision and decided on Kailh Box Whites.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="Two keyboard switch testers" />
+    <figcaption>Regular and low-profile Kailh switch testers. Not pictured: Gateron and Boba testers</figcaption>
+</figure>
+<br>
+
+Compared to other clicky switches (e.g. Cherry MX Blues), Box Whites are _extra_ clicky. Perfect for working remotely! If I ever make a silent/office-friendly version of this board, I'll go with Boba U4 Silents.
+
+At this point, I was able to set the switches and keycaps in place and get a feel for what it would be like to type on this monstrosity. I'll admit it felt about as weird as it looks.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/finish_complete_both_sides.jpg' | relative_url }}" alt="A picture of the keyboard; half has just the switches installed, and the other half has both switches and key caps installed" />
@@ -119,21 +145,11 @@ At this point, I was able to set the switches and keycaps in place and get a fee
 </figure>
 <br>
 
-I had settled on Kailh box white switches after trying a bunch using this handy tester:
-
-<figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="Two keyboard switch testers" />
-    <figcaption>Regular and low-profile Kailh switch testers. I also ended up buying a Gateron and a Boba tester</figcaption>
-</figure>
-<br>
-
-These keys are _extra_ clicky. Perfect for working remotely!
-
-There was one last detail to work out before I could begin wiring up the boards. I wanted to install a rotary encoder (A.K.A "volume knob") on each half, but these aren't compatible with keyboard holes out of the box. I had to 3D print a special adapter for each.
+There was one last detail to work out before I could begin wiring up the halves. I wanted to install a rotary encoder ("volume knob") on each half, but these don't click into a standard keyboard hole out of the box. I had to 3D print a special adapter for each.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/encoder_adapters.jpg' | relative_url }}" alt="3D-printed adapters for rotary encoders" />
-    <figcaption>The end result with chunks of glass attached to the bottoms</figcaption>
+    <figcaption>The end result, with chunks of glass attached to the bottoms</figcaption>
 </figure>
 <br>
 
@@ -145,7 +161,7 @@ I printed these with PETG and learned the hard way to _always_ use glue stick wh
 </figure>
 <br>
 
-Despite the rather violent effect on my printer, the adapters did their job quite nicely!
+Despite their rather violent effects on my printer, the adapters did their job quite nicely!
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/encoders_installed.jpg' | relative_url }}" alt="Two pictures of rotary encoders; one without a cap and one with a cap" />
@@ -153,7 +169,7 @@ Despite the rather violent effect on my printer, the adapters did their job quit
 </figure>
 <br>
 
-Finally, it was time to start wiring it up! First, I wrapped diodes around each pin.
+Finally, it was time to start wiring it up! First, I wrapped diodes around one pin on each switch.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_installed.jpg' | relative_url }}" alt="A keyboard half with diodes bent around one pin of the switch" />
@@ -161,31 +177,31 @@ Finally, it was time to start wiring it up! First, I wrapped diodes around each 
 </figure>
 <br>
 
-I soldered the diodes into place and snipped the extra length.
+I soldered the diodes into place and snipped the extra leg.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_soldered.jpg' | relative_url }}" alt="A keyboard half with diodes soldered to one pin of the switch" />
-    <figcaption>Diodes snipped and soldered</figcaption>
+    <figcaption>Diodes soldered and snipped</figcaption>
 </figure>
 <br>
 
-I soldered the remaining diode legs together to form the rows of the matrix.
+I soldered the remaining diode legs together to form the rows of the [key matrix](https://en.wikipedia.org/wiki/Keyboard_matrix_circuit).
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_soldered_together.jpg' | relative_url }}" alt="A keyboard half with diodes soldered together to form rows of the keyboard matrix" />
-    <figcaption>Diode legs soldered together</figcaption>
+    <figcaption>Diode legs soldered together into rows</figcaption>
 </figure>
 <br>
 
-The columns were wired used small, individual pieces of insulated wire.
+I used small, individual pieces of insulated wire to form the columns.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/columns_soldered.jpg' | relative_url }}" alt="A keyboard half with wires soldered to the switches to form columns of the keyboard matrix" />
-    <figcaption>Rows wired</figcaption>
+    <figcaption>Don't look too closely; I'm really bad at soldering</figcaption>
 </figure>
 <br>
 
-I installed [DuPont wires](https://en.wikipedia.org/wiki/Jump_wire) to save me from needing to solder the wires directly to the microcontroller.
+I installed [DuPont connectors](https://en.wikipedia.org/wiki/Jump_wire) so I didn't have to solder directly to the microcontroller. This saved me a _lot_ of headache since it took quite a bit of trial and error to get all pins in the right spot.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/dupont_connectors_attached.jpg' | relative_url }}" alt="A keyboard half with DuPont connectors installed to each row and column of the keyboard matrix" />
@@ -193,7 +209,7 @@ I installed [DuPont wires](https://en.wikipedia.org/wiki/Jump_wire) to save me f
 </figure>
 <br>
 
-I flashed a basic [QMK](https://qmk.fm/) firmware to the microcontroller and gave it a shot. After some trial and error, I had the incredibly satisfying experience of seeing a letter appear on the screen when I pushed a button. I also got an LED strip working!
+I flashed a basic [QMK](https://qmk.fm/) firmware to the microcontroller and had the incredibly satisfying experience of seeing a letter appear on the screen when I pressed a key. I also got the LED strip working!
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/it_lives.jpg' | relative_url }}" alt="A keyboard half with a LED strip lit in rainbow colors" />
@@ -201,7 +217,7 @@ I flashed a basic [QMK](https://qmk.fm/) firmware to the microcontroller and gav
 </figure>
 <br>
 
-I was getting _really_ close at this point. I designed a holder for the microcontroller since the "normal" one didn't fit my keyboard for some reason:
+I was getting _really_ close at this point. I designed a custom holder for the microcontroller since the one that was supposed to be compatible with my case didn't fit for some reason.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/holder.jpg' | relative_url }}" alt="A 3D printed holder for the microcontroller" />
@@ -209,7 +225,7 @@ I was getting _really_ close at this point. I designed a holder for the microcon
 </figure>
 <br>
 
-I had to splice some wires together since some of the microcontroller pins had to be shared by more than one connection:
+I had to splice some wires together since a few of the microcontroller pins had to be shared by more than one connection.
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/spaghetti.jpg' | relative_url }}" alt="A mess of wires soldered together" />
@@ -245,7 +261,19 @@ After assembling all the pieces, a bit of software configuration, and a lot of t
 </figure>
 <br>
 
-### Cost breakdown
+## How does it feel?
+
+Weird, but good! I've only been typing on it for a few work days, so my muscle memory hasn't fully adjusted. I keep reaching for keys in the wrong places; in particular, my fingers naturally stretch too far when reaching for the bottom row. I also made a few modifications to my [QMK layout](https://gitlab.com/nfriend/qmk_firmware/-/blob/nfriend-dactyl-manuform/keyboards/handwired/dactyl_manuform/5x7/keymaps/nfriend/keymap.c) to take advantage of the more accessible thumb clusters compared to my ErgoDox EZ. I think I'll really like it once I'm used to it.
+
+## Things I learned
+
+TODO
+
+## Was it worth it?
+
+Umm... I think so? The end result was fantastic, but it was an insane amount of work. I wouldn't recommend this project to anyone who isn't super interested in the process itself. If you're just looking for a great ergonomic keyboard, I'd recommend buying an [ErgoDox EZ](https://ergodox-ez.com/), a [Moonlander](https://www.zsa.io/moonlander/), a [Kinesis Advantage360](https://kinesis-ergo.com/shop/adv360/) or a [prebuilt Dactyl Manuform](https://ohkeycaps.com/products/built-to-order-dactyl-manuform-keyboard), all of which will cost about the same as this project (see below).
+
+## Cost breakdown
 
 Cost of all items, including tax and shipping.
 
@@ -275,14 +303,18 @@ Cost of all items, including tax and shipping.
 | Keycap set (x2)                                | $57.32      | [amazon.ca](https://www.amazon.ca/gp/product/B0B3QQ2468)                                                                                                              |
 | Electrical tape                                | $5.37       | [amazon.ca](https://www.amazon.ca/dp/B001AXD0EY)                                                                                                                      |
 | Rubber feet                                    | $13.55      | [amazon.ca](https://www.amazon.ca/gp/product/B08GLMTL77)                                                                                                              |
-| **Only keyboard materials**                    | **$468.82** |                                                                                                                                                                       |
-| **All items** (including tools, testers, etc.) | **$571.12** |                                                                                                                                                                       |
+| **Only keyboard materials**                    | **$468.82** | ≈ $354 USD                                                                                                                                                            |
+| **All items** (including tools, testers, etc.) | **$571.12** | ≈ $431 USD                                                                                                                                                            |
 
 As you can see, building your own keyboard is _not_ a good way to save money&nbsp;💸
 
-<br>
+## Links/resources
 
-### Links/resources
-
-- Helpful Hacker News comment: [https://news.ycombinator.com/item?id=23445208](https://news.ycombinator.com/item?id=23445208)
-- Link to STLs
+- All `.stl` and `.svg` files: [https://www.thingiverse.com/thing:6099419](https://www.thingiverse.com/thing:6099419)
+- A helpful Hacker News comment: [https://news.ycombinator.com/item?id=23445208](https://news.ycombinator.com/item?id=23445208)
+- The generator I used to generate the keyboard case model: [https://github.com/ibnuda/dactyl-keyboard/tree/refaktor](https://github.com/ibnuda/dactyl-keyboard/tree/refaktor)
+- Some helpul build logs:
+  - [https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f)
+  - [https://youtu.be/UerP5bxGL3c](https://youtu.be/UerP5bxGL3c) (and subsequent videos)
+  - [https://nickgreen.info/dactyl-manuform-build-log/](https://nickgreen.info/dactyl-manuform-build-log/)
+  - [https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065](https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065)
