@@ -2,11 +2,11 @@
 layout: post
 title: 'I built a weird keyboard'
 date: 2023-06-26 21:00:00 -0300
-image: /assets/img/dactyl-manuform/half_rainbow.jpg
+image: /assets/img/i-built-a-weird-keyboard/half_rainbow.jpg
 ---
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/half_rainbow.jpg' | relative_url }}" alt="A picture of half a Dactyl Manuform keyboard" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/half_rainbow.jpg' | relative_url }}" alt="A picture of half a Dactyl Manuform keyboard" />
 </figure>
 <br>I spent most of my free time over the last 10 months building this bizarre keyboard from scratch. It's a [Dactyl Manuform](https://github.com/abstracthat/dactyl-manuform) - a split keyboard with a highly sculpted design that is somehow simulataneously the ugliest and most eye-catching object I've ever seen.
 
@@ -27,7 +27,7 @@ I gave up on the hot-swap sockets after failing to coax the generator script to 
 Once I had a model that looked good on the screen, I printed a draft version to see it in real life.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/draft.jpg' | relative_url }}" alt="A draft print of the right half" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/draft.jpg' | relative_url }}" alt="A draft print of the right half" />
     <figcaption>Printed with a .8mm nozzle, .32mm layer height, and lightning infill</figcaption>
 </figure>
 <br>
@@ -42,7 +42,7 @@ To mount the base plates to the body of the keyboard, I used [these heat set ins
 To determine the ideal hole size for these inserts, I made a test print.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_tester.jpg' | relative_url }}" alt="A photo of a print for determining the correct insert tolerance" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/insert_tester.jpg' | relative_url }}" alt="A photo of a print for determining the correct insert tolerance" />
     <figcaption>A test print with insert holes ranging from 3.8mm to 4.2mm in diameter</figcaption>
 </figure>
 <br>
@@ -50,7 +50,7 @@ To determine the ideal hole size for these inserts, I made a test print.
 I'm glad I tested this; _all_ of the hole options were too small! A second print with bigger holes was more successful.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_tester_after.jpg' | relative_url }}" alt="A photo of another insert hole test print; this one includes installed screws" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/insert_tester_after.jpg' | relative_url }}" alt="A photo of another insert hole test print; this one includes installed screws" />
     <figcaption>A second test print with insert holes ranging from 4.2mm to 4.6mm in diameter. I decided to go with 4.5mm</figcaption>
 </figure>
 <br>
@@ -58,19 +58,19 @@ I'm glad I tested this; _all_ of the hole options were too small! A second print
 With this last detail resolved, I began printing the real halves. I used my favorite material - wood PLA - which looks (and even smells!) quite similar to real wood, once properly post-processed.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/cura.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/cura.jpg' | relative_url }}" alt="A screenshot of the final STL being sliced in Cura" />
     <figcaption>The final STL file being sliced in Cura. 24 hours per half!</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/on_print_bed.jpg' | relative_url }}" alt="A picture of the left half of the keyboard on the 3D printer bed" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/on_print_bed.jpg' | relative_url }}" alt="A picture of the left half of the keyboard on the 3D printer bed" />
     <figcaption>The left half, fresh off the printer</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/printed_no_sanding.jpg' | relative_url }}" alt="A picture of both halves of the keyboard" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/printed_no_sanding.jpg' | relative_url }}" alt="A picture of both halves of the keyboard" />
     <figcaption>Both halves printed and slightly cleaned up</figcaption>
 </figure>
 <br>
@@ -78,7 +78,7 @@ With this last detail resolved, I began printing the real halves. I used my favo
 I melted the inserts into the holes, which was nerve-wracking; one bad insert would have likely ruined the whole print. It was awkward to try and hold the keyboard _and_ the insert in place while pressing the insert into the plastic with the soldering gun. Somehow I managed to install all ten without issue!
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/insert_installed.jpg' | relative_url }}" alt="A picture of an installed heat-set insert" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/insert_installed.jpg' | relative_url }}" alt="A picture of an installed heat-set insert" />
     <figcaption>An installed heat-set insert</figcaption>
 </figure>
 <br>
@@ -86,7 +86,7 @@ I melted the inserts into the holes, which was nerve-wracking; one bad insert wo
 I ordered the transparent acrylic base plates from [ponoko.com](https://www.ponoko.com/) and was quite happy with the result.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/acrylic_plate.jpg' | relative_url }}" alt="The bottom plate of the keyboard, made from acrylic" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/acrylic_plate.jpg' | relative_url }}" alt="The bottom plate of the keyboard, made from acrylic" />
     <figcaption>Acrylic base plate from <a href="https://www.ponoko.com/">ponoko.com</a></figcaption>
 </figure>
 <br>
@@ -94,7 +94,7 @@ I ordered the transparent acrylic base plates from [ponoko.com](https://www.pono
 Next up was post-processing. I sanded each half with 80-grit sandpaper, which was a _ton_ of work - there are a lot of nooks and crannies that make this a tedious job.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/sanded_side.jpg' | relative_url }}" alt="A picture of both keyboard halves, sanded" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/sanded_side.jpg' | relative_url }}" alt="A picture of both keyboard halves, sanded" />
     <figcaption>Both halves, sanded</figcaption>
 </figure>
 <br>
@@ -102,7 +102,7 @@ Next up was post-processing. I sanded each half with 80-grit sandpaper, which wa
 In order to sand the inside of the key holes, I printed a little attachment that I could wrap with sandpaper and fit on my screwdriver.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/screw_driver.jpg' | relative_url }}" alt="A screwdriver with a 3D-printed accessory installed" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/screw_driver.jpg' | relative_url }}" alt="A screwdriver with a 3D-printed accessory installed" />
     <figcaption>My custom SuperSander™ (patent pending)</figcaption>
 </figure>
 <br>
@@ -110,7 +110,7 @@ In order to sand the inside of the key holes, I printed a little attachment that
 Normally this would be an unnecessary step - no one sees the inside of the key holes - but the fit was a _bit_ too tight; most of the holes required some sanding before the switch would fit properly. (This is why I'm glad I didn't bother with hot-swap sockets - the fit is so tight, I'd never be able to get the switches out anyway.)
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/sanded_top.jpg' | relative_url }}" alt="Another picture of both keyboard halves, sanded" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/sanded_top.jpg' | relative_url }}" alt="Another picture of both keyboard halves, sanded" />
     <figcaption>Another shot, because sanding these took too much time not to show off</figcaption>
 </figure>
 <br>
@@ -118,13 +118,13 @@ Normally this would be an unnecessary step - no one sees the inside of the key h
 The next step was to stain and clear coat the prints. I used this [gel stain](https://www.homedepot.ca/product/1000844900) and [glossy polyurethane](https://a.co/d/do2gUQm) to give the prints a rich, polished wood color.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/finish_complete_one_side.jpg' | relative_url }}" alt="A picture of a keyboard half, finished with stain and polyurethane" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/finish_complete_one_side.jpg' | relative_url }}" alt="A picture of a keyboard half, finished with stain and polyurethane" />
     <figcaption>The finished product</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/finish_complete_one_side_closeup.jpg' | relative_url }}" alt="Another picture of a keyboard half from a different angle, finished with stain and polyurethane" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/finish_complete_one_side_closeup.jpg' | relative_url }}" alt="Another picture of a keyboard half from a different angle, finished with stain and polyurethane" />
     <figcaption>Some nice faux woodgrain</figcaption>
 </figure>
 <br>
@@ -136,7 +136,7 @@ The hard work paid off, though - I'm really happy with how these look! The layer
 The next decision was which key switches to use. I'm a clicky switch guy; the noisier the better. I bought a Kailh switch tester so I could make an informed decision and decided on Kailh Box Whites.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/switch_tester.jpg' | relative_url }}" alt="Two keyboard switch testers" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/switch_tester.jpg' | relative_url }}" alt="Two keyboard switch testers" />
     <figcaption>Regular and low-profile Kailh switch testers. Not pictured: Gateron and Boba testers</figcaption>
 </figure>
 <br>
@@ -146,7 +146,7 @@ Compared to other clicky switches (e.g. Cherry MX Blues), Box Whites are _extra_
 At this point, I was able to set the switches and keycaps in place and get a feel for what it would be like to type on this monstrosity. I'll admit it felt about as weird as it looks.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/finish_complete_both_sides.jpg' | relative_url }}" alt="A picture of the keyboard; half has just the switches installed, and the other half has both switches and key caps installed" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/finish_complete_both_sides.jpg' | relative_url }}" alt="A picture of the keyboard; half has just the switches installed, and the other half has both switches and key caps installed" />
     <figcaption>Switches and keycaps (temporarily) installed</figcaption>
 </figure>
 <br>
@@ -154,7 +154,7 @@ At this point, I was able to set the switches and keycaps in place and get a fee
 There was one last detail to work out before I could begin wiring up the halves. I wanted to install a rotary encoder ("volume knob") on each half, but these don't click into a standard keyboard hole out of the box. I had to 3D print a special adapter for each.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/encoder_adapters.jpg' | relative_url }}" alt="3D-printed adapters for rotary encoders" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/encoder_adapters.jpg' | relative_url }}" alt="3D-printed adapters for rotary encoders" />
     <figcaption>The end result, with chunks of glass attached to the bottoms</figcaption>
 </figure>
 <br>
@@ -162,7 +162,7 @@ There was one last detail to work out before I could begin wiring up the halves.
 I printed these with PETG and learned the hard way to _always_ use glue stick when printing with PETG. The adapters adhesed to the bed so strongly they took chunks out of my glass bed when I finally pried them off. I was able to salvage the adapters with some sanding, but the printer bed was unfortunately beyond repair.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/broken_bed.jpg' | relative_url }}" alt="A picture of the 3D printer bed with chips in it from the overly-adhesive PETG print" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/broken_bed.jpg' | relative_url }}" alt="A picture of the 3D printer bed with chips in it from the overly-adhesive PETG print" />
     <figcaption>😭</figcaption>
 </figure>
 <br>
@@ -170,7 +170,7 @@ I printed these with PETG and learned the hard way to _always_ use glue stick wh
 Despite their rather violent effects on my printer, the adapters did their job quite nicely!
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/encoders_installed.jpg' | relative_url }}" alt="Two pictures of rotary encoders; one without a cap and one with a cap" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/encoders_installed.jpg' | relative_url }}" alt="Two pictures of rotary encoders; one without a cap and one with a cap" />
     <figcaption>Rotary encoder with and without the cap</figcaption>
 </figure>
 <br>
@@ -178,7 +178,7 @@ Despite their rather violent effects on my printer, the adapters did their job q
 Finally, it was time to start wiring it up! First, I wrapped diodes around one pin on each switch.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_installed.jpg' | relative_url }}" alt="A keyboard half with diodes bent around one pin of the switch" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/diodes_installed.jpg' | relative_url }}" alt="A keyboard half with diodes bent around one pin of the switch" />
     <figcaption>Diodes wrapped</figcaption>
 </figure>
 <br>
@@ -186,7 +186,7 @@ Finally, it was time to start wiring it up! First, I wrapped diodes around one p
 I soldered the diodes into place and snipped the extra leg.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_soldered.jpg' | relative_url }}" alt="A keyboard half with diodes soldered to one pin of the switch" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/diodes_soldered.jpg' | relative_url }}" alt="A keyboard half with diodes soldered to one pin of the switch" />
     <figcaption>Diodes soldered and snipped</figcaption>
 </figure>
 <br>
@@ -194,7 +194,7 @@ I soldered the diodes into place and snipped the extra leg.
 I soldered the remaining diode legs together to form the rows of the [key matrix](https://en.wikipedia.org/wiki/Keyboard_matrix_circuit).
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/diodes_soldered_together.jpg' | relative_url }}" alt="A keyboard half with diodes soldered together to form rows of the keyboard matrix" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/diodes_soldered_together.jpg' | relative_url }}" alt="A keyboard half with diodes soldered together to form rows of the keyboard matrix" />
     <figcaption>Diode legs soldered together into rows</figcaption>
 </figure>
 <br>
@@ -202,7 +202,7 @@ I soldered the remaining diode legs together to form the rows of the [key matrix
 I used small, individual pieces of insulated wire to form the columns.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/columns_soldered.jpg' | relative_url }}" alt="A keyboard half with wires soldered to the switches to form columns of the keyboard matrix" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/columns_soldered.jpg' | relative_url }}" alt="A keyboard half with wires soldered to the switches to form columns of the keyboard matrix" />
     <figcaption>Don't look too closely; I'm really bad at soldering</figcaption>
 </figure>
 <br>
@@ -210,7 +210,7 @@ I used small, individual pieces of insulated wire to form the columns.
 I installed [DuPont connectors](https://en.wikipedia.org/wiki/Jump_wire) so I didn't have to solder directly to the microcontroller. This saved me a _lot_ of headache since it took quite a bit of trial and error to get all pins in the right spot.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/dupont_connectors_attached.jpg' | relative_url }}" alt="A keyboard half with DuPont connectors installed to each row and column of the keyboard matrix" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/dupont_connectors_attached.jpg' | relative_url }}" alt="A keyboard half with DuPont connectors installed to each row and column of the keyboard matrix" />
     <figcaption>DuPont connectors installed</figcaption>
 </figure>
 <br>
@@ -218,7 +218,7 @@ I installed [DuPont connectors](https://en.wikipedia.org/wiki/Jump_wire) so I di
 I flashed a basic [QMK](https://qmk.fm/) firmware to the microcontroller and had the incredibly satisfying experience of seeing a letter appear on the screen when I pressed a key. I also got the LED strip working!
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/it_lives.jpg' | relative_url }}" alt="A keyboard half with a LED strip lit in rainbow colors" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/it_lives.jpg' | relative_url }}" alt="A keyboard half with a LED strip lit in rainbow colors" />
     <figcaption>IT LIVES!!</figcaption>
 </figure>
 <br>
@@ -226,7 +226,7 @@ I flashed a basic [QMK](https://qmk.fm/) firmware to the microcontroller and had
 I was getting _really_ close at this point. I designed a custom holder for the microcontroller since the one that was supposed to be compatible with my case didn't fit for some reason.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/holder.jpg' | relative_url }}" alt="A 3D printed holder for the microcontroller" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/holder.jpg' | relative_url }}" alt="A 3D printed holder for the microcontroller" />
     <figcaption>Custom-designed microcontroller holder</figcaption>
 </figure>
 <br>
@@ -234,7 +234,7 @@ I was getting _really_ close at this point. I designed a custom holder for the m
 I spliced some wires together since a few of the microcontroller pins had to be shared by more than one connection.
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/spaghetti.jpg' | relative_url }}" alt="A mess of wires soldered together" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/spaghetti.jpg' | relative_url }}" alt="A mess of wires soldered together" />
     <figcaption>I'm frankly shocked this thing works</figcaption>
 </figure>
 <br>
@@ -242,26 +242,26 @@ I spliced some wires together since a few of the microcontroller pins had to be 
 After assembling all the pieces, a bit of software configuration, and a lot of trial and error... I had a working keyboard!
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/desk.jpg' | relative_url }}" alt="A picture of the finished keyboard on a desk" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/desk.jpg' | relative_url }}" alt="A picture of the finished keyboard on a desk" />
     <figcaption>Finally. Done.</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/bottom_and_side.jpg' | relative_url }}" alt="A picture of the finished keyboard, with one half showing the bottom and one half showing the side" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/bottom_and_side.jpg' | relative_url }}" alt="A picture of the finished keyboard, with one half showing the bottom and one half showing the side" />
     <figcaption>This was way too much work.</figcaption>
 </figure>
 <br>
 
 <figure>
-    <img loading="lazy" src="{{ 'assets/img/dactyl-manuform/pink.jpg' | relative_url }}" alt="Another picture of the finished keyboard, with pink underglow" />
+    <img loading="lazy" src="{{ 'assets/img/i-built-a-weird-keyboard/pink.jpg' | relative_url }}" alt="Another picture of the finished keyboard, with pink underglow" />
     <figcaption>Never again. Probably.</figcaption>
 </figure>
 <br>
 
 <figure>
     <video controls width="500">
-        <source src="{{ 'assets/img/dactyl-manuform/alert.mp4' | relative_url }}" />
+        <source src="{{ 'assets/img/i-built-a-weird-keyboard/alert.mp4' | relative_url }}" />
     </video>
     <figcaption>ALERT</figcaption>
 </figure>
