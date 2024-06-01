@@ -14,7 +14,7 @@ I built a light that glows when I'm on a Zoom call.
 
 I recently had a blast [building my own keyboard]({% post_url 2023-06-26-i-built-a-weird-keyboard %}). As part of that project, I connected individually-addressable LED strips to the two microcontrollers inside each half. It was way easier than I expected and the end result was fantastic!
 
-This new project was the perfect excuse to play around with these LED strips again. I wanted to engineer a way to allow my family to know I was on a Zoom call without having to open my office door. I had a vision of a non-descript, unobtrusive object that would only reveal its purpose when turned on.
+This new project was the perfect excuse to play around with these LED strips again. I wanted to engineer a way to allow my family to know I was on a Zoom call without having to open my office door. I had a vision of a nondescript, unobtrusive object that would only reveal its purpose when turned on.
 
 I decided to build a light with a partially-transparent shade; the shade would be thick enough to obscure any pattern on its inside when dark, but would clearly reveal its inner pattern when lit.
 
@@ -30,18 +30,18 @@ On a technical level, here's how it works:
 
 ### Step 1: Hello world
 
-This was my first time working with a Raspberry Pi Pico, so my first task was to just to get some code running. Before too long I was able to toggle the on-board LED on and off:
+This was my first time working with a Raspberry Pi Pico, so my first task was to just get some code running. Before too long I was able to toggle the on-board LED on and off:
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/zoom-light/on_board_led_side_by_side.jpg' | relative_url }}" alt="A side-by-side showing the on-board LED both on and off" />
 </figure>
 <br />
 
-### Step 2: Pico webserver
+### Step 2: Pico web server
 
-Now that I had code compiling and running, I wanted to prove out the idea of running a webserver on the wireless Pico.
+Now that I had code compiling and running, I wanted to prove out the idea of running a web server on the wireless Pico.
 
-At first, I hand-coded my own webserver, which looked something [like this](https://gitlab.com/nfriend/zoom-light/-/blob/3775855bb3be1061513290f782dfd00e5f66b15e/server.py) and actually worked okay. But I then discovered [microdot](https://github.com/miguelgrinberg/microdot) and threw away my fragile, bespoke implementation for this much more fully-featured library.
+At first, I hand-coded my own web server, which looked something [like this](https://gitlab.com/nfriend/zoom-light/-/blob/3775855bb3be1061513290f782dfd00e5f66b15e/server.py) and actually worked okay. But I then discovered [microdot](https://github.com/miguelgrinberg/microdot) and threw away my fragile, bespoke implementation for this much more fully-featured library.
 
 I could now toggle the on-board LED remotely!
 
@@ -170,5 +170,5 @@ Overall, I'm _very_ happy with how this turned out. The light looks great and tu
 
 - All source files on GitLab: [https://gitlab.com/nfriend/zoom-light](https://gitlab.com/nfriend/zoom-light)
 - 3D models on Thingiverse: [https://www.thingiverse.com/thing:6644694](https://www.thingiverse.com/thing:6644694)
-- `microdot`, the Python webserver library I use on the Pico: [https://github.com/miguelgrinberg/microdot](https://github.com/miguelgrinberg/microdot)
+- `microdot`, the Python web server library I use on the Pico: [https://github.com/miguelgrinberg/microdot](https://github.com/miguelgrinberg/microdot)
 - `neopixel`, the library that interfaces with the LED strip on the Pico: [https://github.com/blaz-r/pi_pico_neopixel](https://github.com/blaz-r/pi_pico_neopixel)
