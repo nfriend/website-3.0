@@ -12,7 +12,15 @@ I built a light that glows when I'm on a Zoom call.
 </figure>
 <br />
 
+I recently had a blast [building my own keyboard]({% post_url 2023-06-26-i-built-a-weird-keyboard %}). As part of that project, I connected individually-addressable LED strips to the two microcontrollers inside each half. It was way easier than I expected and the end result was fantastic!
+
+This new project was the perfect excuse to play around with these LED strips again. I wanted to engineer a way to allow my family to know I was on a Zoom call without having to open my office door. I had a vision of a non-descript, unobtrusive object that would only reveal its purpose when turned on.
+
+I decided to build a light with a partially-transparent shade; the shade would be thick enough to obscure any pattern on its inside when dark, but would clearly reveal its inner pattern when lit.
+
 ## How it works
+
+On a technical level, here's how it works:
 
 - A script on my MacBook listens for Zoom calls to begin
 - When it detects a Zoom call has started, the script makes a network request to `http://zoomlight/api/led/on`
