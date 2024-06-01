@@ -41,9 +41,7 @@ This was my first time working with a Raspberry Pi Pico, so my first task was to
 
 Now that I had code compiling and running, I wanted to prove out the idea of running a webserver on the wireless Pico.
 
-At first, I hand-coded my own webserver, which looked something [like this](https://gitlab.com/nfriend/zoom-light/-/blob/3775855bb3be1061513290f782dfd00e5f66b15e/server.py) and actually worked okay.
-
-But I then discovered [microdot](https://github.com/miguelgrinberg/microdot) and threw away my fragile, bespoke implementation for this much more fully-featured library.
+At first, I hand-coded my own webserver, which looked something [like this](https://gitlab.com/nfriend/zoom-light/-/blob/3775855bb3be1061513290f782dfd00e5f66b15e/server.py) and actually worked okay. But I then discovered [microdot](https://github.com/miguelgrinberg/microdot) and threw away my fragile, bespoke implementation for this much more fully-featured library.
 
 I could now toggle the on-board LED remotely!
 
