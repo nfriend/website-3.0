@@ -157,6 +157,19 @@ monitor_zoom
 
 I set up this script to run every time my machine starts ([like this](https://stackoverflow.com/a/13372744/1063392)).
 
+### Step 8: Adding a frontend
+
+Since the Pico was already running a web server, I added a simple frontend that could be accessed through a web browser.
+
+The website shows the current status of the light (via the color of the header block) and provides a way to manually control the color of the light.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/frontend.jpg' | relative_url }}" alt="Screenshots of the frontend application served by the Pico" />
+</figure>
+<br />
+
+It uses my favorite component library, [Wired Elements](https://wiredjs.com/).
+
 ## Final thoughts
 
 Overall, I'm _very_ happy with how this turned out. The light looks great and turns on and off exactly when it is supposed to!
