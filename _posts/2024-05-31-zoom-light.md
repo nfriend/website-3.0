@@ -153,7 +153,7 @@ I set up this script to run every time my machine starts ([like this](https://st
 
 ## Final thoughts
 
-Overall, I'm _very_ happy with how this turned out. The light looks great and so far seem to reliably turn on and off at the correct times.
+Overall, I'm _very_ happy with how this turned out. The light looks great and turns on and off exactly when it is supposed to!
 
 <figure>
     <img loading="lazy" src="{{ 'assets/img/zoom-light/final_side_by_side.jpg' | relative_url }}" alt="The finished, mounted light, both white and rainbow" />
