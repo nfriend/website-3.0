@@ -12,4 +12,97 @@ I built a light that glows when I'm on a Zoom call.
 </figure>
 <br />
 
-Lorem ipsum
+## How it works
+
+- A script on my MacBook listens for Zoom calls to begin
+- When it detects a Zoom call has started, the script makes a network request to `http://zoomlight/api/led/on`
+- A web server running on a wireless Raspberry Pi Pico inside the light receives the request and turns on the LED strip
+
+## Build log
+
+### Step 1: Hello world
+
+This was my first time working with a Raspberry Pi Pico, so my first task was to just to get some code running. Before too long I was able to toggle the on-board LED on and off:
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/on_board_led_side_by_side.jpg' | relative_url }}" alt="A side-by-side showing the on-board LED both on and off" />
+</figure>
+<br />
+
+### Step 2: Pico webserver
+
+Now that I had code compiling and running, I wanted to prove out the idea of running a webserver on the wireless Pico.
+
+At first, I hand-coded my own webserver, which looked something [like this](https://gitlab.com/nfriend/zoom-light/-/blob/3775855bb3be1061513290f782dfd00e5f66b15e/server.py) and actually worked okay.
+
+But I then discovered [microdot](https://github.com/miguelgrinberg/microdot) and threw away my fragile, bespoke implementation for this much more fully-featured library.
+
+I could now toggle the on-board LED remotely!
+
+### Step 3: The SK6812s
+
+I soldered some jumper cables to an SK6812 LED strip and connected it to the Pico. With some help from the [neopixel library](https://github.com/blaz-r/pi_pico_neopixel), I had a remotely-controllable LED strip!
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/led_strip_side_by_side.jpg' | relative_url }}" alt="A side-by-side showing the LED strip off, white, and rainbow" />
+</figure>
+<br />
+
+### Step 4: The prints
+
+With the digital problems solved, I pivoted to the analog half of this project. I designed a case and shade in [FreeCAD](https://www.freecad.org/) and 3D printed some prototypes using both PLA and PETG.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/shade_prototypes.jpg' | relative_url }}" alt="Two prototypes of the shade, one in PETG and one in PLA" />
+</figure>
+<br />
+
+These first attempts were okay, but neither were perfect. Both had some printing deformities that were noticeable when backlit. In addition, the shade wasn't _quite_ deep enough to allow the light from the LED strip to diffuse, causing the center of the light to be noticeably brighter than the top and bottom edges.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/diffusion_issues.jpg' | relative_url }}" alt="One of the prototypes backlit, showing not enough light diffusion" />
+</figure>
+<br />
+
+I increased the depth a bit and printed a new version of both the casing and the shade in PETG. I got lucky; both were some of the cleanest prints I've ever managed!
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/clean_prints.jpg' | relative_url }}" alt="The casing and the shade on the printer bed" />
+</figure>
+<br />
+
+I usually struggle with PETG, but the 3D printing gods smiled on me that day. (Well, days. Each one took ~18 hours to print.)
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/shade_and_casing.jpg' | relative_url }}" alt="The casing and the shade on floor" />
+</figure>
+<br />
+
+### Step 5: Piecing it together
+
+The end was in sight. I fixed the LED strip and Pico to the inside of the casing using some hot glue.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/open_on_floor.jpg' | relative_url }}" alt="The casing with the LED strip and Pico installed" />
+</figure>
+<br />
+
+### Step 6: Drilling holes
+
+It was time to mount it. After some obsessive measuring, I drilled a hole all the way through the wall above my office door (for the power cord) and mounted the casing using command strips.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/mounted.jpg' | relative_url }}" alt="The casing mounted above my office door" />
+</figure>
+<br />
+
+I popped on the shade and had a working light that I could manually trigger with `curl`!
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/working_side_by_side.jpg' | relative_url }}" alt="The finished light, off, on, and rainbow" />
+</figure>
+<br />
+
+### Step 7: Making it automatic
+
+TODO
