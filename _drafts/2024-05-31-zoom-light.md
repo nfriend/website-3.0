@@ -105,4 +105,64 @@ I popped on the shade and had a working light that I could manually trigger with
 
 ### Step 7: Making it automatic
 
-TODO
+The final step was to automate the light so that it automatically turned on when I entered a Zoom call and turned off when I exited.
+
+I experimented with a few different approaches and ultimately ended up using a rather unsatisfying method of polling every 5 seconds for the number of open Zoom ports:
+
+```sh
+#!/usr/bin/env bash
+
+# How often to poll for Zoom status, in seconds
+INTERVAL=5
+
+# Function to execute the command and process its output
+monitor_zoom() {
+    current_state='unknown'
+
+    while true; do
+        # output will be an integer representing the number of open Zoom ports
+        output=$(lsof -i 4UDP | grep zoom | awk 'END{print NR}')
+
+        if [[ $output -gt 2 && $current_state != "on" ]]; then
+            # In practice, when on a Zoom call, $output seems to always be 6
+
+            current_state="on"
+            echo "Turning light on"
+            curl -X POST http://zoomlight/api/led/on
+        elif [[ $output -le 2 && $current_state != "off" ]]; then
+            # In practice, when not on a Zoom call, $output seems to always be 1
+
+            current_state="off"
+            echo "Turning light off"
+            curl -X POST http://zoomlight/api/led/off
+        fi
+
+        sleep $INTERVAL
+    done
+}
+
+echo "Watching for Zoom meetings in the background with PID: $$"
+
+# Start the monitoring
+monitor_zoom
+```
+
+(Does anyone know of a more elegant solution? I'd love to hear it!)
+
+I set up this script to run every time my machine starts ([like this](https://stackoverflow.com/a/13372744/1063392)).
+
+## Final thoughts
+
+Overall, I'm _very_ happy with how this turned out. The light looks great and so far seem to reliably turn on and off at the correct times.
+
+<figure>
+    <img loading="lazy" src="{{ 'assets/img/zoom-light/final_side_by_side.jpg' | relative_url }}" alt="The finished, mounted light, both white and rainbow" />
+</figure>
+<br />
+
+## Links/resources
+
+- All source files on GitLab: [https://gitlab.com/nfriend/zoom-light](https://gitlab.com/nfriend/zoom-light)
+- 3D models on Thingiverse: [https://www.thingiverse.com/thing:6644694](https://www.thingiverse.com/thing:6644694)
+- `microdot`, the Python webserver library I use on the Pico: [https://github.com/miguelgrinberg/microdot](https://github.com/miguelgrinberg/microdot)
+- `neopixel`, the library that interfaces with the LED strip on the Pico: [https://github.com/blaz-r/pi_pico_neopixel](https://github.com/blaz-r/pi_pico_neopixel)
