@@ -6,7 +6,10 @@ default:
       - vendor/ruby
   before_script:
     - ruby -v
+    - apt update && apt install nodejs
+    - node -v
     - gem install bundler -v 2.1.4
+    - bundler -v
     - bundle install -j $(nproc) --path vendor/ruby
 
 stages:
