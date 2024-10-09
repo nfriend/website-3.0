@@ -8,14 +8,14 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.0"
+gem "jekyll", "~> 4.3.4"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15.0"
+  gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-time-to-read", "~> 0.1.2"
-  gem "jekyll-minifier", "~> 0.1.5"
-  gem "jekyll-algolia", "~> 1.0"
+  gem "jekyll-minifier", "~> 0.1.8"
+  gem "jekyll-algolia", "~> 1.7.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
