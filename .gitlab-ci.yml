@@ -6,7 +6,7 @@ default:
       - vendor/ruby
   before_script:
     - ruby -v
-    - apt update && apt install nodejs
+    - apt update && apt -y install nodejs
     - node -v
     - gem install bundler -v 2.1.4
     - bundler -v
