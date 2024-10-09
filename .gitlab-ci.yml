@@ -1,123 +1,42 @@
-.ruby_template: &ruby_template
-  image: timbru31/ruby-node:2.7
+default:
+  image: ruby:3.3
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - vendor/ruby
   before_script:
     - ruby -v
-    - node -v
-    - npm -v
-    - yarn -v
-    - gem install bundler -v 1.17.3
+    - gem install bundler -v 2.5.21
     - bundle install -j $(nproc) --path vendor/ruby
 
-.node_template: &node_template
-  image: node:12.20.0
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - .npm/
-  before_script:
-    - node -v
-    - npm -v
-    - yarn -v
-    - >
-      if [[ ! -z "${NPM_TOKEN}" ]]; then
-        echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
-      fi
-    - >
-      if [[ -f package-lock.json ]]; then
-        npm ci --cache .npm --prefer-offline
-      fi
-
-include:
-  - template: Dependency-Scanning.gitlab-ci.yml
-  - template: SAST.gitlab-ci.yml
-
 stages:
-  - version
-  - test
   - build
-  - publish
   - deploy
-
-test version:
-  <<: *node_template
-  stage: version
-  script:
-    - PACKAGE_JSON_VERSION=$(node -p "require('./package.json').version")
-    - LATEST_PUBLISHED_VERIONS=$(npm view @nathanfriend/website-3.0 version)
-    - >
-      if [[ $PACKAGE_JSON_VERSION == $LATEST_PUBLISHED_VERIONS ]]; then
-        echo "Version in package.json ($PACKAGE_JSON_VERSION) has already been published"
-        touch is_up_to_date;
-      else
-        echo "Version in package.json ($PACKAGE_JSON_VERSION) differs from the published version ($LATEST_PUBLISHED_VERIONS)"
-      fi
-  artifacts:
-    paths:
-      - is_up_to_date
+  - postdeploy
 
 jekyll:
-  <<: *ruby_template
   stage: build
-  needs: []
+  variables:
+    JEKYLL_ENV: "production"
   script:
-    - JEKYLL_ENV="production" bundle exec jekyll build
+    - bundle exec jekyll build
   artifacts:
     paths:
       - _site
 
-npm publish:
-  <<: *node_template
-  stage: publish
-  needs:
-    - test version
-    - jekyll
-  script:
-    - echo $CI_COMMIT_SHA > _site/CI_COMMIT_SHA
-    - echo $CI_COMMIT_SHORT_SHA > _site/CI_COMMIT_SHORT_SHA
-    - echo $CI_COMMIT_MESSAGE > _site/CI_COMMIT_MESSAGE
-    - >
-      if [[ -f is_up_to_date ]]; then
-        echo "npm version is up-to-date. No new package will be published."
-      else
-        echo "npm version was updated. Publishing a new version to npm..."
-        npm publish _site/
-      fi
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-trigger deploy:
-  <<: *node_template
+pages:
   stage: deploy
   script:
-    - >
-      if [[ -f is_up_to_date ]]; then
-        echo "No new npm package version was published. A new deployment will not be triggered."
-      else
-        echo "A new npm package version was published. Triggering a new deployment in nfriend/website-3.0-docker..."
-        curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=master https://gitlab.com/api/v4/projects/9102631/trigger/pipeline
-      fi
-  needs:
-    - test version
-    - npm publish
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - mv _site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
 
 algolia:
-  <<: *ruby_template
-  stage: deploy
-  needs:
-    - test version
+  stage: postdeploy
   script:
-    - >
-      if [[ -f is_up_to_date ]]; then
-        echo "New version was not deployed. Algolia index will not be updated."
-      else
-        echo "A new version was deployed. Updating the Algolia index..."
-        bundle exec jekyll algolia
-      fi
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - bundle exec jekyll algolia
+  only:
+    - master
