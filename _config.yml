@@ -33,6 +33,8 @@ assets:
     external:
         uglifier:
             harmony: true
+include:
+    - .well-known
 
 # Algolia search settings
 algolia:
