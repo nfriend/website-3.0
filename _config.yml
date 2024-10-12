@@ -35,6 +35,7 @@ assets:
             harmony: true
 include:
     - .well-known
+    - _redirects
 
 # Algolia search settings
 algolia:
