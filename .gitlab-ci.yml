@@ -30,6 +30,7 @@ jekyll:
 pages:
   stage: deploy
   script:
+    - _template.sh
     - mv _site public
   artifacts:
     paths:
