@@ -16,7 +16,11 @@ function htmlEscape () {
 function replaceInHtmlFiles () {
   echo "  - ${1}: ${2}"
 
-  perl -p -i -s -e 's{\Q$pattern}{$replacement}g' -- -pattern="${1}" -replacement="${2}" "$(grep --include=\*.html -rnl '.' -e "${1}")"
+  # Ignore shellcheck's recommendations to double quote things on this line;
+  # its recommendations break the replacement.
+  # shellcheck disable=SC2046
+  # shellcheck disable=SC2086
+  perl -p -i -s -e 's{\Q$pattern}{$replacement}g' -- -pattern="${1}" -replacement="${2}" $(grep --include=\*.html -rnl '.' -e ${1})
 }
 
 CI_COMMIT_SHA_ESCAPED=$(htmlEscape "$CI_COMMIT_SHA")
