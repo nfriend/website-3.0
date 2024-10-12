@@ -1,2 +1,15 @@
-/rook/* https://rook.nathanfriend.com/:splat 301
-/inspiral-web/* https://inspiral-web.nathanfriend.com/:splat 301
+https://nathanfriend.io/*      https://nathanfriend.com/:splat 301
+https://www.nathanfriend.io/*  https://nathanfriend.com/:splat 301
+https://nathanfriend.dev/*     https://nathanfriend.com/:splat 301
+https://www.nathanfriend.dev/* https://nathanfriend.com/:splat 301
+https://www.nathanfriend.com/* https://nathanfriend.com/:splat 301
+
+/inspiral-web/* https://inspiral-web.nathanfriend.com/:splat   301
+/roggle/*       https://roggle.nathanfriend.com/:splat         301
+/cooltojs/*     https://cooltojs.nathanfriend.com/:splat       301
+/theremin/*     https://theremin.nathanfriend.com/:splat       301
+/origins/*      https://origins.nathanfriend.com/:splat        301
+/webgl-chess/*  https://webgl-chess.nathanfriend.com/:splat    301
+/nfjs/*         https://nfjs.nathanfriend.com/:splat           301
+/mandelbrot/*   https://mandelbrot.nathanfriend.com/:splat     301
+/rook/*         https://rook.nathanfriend.com/:splat           301
