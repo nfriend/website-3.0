@@ -1,2 +1,2 @@
-/rook/_ https://rook.nathanfriend.com/ 301
-/inspiral-web_ https://inspiral-web.nathanfriend.com/* 301
+/rook/* https://rook.nathanfriend.com/:splat 301
+/inspiral-web/* https://inspiral-web.nathanfriend.com/:splat 301
