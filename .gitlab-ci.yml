@@ -23,6 +23,7 @@ jekyll:
     JEKYLL_ENV: "production"
   script:
     - bundle exec jekyll build
+    - ./_template.sh
   artifacts:
     paths:
       - _site
@@ -30,7 +31,6 @@ jekyll:
 pages:
   stage: deploy
   script:
-    - _template.sh
     - mv _site public
   artifacts:
     paths:
