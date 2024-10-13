@@ -1,4 +1,7 @@
 /inspiral-web/* https://inspiral-web.nathanfriend.com/:splat 301
+/inspiral/*     https://inspiral-web.nathanfriend.com/:splat 301
+/inspirograph/* https://inspiral-web.nathanfriend.com/:splat 301
+/spirograph/*   https://inspiral-web.nathanfriend.com/:splat 301
 /roggle/*       https://roggle.nathanfriend.com/:splat       301
 /cooltojs/*     https://cooltojs.nathanfriend.com/:splat     301
 /theremin/*     https://theremin.nathanfriend.com/:splat     301
