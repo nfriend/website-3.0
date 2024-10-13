@@ -1,14 +1,3 @@
-https://nathanfriend.io/*              https://nathanfriend.com/:splat         301
-https://www.nathanfriend.io/*          https://nathanfriend.com/:splat         301
-https://nathanfriend.dev/*             https://nathanfriend.com/:splat         301
-https://www.nathanfriend.dev/*         https://nathanfriend.com/:splat         301
-https://www.nathanfriend.com/*         https://nathanfriend.com/:splat         301
-https://preprod.nathanfriend.io/*      https://preprod.nathanfriend.com/:splat 301
-https://www.preprod.nathanfriend.io/*  https://preprod.nathanfriend.com/:splat 301
-https://preprod.nathanfriend.dev/*     https://preprod.nathanfriend.com/:splat 301
-https://www.preprod.nathanfriend.dev/* https://preprod.nathanfriend.com/:splat 301
-https://www.preprod.nathanfriend.com/* https://preprod.nathanfriend.com/:splat 301
-
 /inspiral-web/* https://inspiral-web.nathanfriend.com/:splat 301
 /roggle/*       https://roggle.nathanfriend.com/:splat       301
 /cooltojs/*     https://cooltojs.nathanfriend.com/:splat     301
