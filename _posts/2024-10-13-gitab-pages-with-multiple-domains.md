@@ -24,7 +24,7 @@ It was all going swimmingly until I began repointing my DNS records from the AWS
 - [nathanfriend.dev](https://nathanfriend.dev)
 - [nathanfriend.io](https://nathanfriend.io)
 
-At the time, the first two redirected to the third (I've since decided to instead centralize on `.com` since `.io` domains are [getting expensive lately](https://news.ycombinator.com/item?id=29403773).)
+At the time, the first two redirected to the third (I've since decided to instead centralize on `.com` since `.io` domains are [getting expensive lately](https://news.ycombinator.com/item?id=29403773) and I'd like to retire it someday.)
 
 This _should_ be easy to do with GitLab pages, since GitLab [supports domain-level redirects via a Netlify-style `_redirects` file](https://docs.gitlab.com/ee/user/project/pages/redirects.html#domain-level-redirects). But a quick test configuration like this didn't seem to work:
 
