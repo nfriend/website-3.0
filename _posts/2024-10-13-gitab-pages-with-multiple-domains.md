@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'GitLab Pages with multiple domains'
-date: 2024-10-13 13:16:01 -0300
+date: 2024-10-14 9:41:01 -0300
 image: /assets/img/gitab-pages-with-multiple-domains/redirect.jpg
 ---
 
