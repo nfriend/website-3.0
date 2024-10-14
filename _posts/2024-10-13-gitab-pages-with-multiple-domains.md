@@ -69,4 +69,4 @@ https://www.nathanfriend.com/* https://nathanfriend.com/:splat 301
 
 Now, any request that comes in to one of these non-canonical domains will be forwarded to this Pages site and subsequently redirected to the canonical domain.
 
-I'm reasonably happy with this solution, although I'd much prefer for GitLab to simply add support [Netlify's `force` option](https://docs.netlify.com/routing/redirects/rewrites-proxies/#shadowing) and avoid the extra complexity altogether.
+I'm reasonably happy with this solution, although I'd much prefer for GitLab to simply add support [Netlify's `force` option](https://docs.netlify.com/routing/redirects/rewrites-proxies/#shadowing) and avoid the extra complexity altogether. Please upvote [my feature request issue](https://gitlab.com/gitlab-org/gitlab-pages/-/issues/1134)!
