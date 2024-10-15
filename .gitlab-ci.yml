@@ -23,7 +23,8 @@ jekyll:
     JEKYLL_ENV: "production"
   script:
     - bundle exec jekyll build
-    - ./_template.sh
+    - _ci/template.sh
+    - _ci/gzip.sh
   artifacts:
     paths:
       - _site
