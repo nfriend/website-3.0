@@ -10,11 +10,11 @@
 				$("#label5").hover(slideOut5, slideBack5);
 				$("#label6").hover(slideOut6, slideBack6);
 				
-				$("#label1").click( function() {window.location = "home.php"});
-				$("#label2").click( function() {window.location = "aboutme.php"});
-				$("#label3").click( function() {window.location = "news.php"});
-				$("#label4").click( function() {window.location = "links.php"});
-				$("#label5").click( function() {window.location = "contact.php"});	
+				$("#label1").click( function() {window.location = "home.html"});
+				$("#label2").click( function() {window.location = "aboutme.html"});
+				$("#label3").click( function() {window.location = "news.html"});
+				$("#label4").click( function() {window.location = "links.html"});
+				$("#label5").click( function() {window.location = "contact.html"});	
 				$("#label6").click( function() {window.location = "/site_archive/1/"});
 				
 				$("#accordion").accordion();
