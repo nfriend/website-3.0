@@ -6,7 +6,7 @@ image: assets/img/its-finally-here/inspiral.jpg
 ---
 
 It's been almost seven years since [Inspiral
-Web](https://nathanfriend.io/inspiral-web/) was released.
+Web](https://nathanfriend.com/inspiral-web/) was released.
 
 For most of those seven years, the site included a "Get the app" button that
 popped open a message that read "Inspiral Web isn't mobile friendly... yet" and
@@ -34,7 +34,7 @@ Give it a try on your platform of choice:
   </a>
 </p>
 
-Or, [check out the app's website,](https://inspiral.nathanfriend.io/) which
+Or, [check out the app's website,](https://inspiral.nathanfriend.com/) which
 includes links to the app's social media presence.
 
 The app's [source code](https://gitlab.com/nfriend/inspiral) is public. If you

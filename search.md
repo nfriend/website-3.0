@@ -2,8 +2,8 @@
 layout: post
 title: Search
 author:
-    name: Nathan Friend
-    url: https://nathanfriend.io
+  name: Nathan Friend
+  url: https://nathanfriend.com
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true

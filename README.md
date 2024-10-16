@@ -28,7 +28,7 @@ Rebuilding of the Algolia search index is automated by the GitLab pipeline
 and shouldn't need to be run manually.
 
 To rebuild the Algolia search index manually, (used on [the search
-page](https://nathanfriend.io/search)), run `bundle exec jekyll algolia`.
+page](https://nathanfriend.com/search)), run `bundle exec jekyll algolia`.
 
 Note that this requires an Algolia API key to be provided either through a local
 `_algolia_api_key` file or through an `ALGOLIA_API_KEY` environment variable.

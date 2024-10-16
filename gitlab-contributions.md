@@ -3,7 +3,7 @@ layout: post
 title: My GitLab Contributions in a 🥜
 author:
   name: Nathan Friend
-  url: https://nathanfriend.io
+  url: https://nathanfriend.com
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true

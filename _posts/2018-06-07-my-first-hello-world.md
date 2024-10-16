@@ -53,7 +53,7 @@ So, without further ado, here are the most interesting programs, delivered to yo
 
 ## SPIRO.BAS
 
-A precursor to my more modern project [Inspiral Web](https://nathanfriend.io/inspiral-web), this program creates Spirograph designs based on a few simple configurations.
+A precursor to my more modern project [Inspiral Web](https://nathanfriend.com/inspiral-web), this program creates Spirograph designs based on a few simple configurations.
 
 Hint: Here's an example configuration to get you started:
 
@@ -67,7 +67,7 @@ Hint: Here's an example configuration to get you started:
         <img src="{{ 'assets/img/my-first-hello-world/spiro.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>SPIRO.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=SPIRO.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=SPIRO.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -83,7 +83,7 @@ I gave it a few tries, and man, it is _hard_.
         <img src="{{ 'assets/img/my-first-hello-world/advntur1.bas-screenshot.png' | relative_url }}" alt="SPIRO.BAS" />
         <figcaption>ADVNTUR1.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=ADVNTUR1.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=ADVNTUR1.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -97,7 +97,7 @@ A super short animation of a little man being sucked up by alien invaders.
         <img src="{{ 'assets/img/my-first-hello-world/alnattck.bas-screenshot.png' | relative_url }}" alt="ALNATTCK.BAS" />
         <figcaption>ALNATTCK.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=ALNATTCK.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=ALNATTCK.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -111,7 +111,7 @@ A flash-card game for cello students that quizzes their knowledge of bass clef, 
         <img src="{{ 'assets/img/my-first-hello-world/celohlp2.bas-screenshot.png' | relative_url }}" alt="CELOHLP2.BAS" />
         <figcaption>CELOHLP2.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay dark" href="https://nathanfriend.io/origins?file=CELOHLP2.BAS" target="_blank">
+    <a class="figure-link-overlay dark" href="https://nathanfriend.com/origins?file=CELOHLP2.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px-dark.svg' | relative_url }}" />
     </a>
 </div>
@@ -125,7 +125,7 @@ Another drawing program that creates intricate designs with customizable color p
         <img src="{{ 'assets/img/my-first-hello-world/cool.bas-screenshot.png' | relative_url }}" alt="COOL.BAS" />
         <figcaption>COOL.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=COOL.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=COOL.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -139,7 +139,7 @@ QBasic had a fun pitch generation API which I used to recreate piano and cello p
         <img src="{{ 'assets/img/my-first-hello-world/giga.bas-screenshot.png' | relative_url }}" alt="GIGA.BAS" />
         <figcaption>GIGA.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=GIGA.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=GIGA.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -153,7 +153,7 @@ Okay, you got me - this one isn't mine. It's one of the example programs that sh
         <img src="{{ 'assets/img/my-first-hello-world/gorilla.bas-screenshot.png' | relative_url }}" alt="GORILLA.BAS" />
         <figcaption>GORILLA.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=GORILLA.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=GORILLA.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -167,7 +167,7 @@ A Tetris clone.
         <img src="{{ 'assets/img/my-first-hello-world/newtetrs.bas-screenshot.png' | relative_url }}" alt="NEWTETRS.BAS" />
         <figcaption>NEWTETRS.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=NEWTETRS.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=NEWTETRS.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -181,7 +181,7 @@ Test your patience! How long can you hold down <span class="keyboard-key">Q</spa
         <img src="{{ 'assets/img/my-first-hello-world/patience.bas-screenshot.png' | relative_url }}" alt="PATIENCE.BAS" />
         <figcaption>PATIENCE.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=PATIENCE.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=PATIENCE.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -195,7 +195,7 @@ Feeling stressed? This little game lets you punch a square with your enemy's nam
         <img src="{{ 'assets/img/my-first-hello-world/stress.bas-screenshot.png' | relative_url }}" alt="STRESS.BAS" />
         <figcaption>STRESS.BAS</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins?file=STRESS.BAS" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins?file=STRESS.BAS" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>
@@ -207,9 +207,9 @@ There's _lots_ more where the above came from. Here's a little GUI that can laun
 <div class="figure-link">
     <figure>
         <img src="{{ 'assets/img/my-first-hello-world/origins-screenshot.png' | relative_url }}" alt="origins" />
-        <figcaption>nathanfriend.io/origins</figcaption>
+        <figcaption>nathanfriend.com/origins</figcaption>
     </figure>
-    <a class="figure-link-overlay" href="https://nathanfriend.io/origins" target="_blank">
+    <a class="figure-link-overlay" href="https://nathanfriend.com/origins" target="_blank">
         <img class="play-button" src="{{ 'assets/img/shared/baseline-play_circle_outline-24px.svg' | relative_url }}" />
     </a>
 </div>

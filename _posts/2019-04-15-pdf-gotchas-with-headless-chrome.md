@@ -14,17 +14,17 @@ Generating PDF reports is one of those features that _every_ enterprise develope
 
 This approach seems kind of weird and a bit overkill at first, but it has a number of pretty huge advantages:
 
--   You can build your PDFs using the most popular layout system in the world (HTML/CSS)
--   Anything that can be rendered in a webpage can be used in a PDF, including:
-    -   images
-    -   custom fonts
-    -   links
-    -   3<sup>rd</sup> party JavaScript libraries (think visualization libraries like [D3.js](https://d3js.org/) or graphing libraries like [Google Charts](https://developers.google.com/chart/))
-    -   _etc..._
--   If you're building a web application, you can reuse components from your application in your PDF
--   Printing to a PDF is a [supported use case](https://developers.google.com/web/updates/2017/04/headless-chrome#create_a_pdf_dom) of Chrome's headless mode
--   Google's own [Puppeteer](https://pptr.dev/) library gives you full control over the headless instance of Chrome
--   You can develop your PDF layout in Chrome - with full access to Chrome's dev tools - instead of continually regenerating the PDF to see changes
+- You can build your PDFs using the most popular layout system in the world (HTML/CSS)
+- Anything that can be rendered in a webpage can be used in a PDF, including:
+  - images
+  - custom fonts
+  - links
+  - 3<sup>rd</sup> party JavaScript libraries (think visualization libraries like [D3.js](https://d3js.org/) or graphing libraries like [Google Charts](https://developers.google.com/chart/))
+  - _etc..._
+- If you're building a web application, you can reuse components from your application in your PDF
+- Printing to a PDF is a [supported use case](https://developers.google.com/web/updates/2017/04/headless-chrome#create_a_pdf_dom) of Chrome's headless mode
+- Google's own [Puppeteer](https://pptr.dev/) library gives you full control over the headless instance of Chrome
+- You can develop your PDF layout in Chrome - with full access to Chrome's dev tools - instead of continually regenerating the PDF to see changes
 
 It's not all unicorns and rainbows, though. Below are a few of the gotchas I discovered while building a real PDF using headless Chrome.
 
@@ -52,8 +52,8 @@ Headers and footers are specified at PDF render time by passing HTML strings to 
 
 ```ts
 page.pdf({
-    headerTemplate: '<h1>This is the header!</h1>',
-    footerTemplate: '<h1>This is the footer!</h1>'
+  headerTemplate: '<h1>This is the header!</h1>',
+  footerTemplate: '<h1>This is the footer!</h1>',
 });
 ```
 
@@ -65,12 +65,12 @@ This one took me a while to figure out. Chrome won't automatically resize your c
 
 ```ts
 page.pdf({
-    headerTemplate: '<h1>This is the header!</h1>',
-    footerTemplate: '<h1>This is the footer!</h1>',
-    margin: {
-        top: '100px',
-        bottom: '50px'
-    }
+  headerTemplate: '<h1>This is the header!</h1>',
+  footerTemplate: '<h1>This is the footer!</h1>',
+  margin: {
+    top: '100px',
+    bottom: '50px',
+  },
 });
 ```
 
@@ -82,24 +82,24 @@ CSS provides some rules that determine where a page break should be placed when 
 
 ```css
 @media print {
-    .page {
-        page-break-after: always;
-    }
+  .page {
+    page-break-after: always;
+  }
 }
 ```
 
 These rules work - but they can be finicky. You may run into problem when trying to page break inside of<sup>[1]</sup>:
 
--   tables
--   floating elements
--   inline-block elements
--   block elements with borders
+- tables
+- floating elements
+- inline-block elements
+- block elements with borders
 
 I also had issues using `page-break-after` inside of a flexbox layout.
 
 ## Some advanced layouts simply aren't possible
 
-There are a few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control. For example, want to place a special footer only on pages 2, 4, and 7? Not possible. (If it is, [let me know how!](mailto:hello@nathanfriend.io))
+There are a few edge cases - mostly dealing with headers/footers and page wrapping - that you simply can't control. For example, want to place a special footer only on pages 2, 4, and 7? Not possible. (If it is, [let me know how!](mailto:hello@nathanfriend.com))
 
 ## The page needs to finish loading
 
@@ -136,18 +136,18 @@ await page.waitForSelector('#username');
 await page.waitForSelector('#password');
 
 await page.evaluate(() => {
-    document.querySelector('#username').value = 'my-username';
-    document.querySelector('#password').value = 'my-password';
-    document.querySelector('#log-in-button').click();
+  document.querySelector('#username').value = 'my-username';
+  document.querySelector('#password').value = 'my-password';
+  document.querySelector('#log-in-button').click();
 });
 ```
 
 There are some downsides to this approach, though:
 
--   You now need to maintain a system account for logging in to the application for PDF screenshots
--   The extra login step adds quite a bit of time to the PDF generation process
--   Your PDF generation is now dependent on your authentication/authorization system
--   It just feels kind of wrong
+- You now need to maintain a system account for logging in to the application for PDF screenshots
+- The extra login step adds quite a bit of time to the PDF generation process
+- Your PDF generation is now dependent on your authentication/authorization system
+- It just feels kind of wrong
 
 ---
 

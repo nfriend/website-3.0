@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Inspiral Web"
-date:   2015-01-26 21:17:11 -0300
-image:  assets/img/a-breaking-non-space/broken-space.jpg
+title: 'Inspiral Web'
+date: 2015-01-26 21:17:11 -0300
+image: assets/img/a-breaking-non-space/broken-space.jpg
 ---
 
-_A quick note for context: this post was stolen from a portfolio site I built a few years back. It's about my side project [Inspiral Web](https://nathanfriend.io/inspiral-web/)._
+_A quick note for context: this post was stolen from a portfolio site I built a few years back. It's about my side project [Inspiral Web](https://nathanfriend.com/inspiral-web/)._
 
 ---
 
@@ -33,8 +33,22 @@ Under the surface, Inspiral Web assembles its SVG definitions by concatenating s
 ```ts
 var svg = 'M ' + options.radius + ' 0 ';
 for (var i = 0; i < options.toothCount; i++) {
-    svg += 'A' + options.radius + ' ' + options.radius + ' ' + 0 + ' ' + 0 + ' ' + 1 + ' ' + newX + ' ' + newY;
-    // etc....
+  svg +=
+    'A' +
+    options.radius +
+    ' ' +
+    options.radius +
+    ' ' +
+    0 +
+    ' ' +
+    0 +
+    ' ' +
+    1 +
+    ' ' +
+    newX +
+    ' ' +
+    newY;
+  // etc....
 }
 
 return svg;
@@ -85,7 +99,7 @@ Watching friends, family, and total strangers create new and unusual creations u
     <img class="rounded" src="{{ 'assets/img/inspiral-web/inspiral-web-example-4.jpg' | relative_url }}" alt="An example of an Inspiral Web drawing" />
 </a>
 
-Check out the gallery for yourself at [nathanfriend.io/inspiral-web/gallery](https://nathanfriend.io/inspiral-web/gallery/).
+Check out the gallery for yourself at [nathanfriend.com/inspiral-web/gallery](https://nathanfriend.com/inspiral-web/gallery/).
 
 ## Reception
 
@@ -98,7 +112,6 @@ Inspiral Web was featured by the [Adobe Inspire magazine](http://adobe.tumblr.co
 <blockquote class="twitter-tweet" lang="en"><p>This is insanely cool: Inspirograph <a href="http://t.co/7KbwteLl2G">http://t.co/7KbwteLl2G</a> You&#39;re welcome.</p>&mdash; Avinash Kaushik (@avinash) <a href="https://twitter.com/avinash/status/522841920570019840">October 16, 2014</a></blockquote>
 
 <blockquote class="twitter-tweet" lang="en"><p>Yes! <a href="https://twitter.com/NathanAFriend">@NathanAFriend</a> recreated our favorite childhood toy for the web: the spirograph! Prepare to lose hours to this: <a href="http://t.co/LVKMNl9M5U">http://t.co/LVKMNl9M5U</a></p>&mdash; Brand New School (@BrandNewSchool) <a href="https://twitter.com/BrandNewSchool/status/522762529903509504">October 16, 2014</a></blockquote>
-
 
 <blockquote class="twitter-tweet" lang="en"><p>digital spirograph&#10;&#10;DIGITAL SPIROGRAPH&#10;&#10;D*I*G*I*T*A*L S*P*I*R*O*G*R*A*P*H&#10;&#10;<a href="http://t.co/MIU6fmUn4R">http://t.co/MIU6fmUn4R</a></p>&mdash; #MGKmergate (@mightygodking) <a href="https://twitter.com/mightygodking/status/522130725685190656">October 14, 2014</a></blockquote>
 

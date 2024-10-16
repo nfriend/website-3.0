@@ -3,7 +3,7 @@ layout: post
 title: Projects
 author:
   name: Nathan Friend
-  url: https://nathanfriend.io
+  url: https://nathanfriend.com
 hideTimeToRead: true
 hideComments: true
 hideMorePosts: true
@@ -20,7 +20,7 @@ For a full list of all my side projects, check out my profile on
 
 For examples of my professional work, check out [this summary of my
 contributions at GitLab](/gitlab-contributions) or take a look at [my
-résumé](https://resume.nathanfriend.io).
+résumé](https://resume.nathanfriend.com).
 
 ## Inspiral
 
@@ -40,11 +40,11 @@ Flutter; my first time monetizing a side project.
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of Inspiral](/assets/img/projects/inspiral.jpg)
-<figcaption>inspiral.nathanfriend.io</figcaption>
+<figcaption>inspiral.nathanfriend.com</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-exit_to_app-24px-dark.svg){: .play-button}
-](https://inspiral.nathanfriend.io){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://inspiral.nathanfriend.com){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## Inspiral Web
@@ -66,11 +66,11 @@ here](/2015/01/26/inspiral-web.html).
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of Inspiral Web](/assets/img/projects/inspiral-web.jpg)
-<figcaption>nathanfriend.io/inspiral-web</figcaption>
+<figcaption>nathanfriend.com/inspiral-web</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/inspiral-web){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.com/inspiral-web){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## Wordle Bot
@@ -96,7 +96,7 @@ Check out [this blog post I wrote about how it works!](/2022/01/25/wordle.html)
 ](https://twitter.com/bot_wordle/){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-## tree.nathanfriend.io
+## tree.nathanfriend.com
 
 A little web app to scratch an itch. It makes generating ASCII hierarchical
 diagrams as frictionless as possible.
@@ -109,12 +109,12 @@ diagrams as frictionless as possible.
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
-![A screenshot of tree.nathanfriend.io](/assets/img/projects/tree-online.jpg)
-<figcaption>tree.nathanfriend.io</figcaption>
+![A screenshot of tree.nathanfriend.com](/assets/img/projects/tree-online.jpg)
+<figcaption>tree.nathanfriend.com</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px.svg){: .play-button}
-](https://tree.nathanfriend.io){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
+](https://tree.nathanfriend.com){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
 </div>
 
 ## CoolToJS
@@ -136,11 +136,11 @@ every day.
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of CoolToJS](/assets/img/projects/cooltojs.jpg)
-<figcaption>nathanfriend.io/cooltojs</figcaption>
+<figcaption>nathanfriend.com/cooltojs</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/cooltojs){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.com/cooltojs){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## Theremin
@@ -209,11 +209,11 @@ the project:
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of Theremin](/assets/img/projects/theremin.jpg)
-<figcaption>nathanfriend.io/theremin</figcaption>
+<figcaption>nathanfriend.com/theremin</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/theremin){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.com/theremin){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## Origins
@@ -236,11 +236,11 @@ here.](/2018/06/07/my-first-hello-world.html)
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of Origins](/assets/img/projects/origins.jpg)
-<figcaption>nathanfriend.io/origins</figcaption>
+<figcaption>nathanfriend.com/origins</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px.svg){: .play-button}
-](https://nathanfriend.io/origins){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
+](https://nathanfriend.com/origins){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
 </div>
 
 ## Roggle
@@ -266,11 +266,11 @@ letters.
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of Roggle](/assets/img/projects/roggle.jpg)
-<figcaption>nathanfriend.io/roggle</figcaption>
+<figcaption>nathanfriend.com/roggle</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/roggle){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.com/roggle){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## Alexa Skills
@@ -351,11 +351,11 @@ Stockfish engine plays for both players.
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of webgl-chess](/assets/img/projects/webgl-chess.jpg)
-<figcaption>nathanfriend.io/webgl-chess</figcaption>
+<figcaption>nathanfriend.com/webgl-chess</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px.svg){: .play-button}
-](https://nathanfriend.io/webgl-chess){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
+](https://nathanfriend.com/webgl-chess){:target="_blank" rel="noopener noreferrer" .figure-link-overlay}
 </div>
 
 ## nfjs
@@ -373,11 +373,11 @@ Should you use this library? No, definitely not!
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of nfjs](/assets/img/projects/nfjs.jpg)
-<figcaption>nathanfriend.io/nfjs</figcaption>
+<figcaption>nathanfriend.com/nfjs</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/nfjs){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.com/nfjs){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
 ## Snow Day Notifier
@@ -412,24 +412,24 @@ delays or closures. If it found something, it sent an alert (through
 ](https://gitlab.com/nfriend/snow-day-notifier){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
 
-## nathanfriend.io
+## nathanfriend.com
 
 Little needs to be said about this project - you're currently experiencing it
 first-hand!
 
 - **Dates:** April - June, 2018
 - **Technologies:** [Jekyll](https://jekyllrb.com/),
-  ~~[Azure](https://azure.microsoft.com/),~~ [AWS
-  EC2](https://aws.amazon.com/ec2/)
+  ~~[Azure](https://azure.microsoft.com/),~~ ~~[AWS
+  EC2](https://aws.amazon.com/ec2/)~~, [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 - **Source:**
   [gitlab.com/nfriend/website-3.0](https://gitlab.com/nfriend/website-3.0)
 
 <div class="figure-link" markdown="1">
 <figure markdown="1">
 ![A screenshot of this website](/assets/img/projects/nathanfriendio.jpg)
-<figcaption>nathanfriend.io</figcaption>
+<figcaption>nathanfriend.com</figcaption>
 </figure>
 [
   ![play button](/assets/img/shared/baseline-play_circle_outline-24px-dark.svg){: .play-button}
-](https://nathanfriend.io/){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
+](https://nathanfriend.com/){:target="_blank" rel="noopener noreferrer" .figure-link-overlay .dark}
 </div>
