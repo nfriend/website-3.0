@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Useful things I've 3D printed"
+date: 2024-11-25 9:48:41 -0400
+image: /assets/img/useful-things-ive-3d-printed/vesa_adapter.jpg
+---
+
+3D printers are _ridiculously_ cool. There's something about seeing a digital object slowly manifest in the real world that is pure magic.
+
+But they're also _useful_. Being able to custom manufacture replacement parts can save otherwise perfectly-working equipment from the landfill.
+
+I've written before about some of the things I've 3D printed, including my [Zoom light]({% post_url 2024-05-31-zoom-light %}) and my [weird keyboard]({% post_url 2023-06-26-i-built-a-weird-keyboard %}); here are some other useful things I've printed:
+
+## Monitor arm adapter
+
+My main monitor - a [Samsung U28E590D](https://www.samsung.com/nz/business/monitors/flat/uhd-lu28e590ds-xy/) - has a terrible design flaw. It's [VESA mount](https://en.wikipedia.org/wiki/Flat_Display_Mounting_Interface) is at the very top of the monitor! This means that when connected to my [monitor arms](https://store.hermanmiller.com/office-furniture-desk-accessories-organization/jarvis-dual-monitor-arm/100348287.html?lang=en_CA&sku=100348287), it sits much too low, even with the arm at its maximum height.
+
+While searching for solutions, I ran across [this adapter](https://www.monlines.com/portfolio-item/monlines-v014-vesa-adapter-for-samsung-u28e590d/), which effectively moves the VESA connection near the bottom of the monitor. Sadly, I couldn't find a way to purchase it in Canada. So I decided to design and print my own!
+
+I originally printed the adapter in PETG, as PETG is strong and flexible and usually a better choice for functional prints. However, it was a little _too_ flexible - it caused my monitor to bounce around in a sickening way whenever I bumped my desk. I printed another in PLA (unfortunately the only color I had in enough quantity was a bright blue), which is much stiffer and mostly eliminated the wobble.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/vesa_adapter.jpg' | relative_url }}" alt="The adapter, printed in blue PLA" />
+    <figcaption>The adapter, printed in blue PLA</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/vesa_adapter_attached.jpg' | relative_url }}" alt="The adapter, attached to my monitor" />
+    <figcaption>Attached to the monitor and arm</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/desk.jpg' | relative_url }}" alt="An image of my monitor without my 3D printed adapter" />
+    <figcaption>My workspace post-adapter. The monitor now sits comfortably at eye-level.</figcaption>
+</figure>
+
+- Thingiverse link: [https://www.thingiverse.com/thing:6845708](https://www.thingiverse.com/thing:6845708)
+
+## Sodastream bottle stabalizer
+
+## Conduit cover
+
+## Coaster
+
+## Dryer lint trap seal
+
+## Dryer lint filter handle
