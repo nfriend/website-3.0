@@ -63,6 +63,36 @@ _Thingiverse link: [https://www.thingiverse.com/thing:5422282](https://www.thing
 
 ## Conduit cover
 
+When we finished our basement, I installed a conduit in the wall with the idea that maybe someday I'd set up a ceiling-mounted projector and need a clean way to route the cables.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/conduit_in_wall.jpg' | relative_url }}" alt="The conduit in the wall, before drywall was installed" />
+    <figcaption>The conduit in the wall, before drywall was install</figcaption>
+</figure>
+
+This left some unseemly holes in our wall once the drywall was in place:
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/conduit_no_cover.jpg' | relative_url }}" alt="A hole in the drywall where the conduit opens" />
+    <figcaption>The opening of the conduit in the ceiling</figcaption>
+</figure>
+
+I modeled and printed covers for each end of the conduit:
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/conduit_with_cover.jpg' | relative_url }}" alt="The conduit cover in place" />
+    <figcaption>The cover in place</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/conduit_with_cover_2.jpg' | relative_url }}" alt="The second conduit cover in place" />
+    <figcaption>The floor version</figcaption>
+</figure>
+
+They weren't the cleanest prints, but it's a huge improvement over the previous look!
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6847090](https://www.thingiverse.com/thing:6847090)_
+
 ## Coaster
 
 ## Dryer lint trap seal
