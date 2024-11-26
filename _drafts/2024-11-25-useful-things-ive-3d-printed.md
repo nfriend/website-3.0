@@ -154,4 +154,25 @@ The end result is a floating TV that seemingly requires no power source or video
 
 (You might also notice the LED backlighting; this is an ambient lighting setup I installed that is powered by [Hyperion](https://github.com/hyperion-project/hyperion.ng), which could be the subject of a blog post of its own!)
 
+## 3D printer enclosure
+
+I built my own 3D printer enclosure to help stablize the ambient temperature during prints (especially for plastic prone to warping, like PETG).
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/enclosure.jpg' | relative_url }}" alt="A 3D printer enclosure" />
+    <figcaption>My printer enclosure</figcaption>
+</figure>
+
+While the structure itself was mainly built from wood scraps, most of the joints, hinges, and other interesting pieces were 3D printed in white PETG.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/enclosure_hinges.jpg' | relative_url }}" alt="A 3D-printed hinge" />
+    <figcaption>A "print-in-place" hinge</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/enclosure_pieces.jpg' | relative_url }}" alt="A variety of 3D-printed parts for the enclosure" />
+    <figcaption>Some other various pieces</figcaption>
+</figure>
+
 ## Coaster
