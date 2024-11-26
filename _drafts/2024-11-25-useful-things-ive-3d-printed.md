@@ -34,9 +34,32 @@ I originally printed the adapter in PETG, as PETG is strong and flexible and usu
     <figcaption>My workspace post-adapter. The monitor now sits comfortably at eye-level.</figcaption>
 </figure>
 
-- Thingiverse link: [https://www.thingiverse.com/thing:6845708](https://www.thingiverse.com/thing:6845708)
+_Thingiverse link: [https://www.thingiverse.com/thing:6845708](https://www.thingiverse.com/thing:6845708)_
 
-## Sodastream bottle stabalizer
+## SodaStream bottle stabalizer
+
+I drink way too much carbonated water, usually straight from the SodaStream bottle. The bottles _look_ cool, but their tiny base resulted in many a messy spill.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/sodastream_bottle.jpg' | relative_url }}" alt="A SodaStream bottle" />
+    <figcaption>The very stylish and tippable SodaStream bottle</figcaption>
+</figure>
+
+I modeled a base using the exact curvature of the bottle's bottom, resulting in a _nearly_ untippable recepticle.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/sodastream_holder.jpg' | relative_url }}" alt="The 3D-printed SodaStream bottle holder" />
+    <figcaption>The curvature exactly matches the shape of the SodaStream bottle</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/sodastream_holder_with_bottle.jpg' | relative_url }}" alt="The SodaStream bottle in the holder" />
+    <figcaption>100% less tippage</figcaption>
+</figure>
+
+As silly as it sounds, this simple print might be the most-used 3D printed object in my house.
+
+_Thingiverse link: [https://www.thingiverse.com/thing:5422282](https://www.thingiverse.com/thing:5422282)_
 
 ## Conduit cover
 
