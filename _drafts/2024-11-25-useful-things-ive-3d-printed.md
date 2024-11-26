@@ -93,8 +93,22 @@ They weren't the cleanest prints, but it's a huge improvement over the previous 
 
 _Thingiverse link: [https://www.thingiverse.com/thing:6847090](https://www.thingiverse.com/thing:6847090)_
 
-## Coaster
+## Dryer lint filter handle
+
+One of my earliest functional prints was a new lint filter handle for my in-laws' ancient dryer. The original handle had snapped off years ago and they has been using pliers to pull it out since then!
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/lint_trap_without_handle.jpg' | relative_url }}" alt="The lint filter without a handle" />
+    <figcaption>The broken lint filter</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/lint_trap_with_handle.jpg' | relative_url }}" alt="The lint filter with a handle" />
+    <figcaption>All fixed!</figcaption>
+</figure>
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6847164](https://www.thingiverse.com/thing:6847164)_
 
 ## Dryer lint trap seal
 
-## Dryer lint filter handle
+## Coaster
