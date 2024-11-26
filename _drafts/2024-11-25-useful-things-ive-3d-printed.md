@@ -111,4 +111,15 @@ _Thingiverse link: [https://www.thingiverse.com/thing:6847164](https://www.thing
 
 ## Dryer lint trap seal
 
+We had our laundry room drywalled, and as part of this work, the contractor installed [this terrible in-wall lint trap](https://www.amazon.ca/Vortex-Powerfan-inch-White-LT4/dp/B09C11F77P). Why is it so terrible? It has no latch, so every time the dryer starts, the filter pushes out of the wall, filling the room (and the entire house) with dryer lint dust!
+
+I tried gluing some magnets to both the wall and the filter, hoping this would keep it in place, but the magnets were too finicky and didn't hold it flush against the wall. In the end, we just taped it to the wall, which only kind of worked.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/terrible_lint_trap.jpg' | relative_url }}" alt="The original, terrible lint trap" />
+    <figcaption>The original lint trap, or as I like to call it, the Dust-o-Matic 3000™</figcaption>
+</figure>
+
+TODO: solution here
+
 ## Coaster
