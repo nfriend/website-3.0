@@ -122,4 +122,36 @@ I tried gluing some magnets to both the wall and the filter, hoping this would k
 
 TODO: solution here
 
+## TV wall mount conduit
+
+When I wall-mounted our TV, I wanted a clean look without any visible cables. This involved cutting two holes through the wall behind the TV so that the cables could be run into the storage room behind the wall and then back to the cabinet underneath the TV:
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/tv_mount_two_holes.jpg' | relative_url }}" alt="Two holes in the wall, ready for the conduit insert" />
+    <figcaption>I let my son help me drill the holes the drywall; I think it was the highlight of his year</figcaption>
+</figure>
+
+To make this tidier, I printed two conduits that exactly matched the depth of the wall.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/tv_mount_on_print_bed.jpg' | relative_url }}" alt="The conduit on the 3D printer bed" />
+    <figcaption>A conduit and end cap</figcaption>
+</figure>
+
+This made running the cables much easier and cleaner.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/tv_mount_conduit_installed.jpg' | relative_url }}" alt="The conduit on the 3D printer bed" />
+    <figcaption>The conduit installed in the wall</figcaption>
+</figure>
+
+The end result is a floating TV that seemingly requires no power source or video cables!
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/tv_mounted.jpg' | relative_url }}" alt="The TV mounted on the wall, showing a Mario game being played" />
+    <figcaption>The end result</figcaption>
+</figure>
+
+(You might also notice the LED backlighting; this is an ambient lighting setup I installed that is powered by [Hyperion](https://github.com/hyperion-project/hyperion.ng), which could be the subject of a blog post of its own!)
+
 ## Coaster
