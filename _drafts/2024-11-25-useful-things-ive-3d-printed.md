@@ -67,7 +67,7 @@ When we finished our basement, I installed a conduit in the wall with the idea t
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/conduit_in_wall.jpg' | relative_url }}" alt="The conduit in the wall, before drywall was installed" />
-    <figcaption>The conduit in the wall, before drywall was install</figcaption>
+    <figcaption>The conduit in the wall, before drywall was installed</figcaption>
 </figure>
 
 This left some unseemly holes in our wall once the drywall was in place:
@@ -191,7 +191,7 @@ A friend needed a laptop stand, so I printed him one!
     <figcaption>The stand, in action</figcaption>
 </figure>
 
-Unlike most of the other models, I didn't design this one myself; I found it [here](https://all3dp.com/2/3d-printed-laptop-stand-3d-models/).
+Unlike most of these other models, I didn't design this one myself; I found it [here](https://all3dp.com/2/3d-printed-laptop-stand-3d-models/).
 
 _Thingiverse link: [https://www.thingiverse.com/thing:3708825](https://www.thingiverse.com/thing:3708825)_
 
@@ -204,7 +204,18 @@ Another friend had a Yeti can insulator that was designed for 16 oz cans and was
     <figcaption>Appropriately branded, of course</figcaption>
 </figure>
 
-## Miter box
+## Clamping mitre box
+
+I wanted a large mitre box to help me make straight wood cuts:
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/mitre_box.jpg' | relative_url }}" alt="A large mitre box with a saw in it" />
+    <figcaption>Mitre box</figcaption>
+</figure>
+
+While it was fun to model and print, it was ultimately a failure as it broke within the first five minutes of usage.
+
+_Thingiverse link: [https://www.thingiverse.com/thing:5380012](https://www.thingiverse.com/thing:5380012)_
 
 ## Dessicant containers?1
 
