@@ -167,12 +167,51 @@ While the structure itself was mainly built from wood scraps, most of the joints
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/enclosure_hinges.jpg' | relative_url }}" alt="A 3D-printed hinge" />
-    <figcaption>A "print-in-place" hinge</figcaption>
+    <figcaption>A "print-in-place" hinge (which I did not design)</figcaption>
 </figure>
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/enclosure_pieces.jpg' | relative_url }}" alt="A variety of 3D-printed parts for the enclosure" />
-    <figcaption>Some other various pieces</figcaption>
+    <figcaption>Some other various pieces (which I did design)</figcaption>
 </figure>
 
+_Printables link for the hinge: [https://www.printables.com/model/120766-print-in-place-geared-hinge](https://www.printables.com/model/120766-print-in-place-geared-hinge)_
+
+## Laptop stand
+
+A friend needed a laptop stand, so I printed him one!
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/laptop_stand.jpg' | relative_url }}" alt="A laptop stand" />
+    <figcaption>The stand</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/laptop_stand_with_laptop.jpg' | relative_url }}" alt="A laptop stand with a laptop" />
+    <figcaption>The stand, in action</figcaption>
+</figure>
+
+Unlike most of the other models, I didn't design this one myself; I found it [here](https://all3dp.com/2/3d-printed-laptop-stand-3d-models/).
+
+_Thingiverse link: [https://www.thingiverse.com/thing:3708825](https://www.thingiverse.com/thing:3708825)_
+
+## Yeti adapter
+
+Another friend had a Yeti can insulator that was designed for 16 oz cans and was therefore too long for standard 12 oz cans. I printed a spacer so that the insulator could work with either.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/yeti_adapter.jpg' | relative_url }}" alt="A hexagonal spacer with the words 'YETI' on it" />
+    <figcaption>Appropriately branded, of course</figcaption>
+</figure>
+
+## Miter box
+
+## Dessicant containers?1
+
+## Poster frame?
+
+## Smoke alarm cover
+
 ## Coaster
+
+## Cabinet legs
