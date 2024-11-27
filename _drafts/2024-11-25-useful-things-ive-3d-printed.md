@@ -243,6 +243,20 @@ _Thingiverse link: [https://www.thingiverse.com/thing:6848192](https://www.thing
 
 ## Smoke alarm cover
 
+Our smoke and carbon monoxide detectors expired, so I replaced the individual units with a single, combined detector. This left an empty hole in the ceiling of each room, so I printed a simple cover that snapped into the existing bracket.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/smoke_detector_cover.jpg' | relative_url }}" alt="A circular cover for a smoke detector" />
+    <figcaption>The cover</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/smoke_detector_cover_installed.jpg' | relative_url }}" alt="A circular cover for a smoke detector, installed in the existing bracket" />
+    <figcaption>When installed in the old detector's bracket</figcaption>
+</figure>
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6449765](https://www.thingiverse.com/thing:6449765)_
+
 ## Cabinet legs
 
 <!-- ## Coaster
