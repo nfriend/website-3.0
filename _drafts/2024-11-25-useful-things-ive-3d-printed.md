@@ -109,7 +109,7 @@ One of my earliest functional prints was a new lint filter handle for my in-laws
 
 _Thingiverse link: [https://www.thingiverse.com/thing:6847164](https://www.thingiverse.com/thing:6847164)_
 
-## Dryer lint trap seal
+<!-- ## Dryer lint trap seal
 
 We had our laundry room drywalled, and as part of this work, the contractor installed [this terrible in-wall lint trap](https://www.amazon.ca/Vortex-Powerfan-inch-White-LT4/dp/B09C11F77P). Why is it so terrible? It has no latch, so every time the dryer starts, the filter pushes out of the wall, filling the room (and the entire house) with dryer lint dust!
 
@@ -120,7 +120,7 @@ I tried gluing some magnets to both the wall and the filter, hoping this would k
     <figcaption>The original lint trap, or as I like to call it, the Dust-o-Matic 3000™</figcaption>
 </figure>
 
-TODO: solution here
+TODO: solution here -->
 
 ## TV wall mount conduit
 
@@ -243,6 +243,13 @@ _Thingiverse link: [https://www.thingiverse.com/thing:6848192](https://www.thing
 
 ## Smoke alarm cover
 
-## Coaster
-
 ## Cabinet legs
+
+<!-- ## Coaster
+
+While not _strictly_ functional, I printed some [Link](https://link.com/)-themed drink coasters for myself and my team at Stripe.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/coaster.jpg' | relative_url }}" alt="A drink coaster with the Stripe Link logo embedded in it" />
+    <figcaption>I printed 12 of these 😅</figcaption>
+</figure> -->
