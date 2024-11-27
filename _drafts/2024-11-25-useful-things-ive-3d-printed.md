@@ -232,6 +232,15 @@ Instead, I now dry individual filament spools using a [food dehydrator like this
 
 ## Poster frame
 
+I got this funky poster as part of a swag package from Stripe. I modeled some similarly low-poly poster holders that clamp together with magnets to display in my home office.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/poster_frame.jpg' | relative_url }}" alt="A poster hanging in a frame on a wall" />
+    <figcaption>To be honest, I'm not really sure what it's portraying? But it looks cool.</figcaption>
+</figure>
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6848192](https://www.thingiverse.com/thing:6848192)_
+
 ## Smoke alarm cover
 
 ## Coaster
