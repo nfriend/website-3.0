@@ -232,7 +232,7 @@ Instead, I now dry individual filament spools using a [food dehydrator like this
 
 ## Poster frame
 
-I got this funky poster as part of a swag package from Stripe. I modeled some similarly low-poly poster holders that clamp together with magnets to display in my home office.
+I got this funky poster as part of a swag package from Stripe. I modeled some matching low-poly poster holders that clamp together with magnets to display in my home office.
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/poster_frame.jpg' | relative_url }}" alt="A poster hanging in a frame on a wall" />
