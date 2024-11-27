@@ -259,6 +259,15 @@ _Thingiverse link: [https://www.thingiverse.com/thing:6449765](https://www.thing
 
 ## Cabinet legs
 
+We bought an IKEA BESTÅ TV cabinet, but discovered the doors got caught in our shag area rug. I printed some simple legs to elevate the cabinet just enough to allow the doors to operate unbstructed.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/cabinet_legs.jpg' | relative_url }}" alt="A TV cabinet with legs highlighted by red circle annotations" />
+    <figcaption>TV cabinet with legs</figcaption>
+</figure>
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6848214](https://www.thingiverse.com/thing:6848214)_
+
 <!-- ## Coaster
 
 While not _strictly_ functional, I printed some [Link](https://link.com/)-themed drink coasters for myself and my team at Stripe.
