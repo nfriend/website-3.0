@@ -13,11 +13,11 @@ I've written before about some of the things I've 3D printed, including my [Zoom
 
 ## Monitor arm adapter
 
-My main monitor - a [Samsung U28E590D](https://www.samsung.com/nz/business/monitors/flat/uhd-lu28e590ds-xy/) - has a terrible design flaw. It's [VESA mount](https://en.wikipedia.org/wiki/Flat_Display_Mounting_Interface) is at the very top of the monitor! This means that when connected to my [monitor arms](https://store.hermanmiller.com/office-furniture-desk-accessories-organization/jarvis-dual-monitor-arm/100348287.html?lang=en_CA&sku=100348287), it sits much too low, even with the arm at its maximum height.
+My main monitor - a [Samsung U28E590D](https://www.samsung.com/nz/business/monitors/flat/uhd-lu28e590ds-xy/) - has a terrible design flaw. Its [VESA mount](https://en.wikipedia.org/wiki/Flat_Display_Mounting_Interface) is at the very top of the monitor! This means that when connected to my [monitor arms](https://store.hermanmiller.com/office-furniture-desk-accessories-organization/jarvis-dual-monitor-arm/100348287.html?lang=en_CA&sku=100348287), it sits much too low, even with the arm at its maximum height.
 
 While searching for solutions, I ran across [this adapter](https://www.monlines.com/portfolio-item/monlines-v014-vesa-adapter-for-samsung-u28e590d/), which effectively moves the VESA connection near the bottom of the monitor. Sadly, I couldn't find a way to purchase it in Canada. So I decided to design and print my own!
 
-I originally printed the adapter in PETG, as PETG is strong and flexible and usually a better choice for functional prints. However, it was a little _too_ flexible - it caused my monitor to bounce around in a sickening way whenever I bumped my desk. I printed another in PLA (unfortunately the only color I had in enough quantity was a bright blue), which is much stiffer and mostly eliminated the wobble.
+I originally printed the adapter in PETG, as PETG is strong and flexible and usually a better choice for functional prints. However, it was a little _too_ flexible - it caused my monitor to bounce around in a sickening way whenever I bumped my desk. I printed another in PLA (unfortunately the only color I had in enough quantity was a bright blue), which is much stiffer and has mostly eliminated the wobble.
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/vesa_adapter.jpg' | relative_url }}" alt="The adapter, printed in blue PLA" />
@@ -36,16 +36,16 @@ I originally printed the adapter in PETG, as PETG is strong and flexible and usu
 
 _Thingiverse link: [https://www.thingiverse.com/thing:6845708](https://www.thingiverse.com/thing:6845708)_
 
-## SodaStream bottle stabalizer
+## SodaStream bottle stabilizer
 
-I drink way too much carbonated water, usually straight from the SodaStream bottle. The bottles _look_ cool, but their tiny base resulted in many a messy spill.
+I drink way too much carbonated water, usually straight from the SodaStream bottle. The bottles _look_ cool, but their tiny bases resulted in many a messy spill.
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/sodastream_bottle.jpg' | relative_url }}" alt="A SodaStream bottle" />
     <figcaption>The very stylish and tippable SodaStream bottle</figcaption>
 </figure>
 
-I modeled a base using the exact curvature of the bottle's bottom, resulting in a _nearly_ untippable recepticle.
+I modeled a base using the exact curvature of the bottle's bottom, resulting in a _nearly_ untippable receptacle.
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/sodastream_holder.jpg' | relative_url }}" alt="The 3D-printed SodaStream bottle holder" />
@@ -95,7 +95,7 @@ _Thingiverse link: [https://www.thingiverse.com/thing:6847090](https://www.thing
 
 ## Dryer lint filter handle
 
-One of my earliest functional prints was a new lint filter handle for my in-laws' ancient dryer. The original handle had snapped off years ago and they has been using pliers to pull it out since then!
+One of my earliest functional prints was a new lint filter handle for my in-laws' ancient dryer. The original handle had snapped off years ago and they had been using pliers to pull it out since then!
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/lint_trap_without_handle.jpg' | relative_url }}" alt="The lint filter without a handle" />
@@ -156,7 +156,7 @@ The end result is a floating TV that seemingly requires no power source or video
 
 ## 3D printer enclosure
 
-I built my own 3D printer enclosure to help stablize the ambient temperature during prints (especially for plastic prone to warping, like PETG).
+I built my own 3D printer enclosure to help stabilize the ambient temperature during prints (especially for plastic prone to warping, like PETG).
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/enclosure.jpg' | relative_url }}" alt="A 3D printer enclosure" />
@@ -217,16 +217,16 @@ While it was fun to model and print, it was ultimately a failure as it broke wit
 
 _Thingiverse link: [https://www.thingiverse.com/thing:5380012](https://www.thingiverse.com/thing:5380012)_
 
-## Dessicant containers
+## Desiccant containers
 
-3D printer filament needs to be kept dry; it naturally absorbs humidity from the air which can negatively impact print quality. I printed some [dessicant](https://en.wikipedia.org/wiki/Desiccant) containers that I keep alongside my filament spools in a sealed plastic tub.
+3D printer filament needs to be kept dry; it naturally absorbs humidity from the air which can negatively impact print quality. I printed some [desiccant](https://en.wikipedia.org/wiki/Desiccant) containers that I keep alongside my filament spools in a sealed plastic tub.
 
 <figure>
-    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/dessicant_container.jpg' | relative_url }}" alt="A cylindrical dessicant container" />
-    <figcaption>Container for dessicant beads</figcaption>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/desiccant_container.jpg' | relative_url }}" alt="A cylindrical desiccant container" />
+    <figcaption>Container for desiccant beads</figcaption>
 </figure>
 
-Although, to be honest, I don't think they are doing much good; the dessicant beads are supposed to be recharged in the oven or microwave every few months, and ain't nobody got time for that.
+Although, to be honest, I don't think they are doing much good; the desiccant beads are supposed to be recharged in the oven or microwave every few months, and ain't nobody got time for that.
 
 Instead, I now dry individual filament spools using a [food dehydrator like this](https://www.amazon.ca/gp/product/B00LNDYJ2I).
 
@@ -259,7 +259,7 @@ _Thingiverse link: [https://www.thingiverse.com/thing:6449765](https://www.thing
 
 ## Cabinet legs
 
-We bought an IKEA BESTÅ TV cabinet, but discovered the doors got caught in our shag area rug. I printed some simple legs to elevate the cabinet just enough to allow the doors to operate unbstructed.
+We bought an IKEA BESTÅ TV cabinet, but discovered the doors got caught in our shag area rug. I printed some simple legs to elevate the cabinet just enough to allow the doors to operate unobstructed.
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/cabinet_legs.jpg' | relative_url }}" alt="A TV cabinet with legs highlighted by red circle annotations" />
@@ -276,3 +276,7 @@ While not _strictly_ functional, I printed some [Link](https://link.com/)-themed
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/coaster.jpg' | relative_url }}" alt="A drink coaster with the Stripe Link logo embedded in it" />
     <figcaption>I printed 12 of these 😅</figcaption>
 </figure> -->
+
+## And more to come!
+
+I plan on treating this post as an evergreen log of the functional things I've printed. Be sure to revisit!
