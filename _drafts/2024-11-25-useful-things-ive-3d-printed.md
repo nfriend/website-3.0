@@ -217,9 +217,20 @@ While it was fun to model and print, it was ultimately a failure as it broke wit
 
 _Thingiverse link: [https://www.thingiverse.com/thing:5380012](https://www.thingiverse.com/thing:5380012)_
 
-## Dessicant containers?1
+## Dessicant containers
 
-## Poster frame?
+3D printer filament needs to be kept dry; it naturally absorbs humidity from the air which can negatively impact print quality. I printed some [dessicant](https://en.wikipedia.org/wiki/Desiccant) containers that I keep alongside my filament spools in a sealed plastic tub.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/dessicant_container.jpg' | relative_url }}" alt="A cylindrical dessicant container" />
+    <figcaption>Container for dessicant beads</figcaption>
+</figure>
+
+Although, to be honest, I don't think they are doing much good; the dessicant beads are supposed to be recharged in the oven or microwave every few months, and ain't nobody got time for that.
+
+Instead, I now dry individual filament spools using a [food dehydrator like this](https://www.amazon.ca/gp/product/B00LNDYJ2I).
+
+## Poster frame
 
 ## Smoke alarm cover
 
