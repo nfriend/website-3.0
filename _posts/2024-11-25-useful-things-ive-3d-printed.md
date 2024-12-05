@@ -268,14 +268,19 @@ We bought an IKEA BESTÅ TV cabinet, but discovered the doors got caught in our 
 
 _Thingiverse link: [https://www.thingiverse.com/thing:6848214](https://www.thingiverse.com/thing:6848214)_
 
-<!-- ## Coaster
+## Coaster
 
 While not _strictly_ functional, I printed some [Link](https://link.com/)-themed drink coasters for myself and my team at Stripe.
 
 <figure>
     <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/coaster.jpg' | relative_url }}" alt="A drink coaster with the Stripe Link logo embedded in it" />
-    <figcaption>I printed 12 of these 😅</figcaption>
-</figure> -->
+    <figcaption>A Linkoaster™</figcaption>
+</figure>
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/coasters.jpg' | relative_url }}" alt="Lots of drink coasters with the Stripe Link logo embedded in it" />
+    <figcaption>A flock of 12 Linkoaster™s</figcaption>
+</figure>
 
 ## And more to come!
 
