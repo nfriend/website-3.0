@@ -109,7 +109,7 @@ One of my earliest functional prints was a new lint filter handle for my in-laws
 
 _Thingiverse link: [https://www.thingiverse.com/thing:6847164](https://www.thingiverse.com/thing:6847164)_
 
-<!-- ## Dryer lint trap seal
+## Dryer lint trap seal
 
 We had our laundry room drywalled, and as part of this work, the contractor installed [this terrible in-wall lint trap](https://www.amazon.ca/Vortex-Powerfan-inch-White-LT4/dp/B09C11F77P). Why is it so terrible? It has no latch, so every time the dryer starts, the filter pushes out of the wall, filling the room (and the entire house) with dryer lint dust!
 
@@ -120,7 +120,21 @@ I tried gluing some magnets to both the wall and the filter, hoping this would k
     <figcaption>The original lint trap, or as I like to call it, the Dust-o-Matic 3000™</figcaption>
 </figure>
 
-TODO: solution here -->
+After replacing the tape for the nth time, I resigned myself to a more long-term solution. I designed a mount which I printed in PETG and attached to the wall around the existing filter.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/lint_trap_with_mount.jpg' | relative_url }}" alt="The lint trap with the 3D-printed mount installed" />
+    <figcaption>The mount installed around the lint trap</figcaption>
+</figure>
+
+I printed a cover that press-fit over this mount in TPU, a flexible, almost rubbery plastic:
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/lint_trap_with_mount_and_cover.jpg' | relative_url }}" alt="The lint trap with the 3D-printed mount and coverr installed" />
+    <figcaption>The cover attached to the mount</figcaption>
+</figure>
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6876991](https://www.thingiverse.com/thing:6876991)_
 
 ## TV wall mount conduit
 
