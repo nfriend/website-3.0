@@ -296,6 +296,17 @@ While not _strictly_ functional, I printed some [Link](https://link.com/)-themed
     <figcaption>A flock of 12 Linkoaster™s</figcaption>
 </figure>
 
+## Google WiFi wall mount
+
+I designed a wall mount for a Google WiFi access point. The fit wasn't quite right due to my not noticing the top of the puck is slightly smaller than the bottom, but a well-placed wad of sticky tack did the trick.
+
+<figure>
+    <img loading="lazy" src="{{ '/assets/img/useful-things-ive-3d-printed/google_wifi_holder_2.jpg' | relative_url }}" alt="A wall-mounted Google WiFi puck" />
+    <figcaption>Wall-mounted and sticky tack'd</figcaption>
+</figure>
+
+_Thingiverse link: [https://www.thingiverse.com/thing:6903032](https://www.thingiverse.com/thing:6903032)_
+
 ## And more to come!
 
 I plan on treating this post as an evergreen log of the functional things I've printed. Be sure to revisit!
